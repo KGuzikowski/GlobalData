@@ -1,0 +1,3389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><!-- ===================== !-->
+    <!-- Settings and Tracking !-->
+    <!-- ===================== !-->
+    <meta name="google-site-verification" content="IErJtBXWNc-4Ip_F2DTLDDAoX4jq5SaXyCCGszDn2Ho">
+    <meta name="google-site-verification" content="7iJyiAjymF8fQc2YTDHvkJf9dXUq-ooZ-94pwZtcao8">
+    <meta name="google-site-verification" content="ndqYMoXBhVfrxJpwspaTKPobw9CAO65uttydzRSNExY">
+    <script>
+    window.theme = window.theme || {};
+    theme.settings = {
+    hash: window.location.hash,
+    host: window.location.host,
+    hostname: window.location.hostname,
+    protocol: window.location.protocol,
+    pathname: window.location.pathname,
+    origin: window.location.origin,
+    title: document.title,parameters: (typeof URLSearchParams == "function" ? new URLSearchParams(window.location.search) : ""), 
+    environment: window.location.hostname.indexOf("-stg") > -1 ? "stg" : "live",
+    currency: "USD",
+    hide_oos: false,
+    oos_override: false,
+    breakpoint: {
+      mobile: 0,
+      tablet: 768,
+      desktop: 1281,
+      widescreen: 1281
+    },
+    maxpoint: {
+      mobile: 767,
+      tablet: 1280,
+      desktop: 1280
+    },
+    template: "product",
+    page_handle: null,
+    collection_handle: null,
+    product_handle: "blending-sponge",
+    automatic_product_promo: {
+      enabled: false,
+      max_promo_products: 9999,
+      trigger_tag: "#.trigger:dailydooverGWP",
+      promo_variant_id: window.location.hostname.indexOf("-stg") > -1 ? 32964121952359 : 33061677793362,
+    }
+    };
+
+    theme.dy_product_images = {
+    trigger: false,
+    hover_swap: ["too-haute-pressed-powder-palette", "cashmere-forever-pressed-powder-palette", "statement-piece-pressed-powder-palette", "hi-society-pressed-powder-palette", "rumor-has-it-pressed-powder-palette"]
+    }
+
+
+    // Add the circular banners to settings.shopify as well.
+    theme.badges = {
+    "badge-glamour2020.png": {
+      circle: true,
+      title: "2020 Glamour beauty award winner",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/badge-glamour2020.png?v=1586195882"
+    },
+    "Allure_BestofBeauty_2019_Badge.png": {
+      circle: true,
+      title: "Allure Best of Beauty 2019",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/Allure-BestofBeauty-2019.png?440623"
+    },
+    "badge-best-value.png": {
+      circle: true,
+      title: "Best Value",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/badge-best-value_1.png?438029"
+    },
+    "badge-oil-free.png": {
+      circle: true,
+      title: "Oil Free",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/badge-oil-free.png?435014"
+    },
+    "badge-waterproof.png": {
+      circle: true,
+      title: "Waterproof",
+      image: "https://cdn.shopify.com/s/files/1/1338/0845/files/badge-waterproof.png?79443"
+    },
+    "best-sellers-banner.png": {
+      circle: false,
+      title: "Best Seller",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/best-sellers-banner.png?348219"
+    },
+    "holographic-banner.png": {
+      circle: false,
+      title: "Holographic",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/holographic-banner.png?348234"
+    },
+    "last-call-banner.png": {
+      circle: false,
+      title: "Last Call",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/last-call-banner_17c2bd91-6e82-4dbd-a97b-60b864aab135.png?348234"
+    },
+    "duochrome-banner.png": {
+      circle: false,
+      title: "Duochrome",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/duochrome-banner.png?348234"
+    },
+    "most-loved-banner.png": {
+      circle: false,
+      title: "Most Loved",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/most-loved-banner_51bddc8b-7360-4635-bd08-c38e062db9a8.png?348234"
+    },
+    "new-banner.png": {
+      circle: false,
+      title: "New",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/new-banner_1ae720ec-cf7e-4e3a-b7e7-d711a8148911.png?348234"
+    },
+    "new_arrivals.png": {
+      circle: false,
+      title: "New Arrivals",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/new_arrivals.png?348234"
+    },
+    "ok-magazine.png": {
+      circle: true,
+      title: "Ok magazine beauty award 2018",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/ok-magazine.png?348199"
+    },
+    "glamour.png": {
+      circle: true,
+      title: "2018 Glamour Beauty Awards",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/glamour.png?348214"
+    },
+    "temptalia_ER-circle.png": {
+      circle: true,
+      title: "2018 Temptalia editor recommended",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/temptalia_ER-circle.png?348215"
+    },
+    "InfluensterChoiceBadge.png": {
+      circle: true,
+      title: "Influenster reviewers' choice winner 2018",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/InfluensterChoiceBadge.png?348216"
+    },
+    "disney-limited-circle.png": {
+      circle: true,
+      title: "Limited Edition Collectible Item",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/disney-limited-circle.png?348220"
+    },
+    "harpers-bazaar-circle.png": {
+      circle: true,
+      title: "Harper's Bazaar Editor's choice 2018",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/harpers-bazaar-circle.png?348223"
+    },
+          "MAUVE_SHOPPING_BADGE_1.png": {
+      circle: true,
+      title: "Ship for free!",
+      image: "https://cdn.shopify.com/s/files/1/1338/0845/files/MAUVE_SHOPPING_BADGE_1.png?v=1584037388"
+    },
+    "bogo_pink.png": {
+      circle: true,
+      title: "Buy one get one",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/bogo_pink.png?348234"
+    },
+    "bogo_white.png": {
+      circle: true,
+      title: "Buy one get one",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/bogo_white.png?348234"
+    },
+    "mawbadge.png": {
+      circle: true,
+      title: "Supports make a wish foundation",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/mawbadge.png?348234"
+    },
+    "pesp2019.png": {
+      circle: true,
+      title: "Star People product 2019",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/pesp2019.png?348234"
+    },
+    "temptalia_ML-circle.png": {
+      circle: true,
+      title: "2018 Temptalia most loved",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/temptalia_ML-circle.png?348234"
+    },
+    "badge-new-pink.png": {
+      circle: true,
+      title: "New Pink Badge",
+      image: "https://cdn.shopify.com/s/files/1/1338/0835/files/badge-new-pink.png?v=1646352196"       
+    }
+    }
+
+    theme.sister_list = [
+    {
+      types: ["Pressed Pigment", "Pressed Powder Shadow", "Pressed Glitter"],
+      product_data: {
+        text: "Take your Shadow with you anywhere!",
+        handle: "shadow-compact"
+      },
+      excluded: ["the-aries", "the-taurus", "the-gemini", "the-cancer", "the-leo", "the-virgo", "the-scorpio", "the-libra", "the-sagittarius", "the-capricorn", "the-aquarius", "the-pisces","the-aries-compact", "the-taurus-compact", "the-gemini-compact", "the-cancer-compact", "the-leo-compact", "the-virgo-compact", "the-scorpio-compact", "the-libra-compact", "the-sagittarius-compact", "the-capricorn-compact", "the-aquarius-compact", "the-pisces-compact", "ooo", "seeing-stars", "keep-scrolling", "sandbar", "ooo-pan", "seeing-stars-pan", "keep-scrolling-pan", "sandbar-pan"]
+    },
+    {
+      types: ["Pressed Powder Blush"],
+      product_data: {
+        text: "Take your Blush with you anywhere!",
+        handle: "cheek-compact-2"
+      },
+      excluded: ["bundled-up-hello-kitty-peachy-pressed-powder-blush", "at-frost-sight-hello-kitty-pink-pressed-powder-blush", "secret-crush-pink-pressed-powder-blush-compact-mirror", "love-story-pressed-powder-blush-compact-mirror", "palatial-rosey-pressed-powder-blush-compact-mirror", "chaise-peach-pressed-powder-blush-compact-mirror", "vogue-pink-pressed-powder-blush-compact-mirror", "shook-to-the-coral-satin-pressed-powder-blush-compact", "coastin-pressed-powder-blush-mirror-compact", "terran-up-my-heart-neutral-pressed-powder-blush-compact", "desert-rose-warm-pink-pressed-powder-blush-compact", "whole-nine-yards-warm-neutral-pressed-powder-blush-compact", "night-bloom-warm-lavender-pressed-powder-blush-compact", "wayfarer-pressed-powder-blush-compact", "on-the-horizon-pressed-powder-blush-compact", "crossroads-pressed-powder-blush-compact", "good-luck-charm-mulan-nude-pressed-powder-blush", "matchmaker-mulan-nude-pressed-powder-blush", "catch-my-vibe-pink-pressed-powder-blush","coast-to-coast-mauve-pressed-powder-blush","cats-eye-pink-pressed-powder-blush","from-the-moon-pink-pressed-powder-blush","floating-lights", "enchanted-mirror", "court-of-miracles", "kissin-a-frog", "shortcake-1", "seed-u-later", "whistle-while-you-werk", "construct", "frisky-business", "fresh-n-peachy", "perk-up", "i-need-space", "lunar-has-it", "my-sun-and-stars", "so-retrograde", "i-need-space-compact", "lunar-has-it-compact", "my-sun-and-stars-compact", "so-retrograde-compact"]
+    },
+    {
+      types: ["Pressed Powder Bronzer"],
+      product_data: {
+        text: "Take your Bronzer with you anywhere!",
+        handle: "cheek-compact-3"       
+      },
+      excluded: ["coconut-beach-pressed-powder-bronzer", "talk-to-the-palm-pressed-powder-bronzer", "la-bronzer-mirror-compact", "310-bronzer-mirror-compact"]
+    },
+    {
+      types: ["Pressed Powder Highlighter"],
+      product_data: {
+        text: "Take your Highlighter with you anywhere!",
+        handle: "cheek-compact-1"
+      },
+      excluded: ["horse-carriage", "andalasia", "big-tough-girl", "coronation"]
+    },        
+    {
+      handles: ["golden-state-of-mind","semi-precious"],
+      product_data: {
+        text: "Better when wet! Wet brush first for high impact",
+        handle: "rose-quartz-spray"
+      }
+    },
+    //{
+    //  handles: ["blonde","light-brown","dark-brown","soft-black","blondie","honey-blonde","dope-taupe","arched-auburn","red-head","jet-set-black","black-n-brown","bangin-brunette","blondie-pencil","honey-blonde-pencil","dope-taupe-pencil","arched-auburn-pencil","red-head-pencil","bangin-brunette-pencil","black-n-brown-pencil","jet-set-black-pencil"],
+    //  product_data: {
+    //    text: "Add our #1 essential for tamed brows",
+    //    handle: "clear"
+    //  }
+    //},
+    {
+      handles: ["fair-05-w","fair-07-n","fair-25-w","fair-27-n","fair-30-c","light-40-n","light-50-w","light-55-c","light-67-n","light-70-w","medium-81-n","medium-83-n","medium-85-c","medium-90-w","medium-110-w","medium-dark-117-n","medium-dark-120-w","medium-dark-130-c","medium-dark-145-w","medium-dark-147-n"],
+      product_data: {
+        text: "Add the Complexion Perfection Bundle and save $9",
+        handle: "complexion-perfection-translucent"
+      }
+    },
+    {
+      handles: ["dark-161-n","dark-165-n","dark-167-w","dark-175-w","dark-177-c","deep-dark-185-w","deep-dark-190-c","deep-dark-197-w","deep-dark-210-c","deep-dark-213-n"],
+      product_data: {
+        text: "Add the Complexion Perfection Bundle and save $9",
+        handle: "complexion-perfection-translucent-deep"
+      }
+    },
+    {
+      handles: ["youre-a-gem","feelin-fine"],
+      product_data: {
+        text: "For smooth application & long lasting colour",
+        handle: "lippie-primer"
+      }
+    }
+    ];
+
+
+
+
+
+    theme.cloudinary = {
+    base: "//colourpop-com-res.cloudinary.com/image/upload/q_auto,f_auto",
+    assets: "/colourpop/Shopify/Assets-Icons/",
+    pdp_global: "/colourpop/Shopify/Products/PDPs/",
+    pdp: "/colourpop/Shopify/Products/PDPs/",
+    multi_variant: "/colourpop/Shopify/Products/Multi-Variant-PDPs/",
+    foundation: "/colourpop/Shopify/Products/Multi-Variant-PDPs",
+    foundation_stix: "/colourpop/Shopify/Products/Multi-Variant-PDPs/Foundation-Stix/",
+    concealer: "/colourpop/Shopify/Products/Multi-Variant-PDPs",
+    precision_brow: "/colourpop/Shopify/Products/Multi-Variant-PDPs/Precision-Brow-Colour/precision-brow-colour-circle-swatches/",
+    precision_gel: "/colourpop/Shopify/Products/Multi-Variant-PDPs/Brow-Boss-Gel/brow-boss-gel-circle-swatches/",
+    transform: {
+      fetchFormat: "auto",
+      crop: "scale",
+      quality: "auto"
+    }
+    };
+
+    theme.owl_carousel = {
+    default: {
+      navText : [
+        "<img src='https://cdn.shopify.com/s/files/1/1338/0835/files/icon-caret-left.svg?231618' alt='Slide carousel to the left' />",
+        "<img src='https://cdn.shopify.com/s/files/1/1338/0835/files/icon-caret-right.svg?231618' alt='Slide carousel to the right' />"
+      ],
+      lazyLoad: true,
+      loop: false,
+      margin: 0,
+      nav: false,
+      dots: false,
+      autoWidth: false,
+      center: false,
+      autoPlay: false
+    }
+    };theme.cart = [];
+
+    window.DY = window.DY || {}; 
+    DY.recommendationContext = { 
+    type: "PRODUCT",
+    data: ["Brush-BlendingSponge"]
+    };
+    </script>
+    <link rel="dns-prefetch" href="//cdn.dynamicyield.com">
+    <link rel="dns-prefetch" href="//st.dynamicyield.com">
+    <link rel="dns-prefetch" href="//rcom.dynamicyield.com">
+    <script type="text/javascript" src="//cdn.dynamicyield.com/api/8772872/api_dynamic.js"></script>
+    <script type="text/javascript" src="//cdn.dynamicyield.com/api/8772872/api_static.js"></script><!-- Google Tag Manager -->
+
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PKLP2RL');
+    </script><!-- Global site tag (gtag.js) - Google Ads: 754211822 -->
+
+    <script type="text/plain" data-cookieconsent="marketing" src="https://www.googletagmanager.com/gtag/js?id=AW-754211822"></script>
+    <script type="text/plain" data-cookieconsent="marketing">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('js', new Date());
+
+    if(!Cookiebot.consent.marketing) {
+      gtag('config', 'AW-754211822', { 'displayFeaturesTask': 'null', 'anonymize_ip': true });
+    } else {
+      gtag('config', 'AW-754211822', { 'displayFeaturesTask': 'true', 'anonymize_ip': true });
+    }
+    </script><!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <script type="text/plain" data-cookieconsent="marketing" src="https://www.googletagmanager.com/gtag/js?id=G-WSYJCRME4P"></script>
+    <script type="text/plain" data-cookieconsent="marketing">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    if(!Cookiebot.consent.marketing) {
+      gtag('config', 'G-WSYJCRME4P', { 'displayFeaturesTask': 'null', 'anonymize_ip': true });
+    } else {
+      gtag('config', 'G-WSYJCRME4P', { 'displayFeaturesTask': 'true', 'anonymize_ip': true });
+    }
+    </script><!-- ===================== !-->
+    <!-- Title and Description !-->
+    <!-- ===================== !-->
+    <title>
+      Blending Makeup Sponge | ColourPop
+    </title>
+    <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/favicon.png?v=163448717030626593781661188858">
+    <link rel="canonical" href="https://colourpop.com/products/blending-sponge"><!-- ===================== !-->
+    <!--       Meta Tags       !-->
+    <!-- ===================== !-->
+    <meta name="description" content="A reusable, multifunctional complexion sponge that evenly and effortlessly blends makeup for the most flawless application.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta http-equiv="Accept-CH" content="DPR, Width">
+    <meta name="cloudinary_cloud_name" content="colourpop-com">
+    <meta name="cloudinary_private_cdn" content="colourpop-com">
+    <link rel="preconnect" href="//cdn.dynamicyield.com">
+    <link rel="preconnect" href="//st.dynamicyield.com">
+    <link rel="preconnect" href="//rcom.dynamicyield.com">
+    <link rel="preconnect" href="//polyfill.io">
+    <link rel="preconnect" href="//a.klaviyo.com">
+    <link rel="preconnect" href="//cdn.attn.tv">
+    <link rel="preload" href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/vendor.min.css?v=179664955710145472811661188858" as="style">
+    <link rel="preload" href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/theme.v4.scss.css?v=115083979287190028171661188858" as="style">
+    <link rel="preload" href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/jquery.v3.4.1.min.js?v=160737389985263990141661188858" as="script">
+    <link rel="preload" href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/jquery.cloudinary.min.js?v=134423264601170451411661188858" as="script">
+    <link rel="preload" href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/vendor.min.js?v=131767198688641473841661188858" as="script">
+    <link rel="preload" href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/theme.v4.js?v=150671975098713736701661188858" as="script">
+    <link rel="preload" href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/theme.signup.js?v=66258393026275277661661188858" as="script"><!-- ===================== !-->
+    <!--          CSS          !-->
+    <!-- ===================== !-->
+    <link href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/vendor.min.css?v=179664955710145472811661188858" rel="stylesheet" type="text/css" media="all">
+    <link href="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/theme.v4.scss.css?v=115083979287190028171661188858" rel="stylesheet" type="text/css" media="all">
+    <style>
+    [data-host="87ve.com"] {
+      display: none; 
+    }
+    </style><!-- ===================== !-->
+    <!--      DY Drawer        !-->
+    <!-- ===================== !-->
+
+    <style id="shopify-dynamic-checkout-cart">
+    @media screen and (min-width: 750px) {
+    #dynamic-checkout-cart {
+    min-height: 50px;
+    }
+    }
+
+    @media screen and (max-width: 750px) {
+    #dynamic-checkout-cart {
+    min-height: 180px;
+    }
+    }
+    </style>
+    <style>
+    :root {
+    --marquee-position:relative;
+    --marquee-height:0;
+
+    --marquee-mobile: 11px;
+    --marquee-desktop: 11px;
+    --marquee-transform: uppercase;
+    --marquee-weight: bold;
+
+    --marquee-backgroud-color:#97c3e8;
+    --marquee-text-color: #000000;
+    }
+    </style>
+    <style>
+    :root {
+    --header-height:60px;
+    --header-position:relative;
+    --header-backgroud-color:#ffffff;
+    --header-background-scroll-color: #ffffff;
+    --header-text-color: #111111;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="dy_Recently_Viewed_Drawer_-_4/2"></div>
+    <script type="text/javascript">
+    DYO.smartObject("Recently Viewed Drawer - 4/2", {
+      target: "dy_Recently_Viewed_Drawer_-_4/2",
+      inline: true
+    });
+    </script> <!-- ===================== !-->
+     <!--    lottie player      !-->
+     <!-- ===================== !--><!-- ===================== !-->
+     <!--        KLARNA        !-->
+     <!-- ===================== !-->
+     
+    <script async src="https://na-library.klarnaservices.com/lib.js" data-client-id="a1c82633-f4fe-5b1b-aaf8-b8deb8b4146d"></script> <!-- ===================== !-->
+     <!--        Shopify        !-->
+     <!-- ===================== !-->
+     
+    <script>
+    window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');
+    </script>
+    <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/13380845/digital_wallets/dialog">
+    <meta name="shopify-checkout-api-token" content="1cbdf762eda2ef0adc174cb1bd23584f">
+    <meta id="in-context-paypal-metadata" data-shop-id="13380845" data-venmo-supported="true" data-environment="production" data-locale="en_US" data-paypal-v4="true" data-currency="USD">
+    <link rel="alternate" type="application/json+oembed" href="https://colourpop.com/products/blending-sponge.oembed">
+    <script id="apple-pay-shop-capabilities" type="application/json">
+    {"shopId":13380845,"countryCode":"US","currencyCode":"USD","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/13380845","merchantName":"ColourPop","requiredBillingContactFields":["postalAddress","email","phone"],"requiredShippingContactFields":["postalAddress","email","phone"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex","discover","elo","jcb","chinaUnionPay"],"total":{"type":"pending","label":"ColourPop","amount":"1.00"},"shopifyPaymentsEnabled":true,"supportsSubscriptions":true}
+    </script> 
+    <script id="shopify-features" type="application/json">
+    {"accessToken":"1cbdf762eda2ef0adc174cb1bd23584f","betas":["rich-media-storefront-analytics"],"domain":"colourpop.com","predictiveSearch":true,"shopId":13380845,"smart_payment_buttons_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js?v=2","dynamic_checkout_cart_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js?v=2","locale":"en"}
+    </script> 
+    <script>
+    var Shopify = Shopify || {};
+    Shopify.shop = "colourpop-prd.myshopify.com";
+    Shopify.locale = "en";
+    Shopify.currency = {"active":"USD","rate":"1.0"};
+    Shopify.country = "US";
+    Shopify.theme = {"name":"8\/221 BTS.A+.HSM","id":121500532818,"theme_store_id":null,"role":"main"};
+    Shopify.theme.handle = "null";
+    Shopify.theme.style = {"id":null,"handle":null};
+    Shopify.cdnHost = "cdn.shopify.com";
+    Shopify.routes = Shopify.routes || {};
+    Shopify.routes.root = "/";
+    </script> 
+    <script type="module">
+    !function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);
+    </script> 
+    <script>
+    !function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);
+    </script> 
+    <script>
+    window.ShopifyPay = window.ShopifyPay || {};
+    window.ShopifyPay.apiHost = "shop.app\/pay";
+    </script> 
+    <script>
+    (function() {
+    function asyncLoad() {
+    var urls = ["https:\/\/cdn-scripts.signifyd.com\/shopify\/script-tag.js?shop=colourpop-prd.myshopify.com","\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=colourpop-prd.myshopify.com","https:\/\/js.klevu.com\/klevu-js-v1\/js\/klevuScript.js?klevuapi=klevu-156711622354510581\u0026lang=en\u0026shop=colourpop-prd.myshopify.com","https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/t\/16\/assets\/postscript-sdk.js?v=1592235941\u0026shopId=2573\u0026shop=colourpop-prd.myshopify.com","https:\/\/intg.snapchat.com\/shopify\/shopify-scevent.js?id=8b62311f-abb5-4a06-9746-bbbc0f35dc2c\u0026shop=colourpop-prd.myshopify.com","https:\/\/pc-quiz.s3.us-east-2.amazonaws.com\/current\/quiz-loader.min.js?shop=colourpop-prd.myshopify.com","https:\/\/cdn.refersion.com\/pixel.js?shop=colourpop-prd.myshopify.com\u0026client_id=16985\u0026pk=pub_d9fedc51d5c5260e5546\u0026shop=colourpop-prd.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+    };
+    if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+    } else {
+    window.addEventListener('load', asyncLoad, false);
+    }
+    })();
+    </script> 
+    <script id="__st">
+    var __st={"a":13380845,"offset":-25200,"reqid":"6ad8e38b-cb60-4fcf-aa04-8aff8f8c86d2","pageurl":"colourpop.com\/products\/blending-sponge","u":"e213c92faf7c","p":"product","rtyp":"product","rid":4200962687058};
+    </script> 
+    <script>
+    window.ShopifyPaypalV4VisibilityTracking = true;
+    </script> 
+    <script>
+    !function(o){o.addEventListener("DOMContentLoaded",function(){window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};var t=['form[action*="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action*="/account"] input[name="form_type"][value="customer_login"]','form[action*="/account"] input[name="form_type"][value="recover_customer_password"]','form[action*="/account"] input[name="form_type"][value="create_customer"]','form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");function n(e){e=e.target;null==e||null!=(e=function e(t,n){if(null==t.parentElement)return null;if("FORM"!=t.parentElement.tagName)return e(t.parentElement,n);for(var o=t.parentElement.action,r=0;r<n.length;r++)if(-1!==o.indexOf(n[r]))return t.parentElement;return null}(e,["/contact","/comments","/account"]))&&null!=e.querySelector(t)&&((e=o.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"),o.body.appendChild(e),o.removeEventListener("focus",n,!0),o.removeEventListener("change",n,!0),o.removeEventListener("click",n,!0))}o.addEventListener("click",n,!0),o.addEventListener("change",n,!0),o.addEventListener("focus",n,!0)})}(document);
+    </script> 
+    <script integrity="sha256-qzgBevPPdZ2wrwu9HnUin2oYn1vx8ttCFpYwmYuWkCE=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-ab38017af3cf759db0af0bbd1e75229f6a189f5bf1f2db42169630998b969021.js" crossorigin="anonymous"></script> 
+    <script crossorigin="anonymous" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/shopify_pay/storefront-b61f50798075db890698930c4405673937fe89353f7fea7be88b5ce16a9c0af8.js?v=20210208"></script> 
+    <script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
+    <script>
+    window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');
+    </script>
+    <link rel="next" href="/next">
+    <link rel="prev" href="/prev"><!-- ====================== !-->
+    <!--        Tracking        !-->
+    <!-- ====================== !-->
+    <script>
+
+      var klevuTurnOff = false;
+
+    </script> <!-- Start TrustPilot Javascript -->
+     
+    <script>
+
+    (function(w,d,s,r,n){w.TrustpilotObject=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};
+    a=d.createElement(s);a.async=1;a.src=r;a.type='text/java'+s;f=d.getElementsByTagName(s)[0];
+    f.parentNode.insertBefore(a,f)})(window,document,'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');
+    tp('register', 'mZNAew6cOKrWWOMO');
+    </script> <!-- End TrustPilot Javascript -->
+    <script id="gointerpay_localize" src="https://assets.rch.io/5cb37a01-5ff4-4f5a-ada2-ed491b05e4dd/localize.js" data-merchant_id="5cb37a01-5ff4-4f5a-ada2-ed491b05e4dd" data-store_currency="USD" data-whitelisted_gateways="paypal"></script> 
+    <script>
+
+    GIP.getLocalizeData().then(function (data) {
+    if (data && data.Currency && data.Currency !== "USD") { 
+      $("klarna-placement").remove();
+      $("#sidecart__afterpay-handle").remove();
+      $("body").addClass("not-usd");
+      $(".total-line--discount").remove();
+    }
+    });
+    </script>
+    <meta property="og:image" content="https://cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy.jpg?v=1583523164">
+    <meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy.jpg?v=1583523164">
+    <meta property="og:image:width" content="2000">
+    <meta property="og:image:height" content="2000">
+    <meta property="og:image:alt" content="Pretty Fresh Makeup Blending Sponge">
+    <link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+    <script>
+    (function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 13380845,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "product"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());
+    </script> 
+    <script>
+    window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+    window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+    window.ShopifyAnalytics.meta.currency = 'USD';
+    var meta = {"product":{"id":4200962687058,"gid":"gid:\/\/shopify\/Product\/4200962687058","vendor":"ColourPop","type":"Makeup Tools \u0026 Accessories","variants":[{"id":30331838333010,"price":800,"name":"Blending Sponge","public_title":null,"sku":"Brush-BlendingSponge"}]},"page":{"pageType":"product","resourceType":"product","resourceId":4200962687058}};
+    for (var attr in meta) {
+    window.ShopifyAnalytics.meta[attr] = meta[attr];
+    }
+    </script> 
+    <script>
+    window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+    ga('set', 'anonymizeIp', true);
+    if(__st["cid"]) ga('set', '&uid', __st["cid"]);
+    };
+    </script> 
+    <script class="analytics">
+    (window.gaDevIds=window.gaDevIds||[]).push('BwiEti');
+
+
+    (function () {
+    var customDocumentWrite = function(content) {
+    var jquery = null;
+
+    if (window.jQuery) {
+      jquery = window.jQuery;
+    } else if (window.Checkout && window.Checkout.$) {
+      jquery = window.Checkout.$;
+    }
+
+    if (jquery) {
+      jquery('body').append(content);
+    }
+    };
+
+    var hasLoggedConversion = function(token) {
+    if (token) {
+      return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+    }
+    return false;
+    }
+
+    var setCookieIfConversion = function(token) {
+    if (token) {
+      var twoMonthsFromNow = new Date(Date.now());
+      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+      document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+    }
+    }
+
+    var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+    if (trekkie.integrations) {
+    return;
+    }
+    trekkie.methods = [
+    'identify',
+    'page',
+    'ready',
+    'track',
+    'trackForm',
+    'trackLink'
+    ];
+    trekkie.factory = function(method) {
+    return function() {
+      var args = Array.prototype.slice.call(arguments);
+      args.unshift(method);
+      trekkie.push(args);
+      return trekkie;
+    };
+    };
+    for (var i = 0; i < trekkie.methods.length; i++) {
+    var key = trekkie.methods[i];
+    trekkie[key] = trekkie.factory(key);
+    }
+    trekkie.load = function(config) {
+    trekkie.config = config || {};
+    trekkie.config.initialDocumentCookie = document.cookie;
+    var first = document.getElementsByTagName('script')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onerror = function(e) {
+      var scriptFallback = document.createElement('script');
+      scriptFallback.type = 'text/javascript';
+      scriptFallback.onerror = function(error) {
+              var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+
+        } // XHR beacon   
+
+        var xhr = new XMLHttpRequest();
+
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 13380845,
+      theme_id: 121500532818,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "https://cdn.shopify.com/s/trekkie.storefront.ebdc6f6e0c97d8f5d6a7dac9bc6ab298fff7cf1b.min.js"});
+
+      };
+      scriptFallback.async = true;
+      scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.ebdc6f6e0c97d8f5d6a7dac9bc6ab298fff7cf1b.min.js';
+      first.parentNode.insertBefore(scriptFallback, first);
+    };
+    script.async = true;
+    script.src = 'https://cdn.shopify.com/s/trekkie.storefront.ebdc6f6e0c97d8f5d6a7dac9bc6ab298fff7cf1b.min.js';
+    first.parentNode.insertBefore(script, first);
+    };
+    trekkie.load(
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":13380845,"isMerchantRequest":null,"themeId":121500532818,"themeCityHash":"8762653790891587931","contentLanguage":"en","currency":"USD"},"isServerSideCookieWritingEnabled":true},"Google Analytics":{"trackingId":"UA-50025400-3","domain":"auto","siteSpeedSampleRate":"10","enhancedEcommerce":true,"doubleClick":true,"includeSearch":true},"Facebook Pixel":{"pixelIds":["1654768898112506"],"agent":"plshopify1.2"},"Pinterest Pixel":{"pixelId":"2613510556506"},"Session Attribution":{},"S2S":{"emitV4CheckoutEvent":true,"facebookCapiEnabled":true,"facebookAppPixelId":"1654768898112506","source":"trekkie-storefront-renderer"}}
+    );
+
+    var loaded = false;
+    trekkie.ready(function() {
+    if (loaded) return;
+    loaded = true;
+
+    window.ShopifyAnalytics.lib = window.trekkie;
+
+      ga('require', 'linker');
+      function addListener(element, type, callback) {
+        if (element.addEventListener) {
+          element.addEventListener(type, callback);
+        }
+        else if (element.attachEvent) {
+          element.attachEvent('on' + type, callback);
+        }
+      }
+      function decorate(event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement;
+        if (target && (target.getAttribute('action') || target.getAttribute('href'))) {
+          ga(function (tracker) {
+            var linkerParam = tracker.get('linkerParam');
+            document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+          });
+        }
+      }
+      addListener(window, 'load', function(){
+        for (var i=0; i < document.forms.length; i++) {
+          var action = document.forms[i].getAttribute('action');
+          if(action && action.indexOf('/cart') >= 0) {
+            addListener(document.forms[i], 'submit', decorate);
+          }
+        }
+        for (var i=0; i < document.links.length; i++) {
+          var href = document.links[i].getAttribute('href');
+          if(href && href.indexOf('/checkout') >= 0) {
+            addListener(document.links[i], 'click', decorate);
+          }
+        }
+      });
+
+
+    var originalDocumentWrite = document.write;
+    document.write = customDocumentWrite;
+    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+    document.write = originalDocumentWrite;
+
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"product","resourceType":"product","resourceId":4200962687058});
+
+    var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+    var token = match? match[1]: undefined;
+    if (!hasLoggedConversion(token)) {
+      setCookieIfConversion(token);
+      window.ShopifyAnalytics.lib.track("Viewed Product",{"currency":"USD","variantId":30331838333010,"productId":4200962687058,"productGid":"gid:\/\/shopify\/Product\/4200962687058","name":"Blending Sponge","price":"8.00","sku":"Brush-BlendingSponge","brand":"ColourPop","variant":null,"category":"Makeup Tools \u0026 Accessories","nonInteraction":true});
+      window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1",{"currency":"USD","variantId":30331838333010,"productId":4200962687058,"productGid":"gid:\/\/shopify\/Product\/4200962687058","name":"Blending Sponge","price":"8.00","sku":"Brush-BlendingSponge","brand":"ColourPop","variant":null,"category":"Makeup Tools \u0026 Accessories","nonInteraction":true,"referer":"https:\/\/colourpop.com\/products\/blending-sponge"});
+    }
+    });
+
+
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+
+    })();
+    </script> 
+    <script class="boomerang">
+
+    (function () {
+    if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    return;
+    }
+    window.BOOMR = window.BOOMR || {};
+    window.BOOMR.snippetStart = new Date().getTime();
+    window.BOOMR.snippetExecuted = true;
+    window.BOOMR.snippetVersion = 12;
+    window.BOOMR.application = "storefront-renderer";
+    window.BOOMR.themeName = "";
+    window.BOOMR.themeVersion = "";
+    window.BOOMR.shopId = 13380845;
+    window.BOOMR.themeId = 121500532818;
+    window.BOOMR.url =
+    "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+    var where = document.currentScript || document.getElementsByTagName("script")[0];
+    var parentNode = where.parentNode;
+    var promoted = false;
+    var LOADER_TIMEOUT = 3000;
+    function promote() {
+    if (promoted) {
+      return;
+    }
+    var script = document.createElement("script");
+    script.id = "boomr-scr-as";
+    script.src = window.BOOMR.url;
+    script.async = true;
+    parentNode.appendChild(script);
+    promoted = true;
+    }
+    function iframeLoader(wasFallback) {
+    promoted = true;
+    var dom, bootstrap, iframe, iframeStyle;
+    var doc = document;
+    var win = window;
+    window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+    bootstrap = function(parent, scriptId) {
+      var script = doc.createElement("script");
+      script.id = scriptId || "boomr-if-as";
+      script.src = window.BOOMR.url;
+      BOOMR_lstart = new Date().getTime();
+      parent = parent || doc.body;
+      parent.appendChild(script);
+    };
+    if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+      window.BOOMR.snippetMethod = "s";
+      bootstrap(parentNode, "boomr-async");
+      return;
+    }
+    iframe = document.createElement("IFRAME");
+    iframe.src = "about:blank";
+    iframe.title = "";
+    iframe.role = "presentation";
+    iframe.loading = "eager";
+    iframeStyle = (iframe.frameElement || iframe).style;
+    iframeStyle.width = 0;
+    iframeStyle.height = 0;
+    iframeStyle.border = 0;
+    iframeStyle.display = "none";
+    parentNode.appendChild(iframe);
+    try {
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    } catch (e) {
+      dom = document.domain;
+      iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    }
+    if (dom) {
+      doc._boomrl = function() {
+        this.domain = dom;
+        bootstrap();
+      };
+      doc.write("<body onload='document._boomrl();'>");
+    } else {
+      win._boomrl = function() {
+        bootstrap();
+      };
+      if (win.addEventListener) {
+        win.addEventListener("load", win._boomrl, false);
+      } else if (win.attachEvent) {
+        win.attachEvent("onload", win._boomrl);
+      }
+    }
+    doc.close();
+    }
+    var link = document.createElement("link");
+    if (link.relList &&
+    typeof link.relList.supports === "function" &&
+    link.relList.supports("preload") &&
+    ("as" in link)) {
+    window.BOOMR.snippetMethod = "p";
+    link.href = window.BOOMR.url;
+    link.rel = "preload";
+    link.as = "script";
+    link.addEventListener("load", promote);
+    link.addEventListener("error", function() {
+      iframeLoader(true);
+    });
+    setTimeout(function() {
+      if (!promoted) {
+        iframeLoader(true);
+      }
+    }, LOADER_TIMEOUT);
+    BOOMR_lstart = new Date().getTime();
+    parentNode.appendChild(link);
+    } else {
+    iframeLoader(false);
+    }
+    function boomerangSaveLoadTime(e) {
+    window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+    }
+    if (window.addEventListener) {
+    window.addEventListener("load", boomerangSaveLoadTime, false);
+    } else if (window.attachEvent) {
+    window.attachEvent("onload", boomerangSaveLoadTime);
+    }
+    if (document.addEventListener) {
+    document.addEventListener("onBoomerangLoaded", function(e) {
+      e.detail.BOOMR.init({
+        producer_url: "https://monorail-edge.shopifysvc.com/v1/produce",
+        ResourceTiming: {
+          enabled: true,
+          trackedResourceTypes: ["script", "img", "css"]
+        },
+      });
+      e.detail.BOOMR.t_end = new Date().getTime();
+    });
+    } else if (document.attachEvent) {
+    document.attachEvent("onpropertychange", function(e) {
+      if (!e) e=event;
+      if (e.propertyName === "onBoomerangLoaded") {
+        e.detail.BOOMR.init({
+          producer_url: "https://monorail-edge.shopifysvc.com/v1/produce",
+          ResourceTiming: {
+            enabled: true,
+            trackedResourceTypes: ["script", "img", "css"]
+          },
+        });
+        e.detail.BOOMR.t_end = new Date().getTime();
+      }
+    });
+    }
+    })();
+    </script> <!-- Google Tag Manager (noscript) -->
+     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKLP2RL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> <a type="button" class="visually-hidden skip-link" href="#MainContent" role="button">Skip to main content</a> 
+    <script>
+    var json_product = {"id":4200962687058,"title":"Blending Sponge","handle":"blending-sponge","description":"\u003cp\u003eA multi-use sponge that effortlessly blends makeup\u003c\/p\u003e","published_at":"2019-09-26T07:57:27-07:00","created_at":"2019-09-25T08:34:31-07:00","vendor":"ColourPop","type":"Makeup Tools \u0026 Accessories","tags":["#.collection:PromoBackup2","#.collection:promoproducts","#.collection:TemptaliaPromo","#.hidden:false","#.promo:SinglesDay30","#.promo:treat","092619","Beauty","Beauty Blender","Blender","Breadcrumb:Makeup-Tools","Brush","category:Brushes","color:Nudes","event:Pretty Fresh","Face Brush","finish:None","MakeupTools","productline:ColourPop","productsize:full","producttype:Makeup Tools \u0026 Accessories","Sponge","subcategory:Face Brushes","toolsandacc","unitnumber:1","unittype:single","vegan"],"price":800,"price_min":800,"price_max":800,"available":true,"price_varies":false,"compare_at_price":null,"compare_at_price_min":0,"compare_at_price_max":0,"compare_at_price_varies":false,"variants":[{"id":30331838333010,"title":"Default Title","option1":"Default Title","option2":null,"option3":null,"sku":"Brush-BlendingSponge","requires_shipping":true,"taxable":true,"featured_image":null,"available":true,"name":"Blending Sponge","public_title":null,"options":["Default Title"],"price":800,"weight":9,"compare_at_price":null,"inventory_quantity":1598,"inventory_management":"shopify","inventory_policy":"deny","barcode":"10020010002900","requires_selling_plan":false,"selling_plan_allocations":[]}],"images":["\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/products\/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy.jpg?v=1583523164","\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/products\/blending-sponge_1.jpg?v=1569441617"],"featured_image":"\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/products\/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy.jpg?v=1583523164","options":["Title"],"media":[{"alt":"Pretty Fresh Makeup Blending Sponge","id":6707642925138,"position":1,"preview_image":{"aspect_ratio":1.0,"height":2000,"width":2000,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/products\/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy.jpg?v=1583523164"},"aspect_ratio":1.0,"height":2000,"media_type":"image","src":"https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/products\/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy.jpg?v=1583523164","width":2000},{"alt":"ColourPop Pretty Fresh Makeup Blending Sponge","id":2122383917138,"position":2,"preview_image":{"aspect_ratio":1.0,"height":2000,"width":2000,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/products\/blending-sponge_1.jpg?v=1569441617"},"aspect_ratio":1.0,"height":2000,"media_type":"image","src":"https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/products\/blending-sponge_1.jpg?v=1569441617","width":2000}],"requires_selling_plan":false,"selling_plan_groups":[],"content":"\u003cp\u003eA multi-use sponge that effortlessly blends makeup\u003c\/p\u003e"}; var ecomm_prodid=[]; for(var i=0;i<json_product.variants.length;i++) { ecomm_prodid.push('shopify_US_4200962687058_'+json_product.variants[i].id); } var google_tag_params = { ecomm_prodid: ecomm_prodid, ecomm_pagetype: 'product', ecomm_totalvalue: parseFloat('8.00') };
+    </script> <!-- Google Code for Remarketing Tag -->
+    <script type="text/plain" data-cookieconsent="marketing">
+
+    /* <![CDATA[ */
+    var google_conversion_id = 860855429;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+    </script> 
+    <script type="text/plain" data-cookieconsent="marketing" src="//www.googleadservices.com/pagead/conversion.js"></script> <noscript>
+    <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/860855429/?value=0&amp;guid=ON&amp;script=0">
+    </div></noscript> <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKLP2RL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) -->
+    <div id="shopify-section-theme_v4_marquee" class="shopify-section">
+      <section class="nospacing nopadding" data-section-id="theme_v4_marquee" data-section-type="Marquee">
+        <div class="marquee__parent">
+          <div class="marquee__container owl-carousel owl-theme" data-special="marquee">
+            <div class="marquee__item">
+              <a href='/collections/shop-all-lips'>✈ Free Domestic Shipping on orders over $30</a> <button class='dy-close-marquee'>&amp;#10005</button>
+            </div>
+            <div class="marquee__item">
+              <a href='/collections/new-now'>✈ Free International Shipping on orders over <span class="money">$60</span></a> <button class='dy-close-marquee'>&amp;#10005</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="shopify-section-theme_v4_header" class="shopify-section">
+      <header class="header" role="banner">
+        <div class="header__hamburger-container">
+          <button class="header__hamburger"><label class="visually-hidden">Open Navigation Menu</label></button>
+        </div>
+        <section class="nospacing nopadding" data-section-id="theme_v4_header" data-section-type="Header">
+          <div aria-hidden="true" class="header__logo--scrolled">
+            <a class="no-hover" href="/" itemprop="url"><img src="https://cdn.shopify.com/s/files/1/1338/0835/files/logo.svg?447747" alt="ColourPop" itemprop="logo"></a>
+          </div>
+          <div class="header__search-container">
+            <form class="header__search-bar" action="/search" method="get">
+              <input type="hidden" name="type" value="product"> <input class="header__search-bar--input" type="text" name="q" placeholder="tell us what you want" autofocus=""> <input class="header__search-bar--button" type="submit" value="Search">
+            </form><button class='header__search-bar--close visually-hidden'>Close Search Bar</button>
+          </div>
+          <div class="header__logo">
+            <a class="no-hover" href="/" itemprop="url"><img src="https://cdn.shopify.com/s/files/1/1338/0835/files/logo.svg?447747" alt="ColourPop" itemprop="logo"></a>
+          </div>
+          <div class="header__actions">
+            <ul role='menubar'>
+              <li role="none" class="header__action">
+                <button class='text-link search-button' role="menuitem"><img src="https://cdn.shopify.com/s/files/1/1338/0835/files/icon-search.svg?5125113920559925094" alt=""> <span class="visually-hidden">Open search bar</span></button>
+              </li>
+              <li role="none" class="header__action icon--account" tabindex="0">
+                <img src="https://cdn.shopify.com/s/files/1/1338/0835/files/icon-account.svg?5125113920559925094" alt=""> <span class="visually-hidden">My Account</span>
+                <ul role="menu" aria-label="My Account" class="header__action--submenu">
+                  <a href="/account" role="menuitem"></a>
+                  <li role="none">
+                    <img class="lazy header__action--icon" src="https://cdn.shopify.com/s/files/1/1338/0845/files/icon-mobilenav-login.svg?78895" alt=""> My Account
+                  </li><a href="/account/?q=order-history" role="menuitem"></a>
+                  <li role="none">
+                    <img class="lazy header__action--icon" src="https://cdn.shopify.com/s/files/1/1338/0845/files/icon-mobilenav-orderhistory.svg?78895" alt=""> Order History
+                  </li><a href="/account/?q=wishlist" role="menuitem"></a>
+                  <li role="none">
+                    <img class="lazy header__action--icon" src="https://cdn.shopify.com/s/files/1/1338/0845/files/icon-mobilenav-mywishlist.svg?78895" alt=""> My Wishlist
+                  </li><a href="/account?q=beauty-profile" role="menuitem"></a>
+                  <li role="none">
+                    <img class="lazy header__action--icon" src="https://cdn.shopify.com/s/files/1/1338/0845/files/icon-mobilenav-beautyprofile.svg?78895" alt=""> Beauty Profile
+                  </li>
+                </ul>
+              </li>
+              <li role="none" class="header__action icon--cart">
+                <button class='text-link cart-button' role="menuitem"><img src="https://cdn.shopify.com/s/files/1/1338/0845/files/icon-bag.svg?84315" alt=""> <span class="visually-hidden">View Side Cart</span> <span aria-hidden="true" class='cart-button__count'>0</span></button>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <nav class="header__navigation" aria-labelledby="main menu navigation">
+          <div class='header__navigation--container'>
+            <ul role="menubar" aria-labelledby="main menu navigation">
+              <li class='header__navigation--link header__navigation--new'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/new-now">New</a>
+                <div class='header__dropdown' style="" data-navigation-type='header-navigation-new-now'>
+                  <div class='header__dropdown-header'>
+                    <img src='https://cdn.shopify.com/s/files/1/1338/0835/files/logo.svg?447747' alt='Header Navigation - New'>
+                  </div>
+                  <div class='header__dropdown-blocks'>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/new'>New Arrivals</a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/back-in-stock'><span>Back In Stock</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='https://colourpop.com/collections/the-best-fan-faves'><span>Trending Now</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='https://colourpop.com/collections/lippie-stix-lippie-pencil'><span>Lippie Stix + Pencils</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='#'>Most Wanted Collections</a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/nudes-warm-tones'><span>Clay it Cool Collection</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/bt21'><span>BT21</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/opal-of-my-eye'><span>Opal of My Eye Collection</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/in-the-springs'><span>In the Springs Collection</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'></ul>
+                    <ul class='header__dropdown-block header__dropdown-block--1'>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/clay-it-cool'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/CATEGORYSQ_ClayitCool-NoBronzer_1_x226.jpg?v=1658185982' alt=''></a> <span>Clay it Cool Collection</span>
+                      </li>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/pages/create-your-own-makeup-palette'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/may-byop-stylized-2_x226.jpg?v=1652134594' alt=''></a> <span>New Shades BYOP!</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class='header__navigation--link header__navigation--best-sellers'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/best-of-colourpop">Best Sellers</a>
+                <div class='header__dropdown' style="" data-navigation-type='header-navigation-best-sellers'>
+                  <div class='header__dropdown-header'>
+                    <img src='https://cdn.shopify.com/s/files/1/1338/0835/files/logo.svg?447747' alt='Header Navigation - Best Sellers'>
+                  </div>
+                  <div class='header__dropdown-blocks'>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/best-of-colourpop'>Best of ColourPop</a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/best-selling-shadow-palettes'><span>Best Selling Palettes</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/best-sellers-eyes'><span>Best Selling Eyes</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/best-selling-lips'><span>Best Selling Lips</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/best-selling-face'><span>Best Selling Face</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/pages/create-your-own-makeup-palette'>Build Your Own Palette</a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/super-shock-shadow'><span>OG Favorite Super Shock Shadows</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/value-sets'><span>Value Sets</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'></ul>
+                    <ul class='header__dropdown-block header__dropdown-block--1'>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/mega-palettes'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0835/files/gettinfresh_mega_palette_x226.jpg?v=1653419480' alt=''></a> <span>NEW Gettin' Fresh 30 Pan Palette</span>
+                      </li>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/super-shock-shadow'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/may-sss-and-vault-bundle-option-1_x226.jpg?v=1652310503' alt=''></a> <span>Iconic Super Shock</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class='header__navigation--link header__navigation--palettes'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/shadow-palette">Palettes</a>
+              </li>
+              <li class='header__navigation--link header__navigation--eyes'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/shop-all-eyes">Eyes</a>
+                <div class='header__dropdown' style="" data-navigation-type='header-navigation-eyes'>
+                  <div class='header__dropdown-header'>
+                    <img src='https://cdn.shopify.com/s/files/1/1338/0835/files/logo.svg?447747' alt='Header Navigation - Eyes'>
+                  </div>
+                  <div class='header__dropdown-blocks'>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/shop-all-eyes'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/Shop_All-Eyes_x120.gif?v=1603485742' alt='Shop All Eyes'></a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/super-shock-shadow'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-sss_x30.png?v=1592185805' alt=''> <span>Super Shock Shadow</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/powder-shadow'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-pps_x30.png?v=1592185805' alt=''> <span>Pressed Powder Shadow</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/jelly-much-shadow'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-jellymuch_x30.png?v=1592185805' alt=''> <span>Jelly Much Shadow</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/colour-stix-collection'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Style-and-Ease_x30.jpg?v=1616010893' alt=''> <span>Colour Stix</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/eyeliner'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-eyeliner_x30.png?v=1592185803' alt=''> <span>Eyeliner</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/brow'><img class='lazy small-img__header' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-brow_x30.png?v=1592185804' alt=''> <span style="margin-top:46px; font: 13px 'Visby CF Medium'; text-transform: capitalize;">Brow</span></a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/mascara'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-mascara_x30.png?v=1592185804' alt=''> <span>Mascara</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lashes'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-lashes_x30.png?v=1592185805' alt=''> <span>False Lashes</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/eye-brushes'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/small-shader-brush_1_800x1200_05b31057-d3c8-437c-bc6d-4c33d8b5e48c.webp?v=1647380060' alt=''> <span>Makeup Brushes</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/curated-eye-sets'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-eyesets_x30.png?v=1592185805' alt=''> <span><b>Eye Sets</b></span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'></ul>
+                    <ul class='header__dropdown-block header__dropdown-block--1'>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/brow'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0835/files/colourpop-brows-1466-_1_x226.jpg?v=1642640044' alt=''></a> <span>Find Your Perfect Brow</span>
+                      </li>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/powder-shadow'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/byop_c3_crush_pans_649_x226.jpg?v=1646846313' alt=''></a> <span>NEW Pressed Powder Shades!</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class='header__navigation--link header__navigation--lips'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/shop-all-lips">Lips</a>
+                <div class='header__dropdown' style="" data-navigation-type='header-navigation-lips'>
+                  <div class='header__dropdown-header'>
+                    <img src='https://cdn.shopify.com/s/files/1/1338/0835/files/logo.svg?447747' alt='Header Navigation - Lips'>
+                  </div>
+                  <div class='header__dropdown-blocks'>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/shop-all-lips'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/Shop_All-Lips_x120.gif?v=1603485742' alt='Shop All Lips'></a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lip-bundles'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-lipsets_x30.png?v=1592185805' alt=''> <span><b>Lip Sets</b></span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fresh-kiss-glossy-lip-stain'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Big-Apple-Cap-Off_x30.jpg?v=1625681330' alt=''> <span>Glossy Lip Stain</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fresh-kiss-lip-creme'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Alt-Rock-Cap-Off_x30.jpg?v=1631137870' alt=''> <span>Lip Crème</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fresh-kiss-lip-lacquer'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Cafe-De-Paris-Cap-Off_x30.jpg?v=1636738705' alt=''> <span>Lip Lacquer</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/liquid-lipsticks'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-liquidlipstick_x30.png?v=1592185805' alt=''> <span>Liquid Lipsticks</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lip-gloss'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/Infinite-Cap-Off_x30.jpg?v=1648593073' alt=''> <span>Lip Gloss</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lux-lip-oil'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/LipOilNavIcon_x30.jpg?v=1595521664' alt=''> <span>Lip Oil</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/lux-lipstick'><img class='lazy small-img__header' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-lipstick_x30.png?v=1592185805' alt=''> <span style="margin-top:46px; font: 13px 'Visby CF Medium'; text-transform: capitalize;">Lipstick</span></a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lippie-stix'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Happy-Thoughts-Lippie-Stix-Macro_x30.jpg?v=1654727935' alt=''> <span>Lippie Stix<sup>®</sup></span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lippie-pencil'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Brink-Macro_x30.jpg?v=1654727892' alt=''> <span>Lippie Pencil</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/blotted-lip'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Talker-Cap-Off_x30.jpg?v=1639612681' alt=''> <span>Blotted Lip</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/glowing-lip'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Cockatoo-with-Cap_x30.jpg?v=1643914881' alt=''> <span>Glowing Lip</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lip-crayons'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-liptint_x30.png?v=1592185805' alt=''> <span>Lip Tint</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lip-care'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Coco-Loco-Lip-Scrub-with-Cap_800x1200_58e8136a-8843-40b9-82dc-dfba729d4016_x30.jpg?v=1658253862' alt=''> <span>Lip Care</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'></ul>
+                    <ul class='header__dropdown-block header__dropdown-block--1'>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='https://colourpop.com/pages/lip-quiz'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/Lipstick_Quiz_Nav_Rectangle_1_x226.jpg?v=1658433162' alt=''></a> <span>Take the Lip Quiz</span>
+                      </li>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/lip-bundles'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/CP_NAVBanner_Red_NudeLipie_2058_x226.jpg?v=1658441936' alt=''></a> <span>New Red + Nude Lippie Stix Vaults</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class='header__navigation--link header__navigation--face'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/shop-all-face">Face</a>
+                <div class='header__dropdown' style="" data-navigation-type='header-navigation-face'>
+                  <div class='header__dropdown-header'>
+                    <img src='https://cdn.shopify.com/s/files/1/1338/0835/files/logo.svg?447747' alt='Header Navigation - Face'>
+                  </div>
+                  <div class='header__dropdown-blocks'>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/shop-all-face'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/Shop_All-Face_x120.gif?v=1614330053' alt='Shop All Face'></a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/blush-bronzer'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-blushbronzer_x30.png?v=1592185805' alt=''> <span>Blush & Bronzer</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/pretty-fresh-complexion'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Fair-2_b4ca9f5d-7053-4850-917e-dc5714c31599_x30.jpg?v=1658789762' alt=''> <span>Pretty Fresh Complexion</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/foundation'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Deep-Dark-200_x30.jpg?v=1593034122' alt=''> <span>Foundation</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/products/pretty-fresh-hyaluronic-acid-tinted-moisturizer'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-tintedmoisturizer_x30.png?v=1592185804' alt=''> <span>Tinted Moisturizer</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/full-coverage-concealers'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-concealer_x30.png?v=1592185804' alt=''> <span>Concealer</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/powder'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-powder_x30.png?v=1592185805' alt=''> <span>Face Powder</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/highlighter'><img class='lazy small-img__header' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-highlighter_x30.png?v=1592185805' alt=''> <span style="margin-top:46px; font: 13px 'Visby CF Medium'; text-transform: capitalize;">Highlighter</span></a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/primer-setting-spray'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/CP-nav-settingprimer_x30.png?v=1592185804' alt=''> <span>Primer & Setting Spray</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/face-pigment'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/Fruit-Punch_800x1200_86b9525f-95db-4b36-a5d6-fca2eb33667b_x30.jpg?v=1642625375' alt=''> <span>Face Pigment</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/glitter'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/Glitter-3-copy_800x1200_f60fc44d-d8b4-41ba-a32d-a6450ba1fd2c_x30.jpg?v=1642625375' alt=''> <span>Glitter</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/face-accessories'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Face-Jewels-Individual-Plate-1_800x1200_a30a282d-b7ab-455f-8d3e-536306e8585e_x30.jpg?v=1635222336' alt=''> <span>Face Accessories</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/makeup-tools'><img class='lazy small-img__header' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/large-powder-brush_800x1200_2d9f2f42-2268-439f-8eb9-22116dfe1ad2_x30.jpg?v=1642625375' alt=''> <span style="margin-top:46px; font: 13px 'Visby CF Medium'; text-transform: capitalize;">Makeup Tools + Accessories</span></a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/face-makeup-sets'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Face_Sets_934c8cf6-c714-40d1-8b8c-33818c1761af_x30.jpg?v=1592938587' alt=''> <span><b>Face Sets</b></span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'></ul>
+                    <ul class='header__dropdown-block header__dropdown-block--1'>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/blush-bronzer'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/CATEGORYSQUARE_SSBronzer_1_1_x226.jpg?v=1658174576' alt=''></a> <span>New SUPER SHOCK BRONZERS</span>
+                      </li>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/makeup-tools'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/Brush_Roll_1_1_x226.jpg?v=1658276454' alt=''></a> <span>Makeup Tools + Accessories</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class='header__navigation--link header__navigation--collabs'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/collab">Collabs</a>
+                <div class='header__dropdown' style="" data-navigation-type='header-navigation-collabs'>
+                  <div class='header__dropdown-header'>
+                    <img src='https://cdn.shopify.com/s/files/1/1338/0835/files/logo.svg?447747' alt='Header Navigation - Collabs'>
+                  </div>
+                  <div class='header__dropdown-blocks'>
+                    <ul class='header__dropdown-block'>
+                      Collabs
+                      <li class='header__dropdown-block--banner'>
+                        <a class='naked-link' href='/collections/collab'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/SHOP-ALL_COLLABS_x120.png?v=1638306523' alt='Shop All Collabs'></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/high-school-musical'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/CollectionSquare_HSM_x30.jpg?v=1660782364' alt=''> <span>High School Musical</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/bt21'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/CP-Collection-Square--BT-21_x30.jpg?v=1657580549' alt=''> <span>BT21</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/jasmine-chiswell'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/Collection-Square--Jasmine-Chiswell-900x900_2_x30.jpg?v=1655853328' alt=''> <span>Jasmine Chiswell</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/sailor-moon-makeup-collaboration'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/SailorMoon_collab-banner_x30.jpg?v=1582163288' alt=''> <span>Sailor Moon</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/star-wars'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/CollectionSquare_DarthVader2_x30.jpg?v=1645636868' alt=''> <span>Star Wars™</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/hello-kitty-tropical-escape'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/HK_FRUITS_COLLAB_SQUARE_x30.png?v=1623886497' alt=''> <span>Hello Kitty Tropical Escape</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/malibu-barbie'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/BARBIE_COLLAB_SQUARE_x30.jpg?v=1620683426' alt=''> <span>Malibu Barbie™</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/powerpuff-girls-x-colourpop'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/collections/PPG_COLLAB_SQUARE_x30.jpg?v=1626192689' alt=''> <span>Powerpuff Girls</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      Disney
+                      <li class='header__dropdown-block--banner'>
+                        <a class='naked-link' href='/collections/disney'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/SHOP-ALL_DISNEY_x120.png?v=1638306523' alt='Shop all Disney'></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/disney-princess-lux-lipstick-vault'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/True-Loves-Kiss-Stylized-Square_2_x30.jpg?v=1657216141' alt=''> <span>Disney Princess</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/winnie-the-pooh'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/CollectionSquare_Winnie-the-Pooh_x30.jpg?v=1650561181' alt=''> <span>Winnie the Pooh</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/disney-frozen-2'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/Collabs_Frozen_x30.jpg?v=1602613560' alt=''> <span>Frozen 2</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lizzie-mcguire'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/LIZZIEMG_COLLAB_SQUARE_x30.jpg?v=1616608336' alt=''> <span>Lizzie McGuire</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'></ul>
+                    <ul class='header__dropdown-block header__dropdown-block--2'>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/high-school-musical'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/HSM_CPNavBannerRec_2139_x226.jpg?v=1660782364' alt=''></a>
+                      </li>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href=''><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='' alt=''></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class='header__navigation--link header__navigation--skincare'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/fourth-ray-beauty">Skincare</a>
+                <div class='header__dropdown' style="" data-navigation-type='header-navigation-skincare'>
+                  <div class='header__dropdown-header'>
+                    <img src='https://cdn.shopify.com/s/files/1/1338/0845/files/FR_Horizontal_FINAL-PrimaryLogo.svg?v=1592513961' alt='Header Navigation - Skincare'>
+                  </div>
+                  <div class='header__dropdown-blocks'>
+                    <ul class='header__dropdown-block'>
+                      Shop By Product
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-cleanser'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/FR-nav-cleanser_x30.png?v=1592257487' alt=''> <span>Cleansers</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-face-exfoliators'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Pineapple-Face-Polish-Swatch_copy_x30.png?v=1653603160' alt=''> <span>Exfoliators</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-masks'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/FR-nav-mask_x30.png?v=1592257486' alt=''> <span>Masks</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-tonics-mists'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/FR-nav-tonic_x30.png?v=1592257486' alt=''> <span>Tonics + Mists</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-serum-treatments'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/FR-nav-serum_x30.png?v=1592257486' alt=''> <span>Serums</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-face-treatments'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Later-Hater_d_copy_x30.png?v=1653603159' alt=''> <span>Face Treatments</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-moisturizer'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/FR-nav-moisturizer_x30.png?v=1592257486' alt=''> <span>Moisturizers</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-eye-cream'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/FR-nav-eyecream_x30.png?v=1592257486' alt=''> <span>Eye Care</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-lip-treatments'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0845/files/Lip-Mask_x30.png?v=1610558150' alt=''> <span>Lip Treatments</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-sets'><img class='lazy' aria-hidden='true' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/FR-nav-facesets_x30.png?v=1592257486' alt=''> <span>Skincare Sets</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      Shop By Skin Type
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-normal-skin'><span>Normal</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-combination-skin'><span>Combination</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-oily-skin'><span>Oily</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/fourth-ray-dry-skin'><span>Dry</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/fourth-ray-new-arrivals'>Newest Skincare</a><a class='naked-link' href='/collections/fourth-ray-beauty'>Shop All Skincare</a><a class='naked-link' href='/collections/fourth-ray-tools'>Skincare Tools</a><a class='naked-link' href='/pages/fourth-ray-skincare-match'>take our skincare quiz - get 20% off</a>
+                    </ul>
+                    <ul class='header__dropdown-block header__dropdown-block--1'>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/products/night-dew-hydrating-mask'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0835/files/NAVREC_NightDewMask_1_x226.jpg?v=1657240220' alt=''></a> <span>Night Dew Hydrating Jelly Mask</span>
+                      </li>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/fourth-ray-masks'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0845/files/frb-masks-group-3-1_x226.jpg?v=1652807428' alt=''></a> <span>Mask Essentials</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class='header__navigation--link header__navigation--body'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/sol-body">Body</a>
+                <div class='header__dropdown' style="color: #ffffff;background-color: #cb998f;" data-navigation-type='header-navigation-body'>
+                  <div class='header__dropdown-header'>
+                    <img src='https://cdn.shopify.com/s/files/1/1338/0845/files/SOL-LOGO-white.svg?v=1592513961' alt='Header Navigation - Body'>
+                  </div>
+                  <div class='header__dropdown-blocks'>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/sol-body-care'>Body care</a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/products/sol-hydrating-coconut-body-wash'><span>Wash</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/sol-body-scrub'><span>Scrub</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/sol-body-lotion'><span>Lotion</span></a>
+                      </li><a class='naked-link' href='/collections/sol-body-tanning'>Tanning</a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/sol-tanning-mousse'><span>Insta Bronze Tanning Mousse</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/products/sol-gradual-sunless-tanning-lotion'><span>Gradual Sunless Tanning Lotion</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/products/gradual-tanning-face-moisturizer'><span>Gradual Tanning Face Moisturizer</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/sol-face-and-body-makeup'>Body Makeup</a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/sol-face-body-satin-bronzer'><span>Face + Body Bronzer</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/face-body-makeup'><span>Face + Body Makeup</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/products/sol-face-and-body-bronzing-balm'><span>Face + Body Bronzing Balms</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/products/shimmer-face-body-powder'><span>Face + Body Highlighter</span></a>
+                      </li><a class='naked-link' href='/collections/sol-body-oil'>Body Oil</a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/products/shimmering-dry-oil'><span>Shimmering Dry Oil</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/products/sol-body-glow-oil'><span>Glow Oil</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/products/sol-body-nourishing-cleansing-oil'><span>Cleansing Oil</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/sol-new-arrivals'>New Arrivals</a><a class='naked-link' href='/collections/sol-body-tools'>Body Tools</a><a class='naked-link' href='/collections/sol-body-sets'>Body Sets</a><a class='naked-link' href='/collections/sol-body'>Shop All Body</a>
+                    </ul>
+                    <ul class='header__dropdown-block header__dropdown-block--2'>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href='/collections/sol-tanning-mousse'><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='https://cdn.shopify.com/s/files/1/1338/0835/files/NavBanner_2007_TanningMousee_x226.jpg?v=1657220744' alt=''></a> <span>New Insta Bronze Tanning Mousse</span>
+                      </li>
+                      <li class='header__dropdown-block--image'>
+                        <a class='naked-link' href=''><img style="margin-bottom: 15px;" class='lazy' aria-hidden='true' src='' alt=''></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class='header__navigation--link header__navigation--sale'>
+                <a aria-haspopup="false" role="menuitem" class="no-hover" href="/collections/sales-offers">Sale</a>
+                <div class='header__dropdown' style="" data-navigation-type='up-to-50-off-sale'>
+                  <div class='header__dropdown-blocks'>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/value-sets'>Everyday Value</a>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/value-sets'><span>Value Sets & Bundles</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/pages/create-your-own-makeup-palette'><span>Build Your Own Palette</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/super-shock-shadow'><span>Get 3 SSS for $15</span></a>
+                      </li>
+                      <li class='header__dropdown-block--link'>
+                        <a class='naked-link' href='/collections/lippie-stix'><span>Build Your Own Lippie Stix Stash Cup</span></a>
+                      </li>
+                    </ul>
+                    <ul class='header__dropdown-block'>
+                      <a class='naked-link' href='/collections/back-to-school-promo'>Back to School Sale | Up to 40% Off</a><a class='naked-link' href='/collections/sales-offers'>New Markdowns Added | Up to 50% Off</a><a class='naked-link' href='/collections/last-call-1'>Last Call | Up to 80% Off</a>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </div>
+    <div id="shopify-section-theme_v4_navigation" class="shopify-section">
+      <script>
+      var navigation_data = {}    
+
+
+      navigation_data["default|new"] = {
+      "parent": "default",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "New",
+      "link": "",
+      "layer": "1"
+      }
+
+      navigation_data["default|best-sellers"] = {
+      "parent": "default",
+      "logo": "",
+      "image": "",
+      "title": "Best Sellers",
+      "link": "",
+      "layer": "0"
+      }
+
+      navigation_data["default|palettes"] = {
+      "parent": "default",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Palettes",
+      "link": "\/collections\/shadow-palette",
+      "layer": "1"
+      }
+
+      navigation_data["default|eyes"] = {
+      "parent": "default",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Eyes",
+      "link": "",
+      "layer": "1"
+      }
+
+      navigation_data["default|lips"] = {
+      "parent": "default",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Lips",
+      "link": "",
+      "layer": "1"
+      }
+
+      navigation_data["default|face"] = {
+      "parent": "default",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Face",
+      "link": "",
+      "layer": "1"
+      }
+
+      navigation_data["new|new-arrivals"] = {
+      "parent": "new",
+      "logo": "",
+      "image": "",
+      "title": "New Arrivals",
+      "link": "\/collections\/new-now",
+      "layer": "2"
+      }
+
+      navigation_data["new|back-in-stock"] = {
+      "parent": "new",
+      "logo": "",
+      "image": "",
+      "title": "Back In Stock",
+      "link": "\/collections\/back-in-stock",
+      "layer": "2"
+      }
+
+      navigation_data["new|trending-now"] = {
+      "parent": "new",
+      "logo": "",
+      "image": "",
+      "title": "Trending Now",
+      "link": "\/collections\/the-best-fan-faves",
+      "layer": "2"
+      }
+
+      navigation_data["new|lippie-stix-pencils"] = {
+      "parent": "new",
+      "logo": "",
+      "image": "",
+      "title": "Lippie Stix + Pencils",
+      "link": "\/collections\/lippie-stix-lippie-pencil",
+      "layer": "2"
+      }
+
+      navigation_data["new|bt21"] = {
+      "parent": "new",
+      "logo": "",
+      "image": "",
+      "title": "BT21",
+      "link": "\/collections\/bt21",
+      "layer": "2"
+      }
+
+      navigation_data["new|opal-of-my-eye-collection"] = {
+      "parent": "new",
+      "logo": "",
+      "image": "",
+      "title": "Opal of My Eye Collection",
+      "link": "\/collections\/opal-of-my-eye",
+      "layer": "2"
+      }
+
+      navigation_data["new|won-done-collection"] = {
+      "parent": "new",
+      "logo": "",
+      "image": "",
+      "title": "Won \u0026 Done Collection",
+      "link": "\/collections\/won-done",
+      "layer": "2"
+      }
+
+      navigation_data["best-sellers|best-of-colourpop"] = {
+      "parent": "best-sellers",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Best of ColourPop",
+      "link": "\/collections\/best-of-colourpop",
+      "layer": "2"
+      }
+
+      navigation_data["best-sellers|best-selling-palettes"] = {
+      "parent": "best-sellers",
+      "logo": "",
+      "image": "",
+      "title": "Best Selling Palettes",
+      "link": "\/collections\/best-selling-shadow-palettes",
+      "layer": "2"
+      }
+
+      navigation_data["best-sellers|best-selling-eyes"] = {
+      "parent": "best-sellers",
+      "logo": "",
+      "image": "",
+      "title": "Best Selling Eyes",
+      "link": "\/collections\/best-sellers-eyes",
+      "layer": "2"
+      }
+
+      navigation_data["best-sellers|best-selling-lips"] = {
+      "parent": "best-sellers",
+      "logo": "",
+      "image": "",
+      "title": "Best Selling Lips",
+      "link": "\/collections\/best-selling-lips",
+      "layer": "2"
+      }
+
+      navigation_data["best-sellers|best-selling-face"] = {
+      "parent": "best-sellers",
+      "logo": "",
+      "image": "",
+      "title": "Best Selling Face",
+      "link": "\/collections\/best-selling-face",
+      "layer": "2"
+      }
+
+      navigation_data["best-sellers|build-your-own-palette"] = {
+      "parent": "best-sellers",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Build Your Own Palette",
+      "link": "\/pages\/create-your-own-makeup-palette",
+      "layer": "2"
+      }
+
+      navigation_data["best-sellers|og-fave-super-shock-shadow"] = {
+      "parent": "best-sellers",
+      "logo": "",
+      "image": "",
+      "title": "OG Fave Super Shock Shadow",
+      "link": "\/collections\/super-shock-shadow",
+      "layer": "2"
+      }
+
+      navigation_data["best-sellers|value-sets"] = {
+      "parent": "best-sellers",
+      "logo": "",
+      "image": "",
+      "title": "Value Sets",
+      "link": "\/collections\/value-sets",
+      "layer": "2"
+      }
+
+      navigation_data["default|collabs"] = {
+      "parent": "default",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Collabs",
+      "link": "",
+      "layer": "1"
+      }
+
+      navigation_data["makeup|digital-downloads"] = {
+      "parent": "makeup",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Digital Downloads",
+      "link": "\/pages\/digital-downloads",
+      "layer": "2"
+      }
+
+      navigation_data["default|skincare"] = {
+      "parent": "default",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/FR_Horizontal_FINAL-PrimaryLogo.svg?v=1592513961",
+      "image": "",
+      "title": "Skincare",
+      "link": "",
+      "layer": "1"
+      }
+
+      navigation_data["default|body"] = {
+      "parent": "default",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/SOL-LOGO-black.svg?v=1592513961",
+      "image": "",
+      "title": "Body",
+      "link": "",
+      "layer": "1"
+      }
+
+      navigation_data["default|sale"] = {
+      "parent": "default",
+      "logo": "",
+      "image": "",
+      "title": "Sale",
+      "link": "",
+      "layer": "1"
+      }
+
+      navigation_data["eyes|shop-all-eyes"] = {
+      "parent": "eyes",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Shop All Eyes",
+      "link": "\/collections\/shop-all-eyes",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|shadow-palettes"] = {
+      "parent": "eyes",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-palettes.png?v=1592185804",
+      "title": "Shadow Palettes",
+      "link": "\/collections\/eyeshadow-palettes",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|super-shock-shadow"] = {
+      "parent": "eyes",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-sss.png?v=1592185805",
+      "title": "Super Shock Shadow",
+      "link": "\/collections\/super-shock-shadow",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|pressed-powder-shadow"] = {
+      "parent": "eyes",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-pps.png?v=1592185805",
+      "title": "Pressed Powder Shadow",
+      "link": "\/collections\/powder-shadow",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|jelly-much-shadow"] = {
+      "parent": "eyes",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-jellymuch.png?v=1592185805",
+      "title": "Jelly Much Shadow",
+      "link": "\/collections\/jelly-much-shadow",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|colour-stix"] = {
+      "parent": "eyes",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Style-and-Ease.jpg?v=1616010893",
+      "title": "Colour Stix",
+      "link": "\/collections\/colour-shadow-stix",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|eyeliner"] = {
+      "parent": "eyes",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-eyeliner.png?v=1592185803",
+      "title": "Eyeliner",
+      "link": "\/collections\/eyeliner",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|brows"] = {
+      "parent": "eyes",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-brow.png?v=1592185804",
+      "title": "Brows",
+      "link": "\/collections\/brow",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|mascara"] = {
+      "parent": "eyes",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-mascara.png?v=1592185804",
+      "title": "Mascara",
+      "link": "\/collections\/mascara",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|false-lashes"] = {
+      "parent": "eyes",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-lashes.png?v=1592185805",
+      "title": "False Lashes",
+      "link": "\/collections\/lashes",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|eye-brushes"] = {
+      "parent": "eyes",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/small-shader-brush_1_800x1200_05b31057-d3c8-437c-bc6d-4c33d8b5e48c.webp?v=1647380060",
+      "title": "Eye Brushes",
+      "link": "\/collections\/eye-brushes",
+      "layer": "2"
+      }
+
+      navigation_data["eyes|eye-sets"] = {
+      "parent": "eyes",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-eyesets.png?v=1592185805",
+      "title": "Eye Sets",
+      "link": "\/collections\/curated-eye-sets",
+      "layer": "2"
+      }
+
+      navigation_data["lips|shop-all-lips"] = {
+      "parent": "lips",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Shop All Lips",
+      "link": "\/collections\/shop-all-lips",
+      "layer": "2"
+      }
+
+      navigation_data["lips|lip-lacquer"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Cafe-De-Paris-Cap-Off.jpg?v=1636738705",
+      "title": "Lip Lacquer",
+      "link": "\/collections\/fresh-kiss-lip-lacquer",
+      "layer": "2"
+      }
+
+      navigation_data["lips|lip-creme"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Alt-Rock-Cap-Off.jpg?v=1631137870",
+      "title": "Lip Crème",
+      "link": "\/collections\/fresh-kiss-lip-creme",
+      "layer": "2"
+      }
+
+      navigation_data["lips|glossy-lip-stain"] = {
+      "parent": "lips",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-liquidlipstick.png?v=1592185805",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Big-Apple-Cap-Off.jpg?v=1625681330",
+      "title": "Glossy Lip Stain",
+      "link": "\/collections\/fresh-kiss-glossy-lip-stain",
+      "layer": "2"
+      }
+
+      navigation_data["lips|liquid-lipsticks"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-liquidlipstick.png?v=1592185805",
+      "title": "Liquid Lipsticks",
+      "link": "\/collections\/liquid-lipsticks",
+      "layer": "2"
+      }
+
+      navigation_data["lips|lip-gloss"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/Infinite-Cap-Off.jpg?v=1648593073",
+      "title": "Lip Gloss",
+      "link": "\/collections\/lip-gloss",
+      "layer": "2"
+      }
+
+      navigation_data["lips|lux-lip-oil"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/LipOilNavIcon.jpg?v=1595521664",
+      "title": "Lux Lip Oil",
+      "link": "\/collections\/lux-lip-oil",
+      "layer": "2"
+      }
+
+      navigation_data["lips|lipstick"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Regulate-Macro_800x1200_0439d609-1c8e-4cf1-825c-b0765c47d738.jpg?v=1639612802",
+      "title": "Lipstick",
+      "link": "\/collections\/lux-lipstick",
+      "layer": "2"
+      }
+
+      navigation_data["lips|lippie-stix-sup-sup"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Happy-Thoughts-Lippie-Stix-Macro.jpg?v=1654727935",
+      "title": "Lippie Stix\u003csup\u003e®\u003c\/sup\u003e",
+      "link": "\/collections\/lippie-stix",
+      "layer": "2"
+      }
+
+      navigation_data["lips|lippie-pencil"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Brink-Macro.jpg?v=1654727892",
+      "title": "Lippie Pencil",
+      "link": "\/collections\/lippie-pencil",
+      "layer": "2"
+      }
+
+      navigation_data["lips|glowing-lip"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Cockatoo-with-Cap.jpg?v=1643914881",
+      "title": "Glowing Lip",
+      "link": "\/collections\/glowing-lip",
+      "layer": "2"
+      }
+
+      navigation_data["lips|blotted-lip"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Talker-Cap-Off.jpg?v=1639612681",
+      "title": "Blotted Lip",
+      "link": "\/collections\/blotted-lip",
+      "layer": "2"
+      }
+
+      navigation_data["lips|lip-tint"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-liptint.png?v=1592185805",
+      "title": "Lip Tint",
+      "link": "\/collections\/lip-crayons",
+      "layer": "2"
+      }
+
+      navigation_data["lips|lip-sets"] = {
+      "parent": "lips",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-lipsets.png?v=1592185805",
+      "title": "Lip Sets",
+      "link": "\/collections\/lip-bundles",
+      "layer": "2"
+      }
+
+      navigation_data["face|shop-all-face"] = {
+      "parent": "face",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Shop All Face",
+      "link": "\/collections\/shop-all-face",
+      "layer": "2"
+      }
+
+      navigation_data["face|foundation"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Deep-Dark-200.jpg?v=1593034122",
+      "title": "Foundation",
+      "link": "\/collections\/foundation",
+      "layer": "2"
+      }
+
+      navigation_data["face|tinted-moisturizer"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-tintedmoisturizer.png?v=1592185804",
+      "title": "Tinted Moisturizer",
+      "link": "\/products\/pretty-fresh-hyaluronic-acid-tinted-moisturizer",
+      "layer": "2"
+      }
+
+      navigation_data["face|concealer"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-concealer.png?v=1592185804",
+      "title": "Concealer",
+      "link": "\/collections\/full-coverage-concealers",
+      "layer": "2"
+      }
+
+      navigation_data["face|face-powder"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/dark-20.jpg?v=1642094903",
+      "title": "Face Powder",
+      "link": "\/collections\/powder",
+      "layer": "2"
+      }
+
+      navigation_data["face|primer-setting-spray"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-settingprimer.png?v=1592185804",
+      "title": "Primer \u0026 Setting Spray",
+      "link": "\/collections\/primer-setting-spray",
+      "layer": "2"
+      }
+
+      navigation_data["face|highlighter"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-highlighter.png?v=1592185805",
+      "title": "Highlighter",
+      "link": "\/collections\/highlighter",
+      "layer": "2"
+      }
+
+      navigation_data["face|blush-bronzer"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-nav-blushbronzer.png?v=1592185805",
+      "title": "Blush + Bronzer",
+      "link": "\/collections\/blush-bronzer",
+      "layer": "2"
+      }
+
+      navigation_data["face|glitter"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Glitter-3-copy_800x1200_d2bca301-a3de-4cf9-ba6b-dcfd7805aafe.jpg?v=1642716579",
+      "title": "Glitter",
+      "link": "\/collections\/glitter",
+      "layer": "2"
+      }
+
+      navigation_data["face|face-accessories"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Freckle-Pen-Soft-Brown-Macro2.jpg?v=1594829983",
+      "title": "Face Accessories",
+      "link": "\/collections\/face-accessories",
+      "layer": "2"
+      }
+
+      navigation_data["face|makeup-tools-accessories"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/angled-face-brush_1_800x1200_8775fa98-9062-418b-a2d8-b622fc4fbb00.jpg?v=1642716523",
+      "title": "Makeup Tools \u0026 Accessories",
+      "link": "\/collections\/makeup-tools",
+      "layer": "2"
+      }
+
+      navigation_data["face|face-sets"] = {
+      "parent": "face",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Face_Sets_934c8cf6-c714-40d1-8b8c-33818c1761af.jpg?v=1592938587",
+      "title": "Face Sets",
+      "link": "\/collections\/face-makeup-sets",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|high-school-musical"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/HSM_CPNavBannerRec_2139.jpg?v=1660782364",
+      "title": "High School Musical",
+      "link": "https:\/\/www.colourpop.com\/collections\/high-school-musical",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|bt21"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP-Collection-Square--BT-21.jpg?v=1657580574",
+      "title": "BT21",
+      "link": "\/collections\/bt21",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|disney-princess"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/True-Loves-Kiss-Stylized-Square_2.jpg?v=1657216141",
+      "title": "Disney Princess",
+      "link": "\/collections\/disney-princess-lux-lipstick-vault",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|jasmine-chiswell"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Collection-Square--Jasmine-Chiswell-900x900_3.jpg?v=1657315608",
+      "title": "Jasmine Chiswell",
+      "link": "\/collections\/jasmine-chiswell",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|star-wars"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/CollectionSquare_DarthVader2.jpg?v=1645636868",
+      "title": "Star Wars™",
+      "link": "\/collections\/star-wars",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|disney"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/CollectionSquare_Winnie-the-Pooh.jpg?v=1650561181",
+      "title": "Disney",
+      "link": "\/collections\/disney",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|nba"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/77c09697-5b9f-4f3f-983b-187b31052cbe.jpg?v=1634232391",
+      "title": "NBA",
+      "link": "\/collections\/colourpop-x-nba",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|sailor-moon"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/SailorMoon_collab-banner.jpg?v=1592950862",
+      "title": "Sailor Moon",
+      "link": "\/collections\/sailor-moon-makeup-collaboration",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|powerpuff-girls"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/collections\/PPG_COLLAB_SQUARE.jpg?v=1626192689",
+      "title": "PowerPuff Girls",
+      "link": "\/collections\/powerpuff-girls-x-colourpop",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|hello-kitty-tropical-escape"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/HK_FRUITS_COLLAB_SQUARE.png?v=1623886497",
+      "title": "Hello Kitty Tropical Escape",
+      "link": "\/collections\/hello-kitty-tropical-escape",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|malibu-barbie"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/BARBIE_COLLAB_SQUARE.jpg?v=1620683426",
+      "title": "Malibu Barbie™",
+      "link": "\/collections\/malibu-barbie",
+      "layer": "2"
+      }
+
+      navigation_data["collabs|lizzie-mcguire"] = {
+      "parent": "collabs",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/LIZZIEMG_COLLAB_SQUARE.jpg?v=1616608336",
+      "title": "Lizzie McGuire",
+      "link": "\/collections\/lizzie-mcguire",
+      "layer": "2"
+      }
+
+      navigation_data["skincare|shop-by-product"] = {
+      "parent": "skincare",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/FR_Horizontal_FINAL-PrimaryLogo.svg?v=1592513961",
+      "image": "",
+      "title": "Shop by Product",
+      "link": "",
+      "layer": "2"
+      }
+
+      navigation_data["skincare|shop-by-skin-type"] = {
+      "parent": "skincare",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/FR_Horizontal_FINAL-PrimaryLogo.svg?v=1592513961",
+      "image": "",
+      "title": "Shop by Skin Type",
+      "link": "",
+      "layer": "2"
+      }
+
+      navigation_data["skincare|newest-skincare"] = {
+      "parent": "skincare",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/FR_Horizontal_FINAL-PrimaryLogo.svg?v=1592513961",
+      "image": "",
+      "title": "Newest Skincare",
+      "link": "\/collections\/fourth-ray-new-arrivals",
+      "layer": "2"
+      }
+
+      navigation_data["skincare|shop-all-skincare"] = {
+      "parent": "skincare",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/FR_Horizontal_FINAL-PrimaryLogo.svg?v=1592513961",
+      "image": "",
+      "title": "Shop All Skincare",
+      "link": "\/collections\/fourth-ray-beauty",
+      "layer": "2"
+      }
+
+      navigation_data["shop-by-product|cleansers"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/FR-nav-cleanser.png?v=1592257487",
+      "title": "Cleansers",
+      "link": "\/collections\/fourth-ray-cleanser",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|masks"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/FR-nav-mask.png?v=1592257486",
+      "title": "Masks",
+      "link": "\/collections\/fourth-ray-masks",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|exfoliators"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Pineapple-Face-Polish-Swatch_copy.png?v=1653603160",
+      "title": "Exfoliators",
+      "link": "\/collections\/fourth-ray-face-exfoliators",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|tonics-mists"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/FR-nav-tonic.png?v=1592257486",
+      "title": "Tonics + Mists",
+      "link": "\/collections\/fourth-ray-tonics-mists",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|serums"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/FR-nav-serum.png?v=1592257486",
+      "title": "Serums",
+      "link": "\/collections\/fourth-ray-serum-treatments",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|face-treatments"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Pineapple-Face-Polish-Swatch_copy.png?v=1653603160",
+      "title": "Face Treatments",
+      "link": "\/collections\/fourth-ray-face-treatments",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|moisturizers"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/FR-nav-moisturizer.png?v=1592257486",
+      "title": "Moisturizers",
+      "link": "\/collections\/fourth-ray-moisturizer",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|eye-care"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/FR-nav-eyecream.png?v=1592257486",
+      "title": "Eye Care",
+      "link": "\/collections\/fourth-ray-eye-cream",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|lip-treatments"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/Lip-Mask.png?v=1610558150",
+      "title": "Lip Treatments",
+      "link": "\/collections\/fourth-ray-lip-treatments",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|skincare-sets"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/FR-nav-facesets.png?v=1592257486",
+      "title": "Skincare Sets",
+      "link": "\/collections\/fourth-ray-sets",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-product|skincare-tools"] = {
+      "parent": "shop-by-product",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/WhiteSquare.jpg?v=1593035677",
+      "title": "Skincare Tools",
+      "link": "\/collections\/fourth-ray-tools",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-skin-type|normal"] = {
+      "parent": "shop-by-skin-type",
+      "logo": "",
+      "image": "",
+      "title": "Normal",
+      "link": "\/collections\/fourth-ray-normal-skin",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-skin-type|combination"] = {
+      "parent": "shop-by-skin-type",
+      "logo": "",
+      "image": "",
+      "title": "Combination",
+      "link": "\/collections\/fourth-ray-combination-skin",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-skin-type|oily"] = {
+      "parent": "shop-by-skin-type",
+      "logo": "",
+      "image": "",
+      "title": "Oily",
+      "link": "\/collections\/fourth-ray-oily-skin",
+      "layer": "3"
+      }
+
+      navigation_data["shop-by-skin-type|dry"] = {
+      "parent": "shop-by-skin-type",
+      "logo": "",
+      "image": "",
+      "title": "Dry",
+      "link": "\/collections\/fourth-ray-dry-skin",
+      "layer": "3"
+      }
+
+      navigation_data["body|sol-new-arrivals"] = {
+      "parent": "body",
+      "logo": "",
+      "image": "",
+      "title": "SOL New Arrivals",
+      "link": "\/collections\/sol-new-arrivals",
+      "layer": "2"
+      }
+
+      navigation_data["body|body-care"] = {
+      "parent": "body",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/SOL-LOGO-black.svg?v=1592513961",
+      "image": "",
+      "title": "Body Care",
+      "link": "",
+      "layer": "2"
+      }
+
+      navigation_data["body|tanning"] = {
+      "parent": "body",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/SOL-LOGO-black.svg?v=1592513961",
+      "image": "",
+      "title": "Tanning",
+      "link": "",
+      "layer": "2"
+      }
+
+      navigation_data["body|body-makeup"] = {
+      "parent": "body",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/SOL-LOGO-black.svg?v=1592513961",
+      "image": "",
+      "title": "Body Makeup",
+      "link": "",
+      "layer": "2"
+      }
+
+      navigation_data["body|body-oil"] = {
+      "parent": "body",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/SOL-LOGO-black.svg?v=1592513961",
+      "image": "",
+      "title": "Body Oil",
+      "link": "",
+      "layer": "2"
+      }
+
+      navigation_data["body|body-tools"] = {
+      "parent": "body",
+      "logo": "",
+      "image": "",
+      "title": "Body Tools",
+      "link": "\/collections\/sol-body-tools",
+      "layer": "2"
+      }
+
+      navigation_data["body|body-sets"] = {
+      "parent": "body",
+      "logo": "",
+      "image": "",
+      "title": "Body Sets",
+      "link": "\/collections\/sol-body-sets",
+      "layer": "2"
+      }
+
+      navigation_data["body|shop-all-body"] = {
+      "parent": "body",
+      "logo": "",
+      "image": "",
+      "title": "Shop All Body",
+      "link": "\/collections\/sol-body",
+      "layer": "2"
+      }
+
+      navigation_data["body-oil|shimmering-dry-oil"] = {
+      "parent": "body-oil",
+      "logo": "",
+      "image": "",
+      "title": "Shimmering Dry Oil",
+      "link": "\/products\/shimmering-dry-oil",
+      "layer": "3"
+      }
+
+      navigation_data["body-oil|glow-oil"] = {
+      "parent": "body-oil",
+      "logo": "",
+      "image": "",
+      "title": "Glow Oil",
+      "link": "\/products\/sol-body-glow-oil",
+      "layer": "3"
+      }
+
+      navigation_data["body-makeup|face-body-bronzer"] = {
+      "parent": "body-makeup",
+      "logo": "",
+      "image": "",
+      "title": "Face + Body Bronzer",
+      "link": "\/collections\/sol-face-body-satin-bronzer",
+      "layer": "3"
+      }
+
+      navigation_data["body-makeup|face-body-makeup"] = {
+      "parent": "body-makeup",
+      "logo": "",
+      "image": "",
+      "title": "Face + Body Makeup",
+      "link": "\/collections\/face-body-makeup",
+      "layer": "3"
+      }
+
+      navigation_data["body-makeup|face-body-highlighter"] = {
+      "parent": "body-makeup",
+      "logo": "",
+      "image": "",
+      "title": "Face + Body Highlighter",
+      "link": "\/products\/shimmer-face-body-powder",
+      "layer": "3"
+      }
+
+      navigation_data["body-makeup|face-body-bronzing-balm"] = {
+      "parent": "body-makeup",
+      "logo": "",
+      "image": "",
+      "title": "Face + Body Bronzing Balm",
+      "link": "\/products\/sol-face-and-body-bronzing-balm",
+      "layer": "3"
+      }
+
+      navigation_data["body-oil|cleansing-oil"] = {
+      "parent": "body-oil",
+      "logo": "",
+      "image": "",
+      "title": "Cleansing Oil",
+      "link": "\/products\/sol-body-nourishing-cleansing-oil",
+      "layer": "3"
+      }
+
+      navigation_data["body-care|wash"] = {
+      "parent": "body-care",
+      "logo": "",
+      "image": "",
+      "title": "Wash",
+      "link": "\/products\/sol-hydrating-coconut-body-wash",
+      "layer": "3"
+      }
+
+      navigation_data["body-care|scrub"] = {
+      "parent": "body-care",
+      "logo": "",
+      "image": "",
+      "title": "Scrub",
+      "link": "\/products\/sol-sugar-body-polish-body-scrub",
+      "layer": "3"
+      }
+
+      navigation_data["body-care|lotion"] = {
+      "parent": "body-care",
+      "logo": "",
+      "image": "",
+      "title": "Lotion",
+      "link": "\/products\/sol-body-lotion",
+      "layer": "3"
+      }
+
+      navigation_data["tanning|insta-bronze-tanning-mousse"] = {
+      "parent": "tanning",
+      "logo": "",
+      "image": "",
+      "title": "Insta Bronze Tanning Mousse",
+      "link": "\/collections\/sol-tanning-mousse",
+      "layer": "3"
+      }
+
+      navigation_data["tanning|gradual-sunless-tanning-lotion"] = {
+      "parent": "tanning",
+      "logo": "",
+      "image": "",
+      "title": "Gradual Sunless Tanning Lotion",
+      "link": "\/products\/sol-gradual-sunless-tanning-lotion",
+      "layer": "3"
+      }
+
+      navigation_data["tanning|gradual-tanning-face-moisturizer"] = {
+      "parent": "tanning",
+      "logo": "",
+      "image": "",
+      "title": "Gradual Tanning Face Moisturizer",
+      "link": "\/products\/gradual-tanning-face-moisturizer",
+      "layer": "3"
+      }
+
+      navigation_data["default|shop-all-collabs"] = {
+      "parent": "default",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/HSM_CPNavBannerRec_2139.jpg?v=1660782364",
+      "title": "Shop All Collabs",
+      "link": "\/collections\/collab",
+      "layer": "1"
+      }
+
+      navigation_data["default|new-arrivals"] = {
+      "parent": "default",
+      "logo": "",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/files\/CATEGORYSQUARE_ClayitCool_1_1.jpg?v=1658174704",
+      "title": "New Arrivals",
+      "link": "\/collections\/new-now",
+      "layer": "1"
+      }
+
+      navigation_data["the-love-shop|great-together"] = {
+      "parent": "the-love-shop",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Great Together",
+      "link": "https:\/\/colourpop.com\/collections\/great-together-bundles",
+      "layer": "2"
+      }
+
+      navigation_data["the-love-shop|perfect-pairs"] = {
+      "parent": "the-love-shop",
+      "logo": "",
+      "image": "",
+      "title": "Perfect Pairs",
+      "link": "https:\/\/colourpop.com\/collections\/perfect-pairs-kits-sets",
+      "layer": "3"
+      }
+
+      navigation_data["the-love-shop|be-mine"] = {
+      "parent": "the-love-shop",
+      "logo": "",
+      "image": "",
+      "title": "Be Mine",
+      "link": "https:\/\/colourpop.com\/collections\/be-mine-wish-list",
+      "layer": "3"
+      }
+
+      navigation_data["the-love-shop|xoxo-faves"] = {
+      "parent": "the-love-shop",
+      "logo": "",
+      "image": "",
+      "title": "XOXO Faves",
+      "link": "\/collections\/the-best-fan-faves",
+      "layer": "3"
+      }
+
+      navigation_data["the-love-shop|colour-me-pink"] = {
+      "parent": "the-love-shop",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Colour Me Pink",
+      "link": "https:\/\/colourpop.com\/collections\/color-me-makeup",
+      "layer": "2"
+      }
+
+      navigation_data["the-love-shop|love-your-selfie"] = {
+      "parent": "the-love-shop",
+      "logo": "",
+      "image": "",
+      "title": "Love Your Selfie",
+      "link": "https:\/\/colourpop.com\/collections\/self-care-skin-sets",
+      "layer": "3"
+      }
+
+      navigation_data["the-love-shop|gift-sets"] = {
+      "parent": "the-love-shop",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Gift Sets",
+      "link": "",
+      "layer": "2"
+      }
+
+      navigation_data["gift-sets|gifts-under-25"] = {
+      "parent": "gift-sets",
+      "logo": "",
+      "image": "",
+      "title": "Gifts Under $25",
+      "link": "https:\/\/colourpop.com\/collections\/gift-sets?q=under-25",
+      "layer": "3"
+      }
+
+      navigation_data["gift-sets|gifts-under-50"] = {
+      "parent": "gift-sets",
+      "logo": "",
+      "image": "",
+      "title": "Gifts Under $50",
+      "link": "https:\/\/colourpop.com\/collections\/gift-sets?q=under-50",
+      "layer": "3"
+      }
+
+      navigation_data["gift-sets|gifts-under-100"] = {
+      "parent": "gift-sets",
+      "logo": "",
+      "image": "",
+      "title": "Gifts Under $100",
+      "link": "https:\/\/colourpop.com\/collections\/gift-sets?q=under-100",
+      "layer": "3"
+      }
+
+      navigation_data["gift-sets|shop-all-gifts"] = {
+      "parent": "gift-sets",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Shop All Gifts",
+      "link": "https:\/\/colourpop.com\/collections\/gift-sets",
+      "layer": "3"
+      }
+
+      navigation_data["the-love-shop|thinking-of-you"] = {
+      "parent": "the-love-shop",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "Thinking of You",
+      "link": "",
+      "layer": "2"
+      }
+
+      navigation_data["thinking-of-you|supershock-is-4-ever"] = {
+      "parent": "thinking-of-you",
+      "logo": "",
+      "image": "",
+      "title": "Supershock Is 4-Ever",
+      "link": "\/products\/the-supers-super-shock-shadow-set",
+      "layer": "3"
+      }
+
+      navigation_data["thinking-of-you|sweet-thoughts"] = {
+      "parent": "thinking-of-you",
+      "logo": "",
+      "image": "",
+      "title": "Sweet Thoughts",
+      "link": "https:\/\/colourpop.com\/collections\/sweet-thoughts",
+      "layer": "3"
+      }
+
+      navigation_data["thinking-of-you|pretty-perfect"] = {
+      "parent": "thinking-of-you",
+      "logo": "",
+      "image": "",
+      "title": "Pretty Perfect",
+      "link": "\/collections\/prep-essentials",
+      "layer": "3"
+      }
+
+      navigation_data["thinking-of-you|i-like-hue"] = {
+      "parent": "thinking-of-you",
+      "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/logo.svg?447747",
+      "image": "",
+      "title": "I Like Hue",
+      "link": "https:\/\/colourpop.com\/collections\/makeup-bold-new-hue",
+      "layer": "3"
+      }
+
+      navigation_data["thinking-of-you|this-is-your-sign"] = {
+      "parent": "thinking-of-you",
+      "logo": "",
+      "image": "",
+      "title": "This is Your Sign",
+      "link": "https:\/\/colourpop.com\/collections\/astrology-collection",
+      "layer": "3"
+      }
+
+      navigation_data["thinking-of-you|roses-are-red"] = {
+      "parent": "thinking-of-you",
+      "logo": "",
+      "image": "",
+      "title": "Roses Are Red",
+      "link": "https:\/\/colourpop.com\/collections\/bold-lips",
+      "layer": "3"
+      }
+
+      navigation_data["thinking-of-you|lovely-lux-lips"] = {
+      "parent": "thinking-of-you",
+      "logo": "",
+      "image": "",
+      "title": "Lovely LUX Lips",
+      "link": "https:\/\/colourpop.com\/collections\/lux-lips",
+      "layer": "3"
+      }
+
+      navigation_data["sale|value-sets-bundles"] = {
+      "parent": "sale",
+      "logo": "",
+      "image": "",
+      "title": "Value Sets \u0026 Bundles",
+      "link": "\/collections\/value-sets",
+      "layer": "3"
+      }
+
+      navigation_data["sale|build-your-own-palette"] = {
+      "parent": "sale",
+      "logo": "",
+      "image": "",
+      "title": "Build Your Own Palette",
+      "link": "\/pages\/create-your-own-makeup-palette",
+      "layer": "3"
+      }
+
+      navigation_data["sale|get-3-super-shock-shadows-for-15"] = {
+      "parent": "sale",
+      "logo": "",
+      "image": "",
+      "title": "Get 3 Super Shock Shadows for $15",
+      "link": "\/collections\/super-shock-shadow",
+      "layer": "2"
+      }
+
+      navigation_data["sale|build-your-own-lippie-stix-stash-cup"] = {
+      "parent": "sale",
+      "logo": "",
+      "image": "",
+      "title": "Build Your Own Lippie Stix Stash Cup",
+      "link": "\/collections\/lippie-stix",
+      "layer": "2"
+      }
+
+      navigation_data["sale|back-to-school-sale-up-to-40-off"] = {
+      "parent": "sale",
+      "logo": "",
+      "image": "",
+      "title": "Back to School Sale | Up to 40% Off",
+      "link": "\/collections\/back-to-school-promo",
+      "layer": "2"
+      }
+
+      navigation_data["sale|new-markdowns-added-up-to-50-off"] = {
+      "parent": "sale",
+      "logo": "",
+      "image": "",
+      "title": "New Markdowns Added | Up to 50% Off",
+      "link": "\/collections\/sales-offers",
+      "layer": "2"
+      }
+
+      navigation_data["sale|last-call-up-to-80-off"] = {
+      "parent": "sale",
+      "logo": "",
+      "image": "",
+      "title": "Last Call | Up to 80% Off",
+      "link": "\/collections\/last-call-1",
+      "layer": "2"
+      }
+
+      </script>
+      <section class="nospacing" data-section-id="theme_v4_navigation" data-section-type="Navigation">
+        <nav aria-labelledby="mainmenulabel">
+          <label id="mainmenulabel" class="visually-hidden">Main Navigation Menu</label>
+          <div class="navigation__container">
+            <div class='navigation_header'>
+              <div class='navigation__back'></div>
+              <div class='navigation__logo'></div>
+              <div class='navigation__title'></div>
+            </div>
+            <ul class="navigation__list navigation__list--links" data-layer='-1' data-navigation-handle="default"></ul>
+            <ul class='navigation__list'>
+              <li class="navigation__sublist">
+                <a href="/account/login"><img src='https://cdn.shopify.com/s/files/1/1338/0845/files/icon-mobilenav-login.svg?78895'>Login</a>
+              </li>
+              <li class="navigation__sublist">
+                <a href="/account/login"><img src='https://cdn.shopify.com/s/files/1/1338/0845/files/icon-mobilenav-orderhistory.svg?78895' alt=''> order history</a>
+              </li>
+              <li class="navigation__sublist">
+                <a href="/account/login"><img src='https://cdn.shopify.com/s/files/1/1338/0845/files/icon-mobilenav-mywishlist.svg?78895' alt=''> my wishlist</a>
+              </li>
+              <li class="navigation__sublist">
+                <a href="/account/login"><img src='https://cdn.shopify.com/s/files/1/1338/0845/files/icon-mobilenav-beautyprofile.svg?78895' alt=''> beauty profile</a>
+              </li>
+            </ul>
+          </div>
+        </nav><button class='navigation--close visually-hidden'>Close Navigation Menu</button>
+      </section>
+    </div>
+    <div id="shopify-section-theme_v4_sidecart" class="shopify-section">
+      <script>
+      theme.settings.cart_banner = {
+      enabled: false,
+      link: "/collections/",
+      image: "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0835\/files\/CP_PrettyFreshSamples_CART_2.gif?v=1622760911",
+      alt: "3 Free Samples with $30+ Purchase"
+      };
+
+      theme.settings.cart_carousel = {
+      enabled: true,
+      carousel_title: "Recommended For You",
+      carousel_banner: "",
+
+      type: "always", 
+      collection: "mini-cart-upsell-carousel",
+
+      activator: "SOL Body",
+      min_product_price: 1000,      
+      promo_product_tag: "#.promo:SOLtools5",
+      max_promo_products: 100
+      };
+      </script>
+      <section class="nospacing" data-section-id="theme_v4_sidecart" data-section-type="SideCart">
+        <div class='side-cart__parent gip-cart-disable'>
+          <div class='side-cart__header'>
+            <label class='side-cart__header--title' role="heading" aria-level="1">cart</label> <button class="side-cart__header--close"><img src="https://cdn.shopify.com/s/files/1/1338/0835/files/icon-close.svg?11699190567998258922" alt="Close Side Cart"></button>
+            <div class='side-cart__shipping'>
+              <div class='side-cart__shipping-bar'></div>
+            </div>
+            <div id="sidecart__afterpay-handle">
+              <div class="sidecart__afterpay-wrapper" style='background-image: url(https://cdn.shopify.com/s/files/1/1338/0835/files/CP_Web_Klarna-Assets_CartCheckout_4.png?v=1648667732);'>
+                <div class="sidecart__afterpay-heading" style='color: #000000;'>
+                  check out now for<br>
+                  only <span id="afterpay__subtotal money">$0.00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='side-cart__container'>
+            <div class='side-cart__container-products'></div>
+            <div class='side-cart__container-carousel'></div>
+          </div>
+          <div class='side-cart__info'>
+            <div class="side-cart__info--subtotal">
+              <label>Subtotal <span class="money gip-secondary-cart-subtotal-disable"><span>$0.00</span></span></label>
+            </div>
+            <div class='side-cart__info--cart'>
+              <a class='btn' href="/cart">SECURE CHECKOUT</a>
+            </div><!-- Glosku button -->
+            <div class="wx-box" style="display:none;">
+              <button type="button" style="width: 100%;margin-top: 5px;border-radius: 3px;" class="glosku-wxpay-btn btn btn--secondary">支付宝支付</button>
+            </div><!-- Glosku button -->
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="page-container" id="PageContainer">
+      <main class="main-content main-content--product" id="MainContent" role="main">
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Blending Sponge",
+        "image": [
+        "https:\/\/cdn.shopify.com\/s\/files\/1\/1338\/0845\/products\/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy_800x1200.jpg?v=1583523164"
+        ],
+        "description": null,
+        "sku": "Brush-BlendingSponge",
+        "mpn": "10020010002900",
+        "brand": {
+        "@type": "Product",
+        "name": "ColourPop"
+        },
+        "offers": {
+        "@type": "Offer",
+        "url": "\/products\/blending-sponge",
+        "priceCurrency": "USD",
+        "price": "8.00",
+        "itemCondition": "New",
+        "availability": "InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "Colourpop Cosmetics"
+        }
+        }
+        }
+        </script>
+        <div id="shopify-section-product_breadcrumbs" class="shopify-section">
+          <section class="wow fadeIn nopadding nospacing" data-section-id="product_breadcrumbs" data-section-type="ProductBreadcrumbs">
+            <ul class='product-breadcrumbs product-breadcrumbs--colourpop'>
+              <li class='product-breadcrumbs__breadcrumb'>
+                <a href='/pages/shop'>Makeup</a>
+              </li>
+              <li class='product-breadcrumbs__breadcrumb'>
+                <a href='/collections/makeup-tools'>Tools & Accessories</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div id="shopify-section-product_colourpop" class="shopify-section">
+          <script>
+          var pdp_data = {
+          title: "Blending Sponge",
+          breadcrumb:"makeup-tools-accessories",
+          vendor: "colourpop",
+          template:"simple",
+          type: "Makeup Tools \u0026 Accessories",
+          product_data: {"blending-sponge": {},}    
+          }
+          </script>
+          <section class="wow fadeIn nopadding nospacing product product--colourpop" data-product-handle="blending-sponge" data-section-id="product_colourpop" data-section-type="Product" data-section-subtype="default">
+            <h1 class='visually-hidden'>
+              Blending Sponge - Makeup Tools & Accessories
+            </h1>
+            <article class='product-details'>
+              <div class='showtablet'>
+                <div class='product-details__info'>
+                  <label itemprop="name" class="product-details__title">Blending Sponge</label> <label class="product-details__type">Makeup Tools & Accessories</label>
+                </div>
+                <div class='product-details__price'>
+                  <label class='product-details__price--sale' tabindex='0'><span class='visually-hidden'>Sale Price:</span> <span class='money'>$8</span></label>
+                </div>
+              </div>
+              <div class="product-details__left">
+                <div class='product-images'>
+                  <div class="product-images__carousel product-images__carousel--mobile owl-carousel owl-theme showtablet fancy-box__trigger" data-loop="" data-autowidth="" data-center="" data-dots="" data-desktop="1">
+                    <div class='product-image' data-src="//cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy_1024x1024.jpg?v=1583523164" data-position="0">
+                      <a class="fancy-box__img-url" href='//cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy.jpg?v=1583523164' data-fancybox="gallery" data-caption="Pretty Fresh Makeup Blending Sponge"><span class='visually-hidden'>Click to view original size Image</span> <img src='//cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy_800x1200.jpg?v=1583523164' alt='Pretty Fresh Makeup Blending Sponge'></a>
+                    </div>
+                    <div class='product-image' data-src="//cdn.shopify.com/s/files/1/1338/0845/products/blending-sponge_1_1024x1024.jpg?v=1569441617" data-position="1">
+                      <a class="fancy-box__img-url" href='//cdn.shopify.com/s/files/1/1338/0845/products/blending-sponge_1.jpg?v=1569441617' data-fancybox="gallery" data-caption="ColourPop Pretty Fresh Makeup Blending Sponge"><span class='visually-hidden'>Click to view original size Image</span> <img src='//cdn.shopify.com/s/files/1/1338/0845/products/blending-sponge_1_800x1200.jpg?v=1569441617' alt='ColourPop Pretty Fresh Makeup Blending Sponge'></a>
+                    </div>
+                  </div>
+                  <div class='product-images__dots product-details__floating' aria-hidden="true"></div>
+                  <div class="product-images__carousel product-images__carousel--desktop hidetablet">
+                    <div class='product-image' data-src="//cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy_1024x1024.jpg?v=1583523164" data-position="0">
+                      <span class='visually-hidden'>Click to view original size Image</span> <img src='//cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy_800x1200.jpg?v=1583523164' alt='Pretty Fresh Makeup Blending Sponge'>
+                    </div>
+                    <div class='product-image' data-src="//cdn.shopify.com/s/files/1/1338/0845/products/blending-sponge_1_1024x1024.jpg?v=1569441617" data-position="1">
+                      <span class='visually-hidden'>Click to view original size Image</span> <img src='//cdn.shopify.com/s/files/1/1338/0845/products/blending-sponge_1_800x1200.jpg?v=1569441617' alt='ColourPop Pretty Fresh Makeup Blending Sponge'>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class='product-details__right product-details__floating'>
+                <div class='product-details__info hidetablet'>
+                  <label itemprop="name" class="product-details__title">Blending Sponge</label> <label class="product-details__type">Makeup Tools & Accessories</label>
+                </div>
+                <div class='product-details__price hidetablet'>
+                  <label class='product-details__price--sale' tabindex='0'><span class='visually-hidden'>Sale Price:</span> <span class='money'>$8</span></label>
+                </div>
+                <form action="/cart/add" method="post" class='product-details__actions'>
+                  <!--
+          - MVP swatches are built in theme.v4.js
+          - Search for "buildMVPSwatches()";
+          -->
+                  <div class="product-actions__quantity">
+                    <div class="action-qty">
+                      <button class="text-link product-actions__quantity--down down" field="quantity"><img src='//cdn.shopify.com/s/files/1/1338/0835/files/icon-minus.svg?8342380176482341839' alt='Decrease Quantity'></button> <input type="text" name="quantity" class="quantity product-actions__quantity--input" value="1"> <button class="text-link up product-actions__quantity--up" field="quantity"><img src='//cdn.shopify.com/s/files/1/1338/0835/files/icon-plus.svg?8342380176482341839' alt='Increase Quantity'></button>
+                    </div>
+                  </div><!--
+          - Call to action buttons are in theme.v4.js
+          - Search for "buildProductCTA()";
+          -->
+                </form>
+                <div class='product-details__wishlist'>
+                  <div class="wishlist__container wishlist__container--product" data-handle='blending-sponge'></div>
+                </div>
+                <div class='product-details__description'>
+                  <div class='product-details__description--text'>
+                    <p>
+                      <span class='product-details__description--shade'>A multi-use sponge that effortlessly blends makeup</span>
+                    </p>
+                  </div>
+                </div>
+                <div class='product-details__reviews'>
+                  <div class="yotpo bottomLine" data-product-id="4200962687058"></div>
+                </div>
+                <div class='product-details__social'>
+                  <ul>
+                    <li>
+                      <a target="_blank" class="facebook" href="http://www.facebook.com/sharer.php?u=https://colourpop.com/products/blending-sponge"><span class='visually-hidden'>Share on Facebook</span></a>
+                    </li>
+                    <li>
+                      <a target="_blank" class="pinterest" href="http://pinterest.com/pin/create/button/?url=https://colourpop.com/products/blending-sponge&amp;media=http://cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy_800x1200.jpg?v=1583523164"><span class='visually-hidden'>Share on Pinterest</span></a>
+                    </li>
+                    <li>
+                      <a target="_blank" class="twitter" href="http://twitter.com/home?status=https://colourpop.com/products/blending-sponge%20via%20@ColourPopCo"><span class='visually-hidden'>Share on Twitter</span></a>
+                    </li>
+                  </ul>
+                </div><!--
+        - Child product carousel built in theme.v4.js
+        - Search for: buildChildren(product);
+      -->
+                <div class='product-details__upsell'>
+                  <!--
+          - Upsell product built in theme.v4.js
+          - Search for: buildUpsellProduct();
+          -->
+                </div>
+                <div class='product-details__icons'>
+                  <div class='product-details__icons-container'>
+                    <div class='product-details__icon'>
+                      <img class='product-details__icon--image lazy' data-src='//cdn.shopify.com/s/files/1/1338/0845/files/icon_cruelty_free.png?v=18326484931436154744' alt=''> <label class='product-details__icon--label'>cruelty free</label>
+                    </div>
+                    <div class='product-details__icon'>
+                      <img class='product-details__icon--image lazy' data-src='//cdn.shopify.com/s/files/1/1338/0845/files/icon_vegan.png?v=14240262179389662212' alt=''> <label class='product-details__icon--label'>vegan</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <div class='clear clearfix'></div>
+            <article class="product-story">
+              <!--
+    - Product Story built in theme.v4.js
+    - Search for: buildProductStory(product);
+    -->
+            </article>
+            <article class="product-complete">
+              <h2 class='product-title'>
+                <span>complete your look</span>
+              </h2>
+              <div class='product-complete__container'>
+                <!--
+        - Comeplete your look built in theme.v4.js
+        - Search for: buildCompleteYourLook();
+        -->
+              </div>
+            </article>
+            <article class="product-reviews">
+              <h2 class='product-title'>
+                <span>customer reviews</span>
+              </h2>
+              <div class="yotpo yotpo-main-widget" data-product-id="4200962687058" data-name="Blending Sponge" data-url="https://colourpop.com/products/blending-sponge" data-image-url="//cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy_large.jpg%3Fv=1583523164" data-description="&lt;p&gt;A multi-use sponge that effortlessly blends makeup&lt;/p&gt;"></div>
+            </article>
+          </section>
+        </div>
+        <script type="application/javascript" src="https://s3-us-west-2.amazonaws.com/afterpayus-integrations/javascript/present_afterpay.js"></script> 
+        <script>
+
+        const ap_config_desktop = {
+        'cssSelector': ".afterpay-target--desktop",   // REQUIRED: set to the div
+        'locale': 'en-US',                   // REQUIRED: set to the locale for your site
+        'currency': 'USD',                   // optional: set to use a different currency
+        'afterpayLogoColor': 'black',        // optional: set to use black logo or white logo
+        'amount': 800,       // REQUIRED: set to the item price or total order amount
+        'minOrderValue': 35,                 // optional: set if your min order value is different
+        'maxOrderValue': 1000,               // optional: set if your max order value is different
+        'afterpayLearnMore' : true                   // optional: set if you want an 'i' icon instead of 'learn more' text
+        };
+        new Afterpay_presentment(ap_config_desktop).init();
+
+        const ap_config_mobile = {
+        'cssSelector': ".afterpay-target--mobile",   // REQUIRED: set to the div
+        'locale': 'en-US',                   // REQUIRED: set to the locale for your site
+        'currency': 'USD',                   // optional: set to use a different currency
+        'afterpayLogoColor': 'black',        // optional: set to use black logo or white logo
+        'amount': 800,       // REQUIRED: set to the item price or total order amount
+        'minOrderValue': 35,                 // optional: set if your min order value is different
+        'maxOrderValue': 1000,               // optional: set if your max order value is different
+        'afterpayLearnMore' : true                   // optional: set if you want an 'i' icon instead of 'learn more' text
+        };
+        new Afterpay_presentment(ap_config_mobile).init();
+        </script>
+      </main>
+      <div id="shopify-section-theme_v4_footer" class="shopify-section">
+        <footer id="footer" class="footer" role="contentinfo">
+          <section class="nospacing nopadding" data-section-id="theme_v4_footer" data-section-type="Footer">
+            <div class="footer__signup-container">
+              <label class="footer__signup-container--title">Hey, let’s keep in touch!</label> <label class="footer__signup-container--subtitle">Stay in the know when you sign up for our newsletter!</label>
+              <div class="footer__signup-container--form">
+                <form id="footer__signup" aria-label="Subscribe newsletter form" class="email_signup" name="mc-embedded-subscribe-form" action="//manage.kmail-lists.com/subscriptions/subscribe" method="post">
+                  <input class='footer__klaviyo-id' type="hidden" name="g" value="kZwH2d"> <label for='footer-email' class="visually-hidden">Your email address:</label> <input id='footer-email' type="email" aria-describedby="footer__signup-container--error" name="email" placeholder="email address" value=""><!--
+            --><input type="submit" class="btn-main" value="Enter">
+                  <p class='footer__signup--fine-print'>
+                    By entering your email address you will receive promotional updates. Consent is not a condition of purchase. View <a href='/pages/privacy-policy'>Privacy Policy</a>.
+                  </p>
+                  <p id="footer__signup-container--error" class="footer__signup-container--error"></p>
+                </form>
+              </div>
+            </div>
+            <div class="footer__social-container">
+              <ul>
+                <li>
+                  <a class="footer__social-facebook" href="https://www.facebook.com/ColourPopCosmetics" title="Colourpop® on Facebook" target="_blank"><img class='lazy' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/facebook.png?v=1580430486' alt='Facebook'></a>
+                </li>
+                <li>
+                  <a class="footer__social-instagram" href="http://instagram.com/colourpopcosmetics" title="Colourpop® on Instagram" target="_blank"><img class='lazy' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/instagram.png?v=1580430486' alt='Instagram'></a>
+                </li>
+                <li>
+                  <a class="footer__social-twitter" href="http://www.twitter.com/ColourPopCo" title="Colourpop® on Twitter" target="_blank"><img class='lazy' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/twitter.png?v=1580430486' alt='Twitter'></a>
+                </li>
+                <li>
+                  <a class="footer__social-tiktok" href="https://www.tiktok.com/@colourpopco" title="Colourpop® on Tiktok"><img class='lazy' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/tiktok.png?v=1580430290' alt='Tiktok'></a>
+                </li>
+                <li>
+                  <a class="footer__social-youtube" href="https://www.youtube.com/user/colourpopcosmetics" title="Colourpop® on YouTube" target="_blank"><img class='lazy' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/youtube.png?v=1580430486' alt='Youtube'></a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__navigation-container">
+              <ul>
+                <li>
+                  <a href="/pages/about-us">ABOUT</a>
+                </li>
+                <li>
+                  <a href="https://support.colourpop.com/hc/en-us">FAQ</a>
+                </li>
+                <li>
+                  <a href="/pages/terms">TERMS</a>
+                </li>
+                <li>
+                  <a href="/pages/privacy-policy">PRIVACY POLICY</a>
+                </li>
+                <li>
+                  <a href="/pages/cookie-policy">COOKIE POLICY</a>
+                </li>
+                <li>
+                  <a href="https://support.colourpop.com/hc/en-us/requests/new">CONTACT US</a>
+                </li>
+                <li>
+                  <a href="/pages/press">PRESS</a>
+                </li>
+                <li>
+                  <a href="/pages/accessibility-statement">ACCESSIBILITY STATEMENT</a>
+                </li>
+                <li>
+                  <a href="/pages/privacy-requests">DO NOT SELL MY PERSONAL INFORMATION</a>
+                </li>
+                <li>
+                  <a href="/pages/colourpop-cosmetics-sweepstakes-and-contest-rules">CONTEST RULES</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__copyright-container">
+              <a href="http://seedbeauty.com" target="_blank">© 2022 SEEDBEAUTY<sup>®</sup></a>
+            </div>
+          </section>
+        </footer>
+      </div>
+    </div>
+    <div id="shopify-section-theme_v4_markup" class="shopify-section">
+      <div class="modal">
+        <div class='modal__saving'>
+          <div class='modal__saving-container'>
+            <div class='modal__saving-spinner'>
+              <div class='modal__saving-spinner--cube1'></div>
+              <div class='modal__saving-spinner--cube2'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fancybox__markup" id='snapchat_popup'>
+        <div class="markup__snapchat-ghost">
+          <img class='lazy' data-src='https://cdn.shopify.com/s/files/1/1338/0835/files/snapcode.png?203591' alt="">
+          <p>
+            SNAP THIS TO ADD US!<br>
+            @COLOURPOPCO
+          </p>
+        </div>
+      </div>
+      <div class="fancybox__markup" id='undertone-popup'>
+        <label class="undertone-popup__title">What's my undertone?</label>
+        <div class="undertone-popup__container">
+          <div class="undertone-popup__left">
+            <label class="undertone-popup__subtitle">Cool</label>
+            <p>
+              Your skin has pink, peachy pink, or red hues
+            </p>
+            <div class='undertone-popup__undertone' style='background-color:#ff3333' aria-hidden="true"></div>
+            <div class='undertone-popup__undertone' style='background-color:#fca2a2' aria-hidden="true"></div>
+            <div class='undertone-popup__undertone' style='background-color:#ff9b7b' aria-hidden="true"></div>
+          </div>
+          <div class="undertone-popup__center">
+            <label class="undertone-popup__subtitle">Neutral</label>
+            <p>
+              Your skin has a balance of pink and yellow hues
+            </p>
+            <div class='undertone-popup__undertone' style='background-color:#EEDACA' aria-hidden="true"></div>
+            <div class='undertone-popup__undertone' style='background-color:#B59F8E' aria-hidden="true"></div>
+            <div class='undertone-popup__undertone' style='background-color:#6B5748' aria-hidden="true"></div>
+          </div><!--
+    -->
+          <div class="undertone-popup__right">
+            <label class="undertone-popup__subtitle">Warm</label>
+            <p>
+              Your skin has yellow, golden, or olive hues
+            </p>
+            <div class='undertone-popup__undertone' style='background-color:#ffe678' aria-hidden="true"></div>
+            <div class='undertone-popup__undertone' style='background-color:#ffb953' aria-hidden="true"></div>
+            <div class='undertone-popup__undertone' style='background-color:#829e64' aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+      <div class='sisterPopup' current_product=""></div>
+      <div id="match-by-brand" class="fancybox__markup match-by-shade__popup">
+        <label class="match-by-shade__title">Match by brand</label>
+        <div class="match-by-shade__dropdowns">
+          <div class="match-by-shade__row">
+            <label class="match-by-shade__row--title">Step 1</label>
+            <p class="match-by-shade__row--text">
+              Select your current brow brand:
+            </p><select class="match-by-shade__dropdown match-by-shade__dropdown--brand">
+              <option value="">
+                Select Brand
+              </option>
+            </select>
+          </div>
+          <div class="match-by-shade__row">
+            <label class="match-by-shade__row--title">Step 2</label>
+            <p class="match-by-shade__row--text">
+              Select your current brow shade:
+            </p><select class="match-by-shade__dropdown match-by-shade__dropdown--shade">
+              <option value="">
+                Select Shade
+              </option>
+            </select> <label class="match-by-shade__row--warning">*Only the closest shades included.</label>
+          </div>
+        </div>
+        <div class="match-by-shade__complete">
+          <label class="match-by-shade__title">Based on your selection we recommend...</label>
+        </div>
+      </div>
+    </div>
+    <script type="text/plain" data-cookieconsent="statistics">
+    window.addEventListener('load', function() {
+      jQuery('#social-icons li').each(function() {
+        var label = jQuery(this).find('a').attr('href').split("//")[1]
+        ga('send', 'event', 'Social', 'Link', label, {
+          nonInteraction: true
+        });
+      });
+    });
+    </script> <!-- ===================== !-->
+     <!--      JavaScripts      !-->
+     <!-- ===================== !-->
+     
+    <script type="text/plain" data-cookieconsent="marketing">
+
+    var _learnq = _learnq || [];
+    _learnq.push(['account', 'k6kdpA']);
+    (function () { var b = document.createElement('script'); b.type = 'text/javascript'; b.async = true;
+      b.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'a.klaviyo.com/media/js/analytics/analytics.js';
+      var a = document.getElementsByTagName('script')[0]; a.parentNode.insertBefore(b, a); })();
+
+      var images=[]; images.push("https://cdn.shopify.com/s/files/1/1338/0845/products/Pretty-Fresh-Precision-Blending-Sponge-LG_A-copy_grande.jpg?v=1583523164");images.push("https://cdn.shopify.com/s/files/1/1338/0845/products/blending-sponge_1_grande.jpg?v=1569441617");
+      var tags = ["#.collection:PromoBackup2, #.collection:promoproducts, #.collection:TemptaliaPromo, #.hidden:false, #.promo:SinglesDay30, #.promo:treat, 092619, Beauty, Beauty Blender, Blender, Breadcrumb:Makeup-Tools, Brush, category:Brushes, color:Nudes, event:Pretty Fresh, Face Brush, finish:None, MakeupTools, productline:ColourPop, productsize:full, producttype:Makeup Tools & Accessories, Sponge, subcategory:Face Brushes, toolsandacc, unitnumber:1, unittype:single, vegan"];
+      var item = { Name: JSON.stringify("Blending Sponge"), ProductID: 4200962687058, Categories: ["Best Sellers","ColourPop Essentials","Complexion Perfection","Cyber Week Deals","Makeup Sponges","Makeup Tools \u0026 Accessories","Makeup Tools \u0026 Accessories","Pretty Fresh Hydrating Complexion","Promo Products","Reveal the deal codes","Shop","Single's Day 11\/2021","Singles","Skincare + Body Essentials","STEPHANIES PROMO BACKUP","Temptalia 10\/21","Vegan Products"],
+        Tags: tags, ImageURL: images, URL: "https://colourpop.com/products/blending-sponge", Brand: "ColourPop", Price: "$8.00",
+        CompareAtPrice: "$0.00" };
+      _learnq.push(['track', 'Viewed Product', item]);
+      _learnq.push(['trackViewedItem', { Title: item.Name, ItemId: item.ProductID, Categories: item.Categories, ImageUrl: item.ImageURL,
+        Url: item.URL, Metadata: { Brand: item.Brand, Price: item.Price, CompareAtPrice: item.CompareAtPrice } }]);
+
+    </script> 
+    <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+    </script> 
+    <script defer="defer" type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CIntersectionObserver"></script> 
+    <script defer="defer" type="text/javascript" src="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/jquery.v3.4.1.min.js?v=160737389985263990141661188858"></script> 
+    <script defer="defer" type="text/javascript" src="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/jquery.cloudinary.min.js?v=134423264601170451411661188858"></script> 
+    <script defer="defer" id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="f59353d5-bcf2-4bc5-a5cc-e3f66849b420" data-georegions="{'region':'US-06','cbid':'c9701e26-0fc2-499b-9d3e-73442efec02d'}"></script> 
+    <script type="text/javascript" src="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/vendor.min.js?v=131767198688641473841661188858" defer="defer"></script>
+    <script type="text/javascript" src="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/theme.v4.js?v=150671975098713736701661188858" defer="defer"></script> 
+    <script type="text/javascript" src="//cdn.shopify.com/s/files/1/1338/0845/t/483/assets/theme.signup.js?v=66258393026275277661661188858" defer="defer"></script> 
+    <script>
+
+    var cl = "";
+    document.addEventListener("DOMContentLoaded", function() {
+      cl = cloudinary.Cloudinary.new();
+      cl.init();
+    });
+    </script> <!-- ====================== !-->
+     <!--        Tracking        !-->
+     <!-- ====================== !-->
+    <div id="shopify-section-theme_v4_tracking-code" class="shopify-section">
+      <div id="fb-root"></div>
+      <script type="text/plain" data-cookieconsent="marketing">
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=127142210767229";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+
+      window.fbAsyncInit = function() {
+      FB.init({
+      appId            : '501000603752310',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.10'
+      });
+      };
+      </script> <!-- Begin Talkable integration code -->
+      <script type="text/plain" data-cookieconsent="marketing">
+
+      window._talkableq = window._talkableq || [];
+      _talkableq.push(['init', { site_id: 'colourpop' }]);
+
+      window._talkableq.push(['authenticate_customer', {
+      email: '',
+      first_name: '',
+      last_name: ''
+      }]);
+
+      window._talkableq.push(['register_affiliate', {}]);
+      </script> 
+      <script src="//d2jjzw81hqbuqv.cloudfront.net/integration/clients/colourpop.min.js" type="text/javascript"></script> 
+      <script type="text/plain" data-cookieconsent="marketing">
+
+      //Talkable auto apply coupon
+      window._talkableq.push(['gleam_reward', {
+      callback: function(coupon) {
+      if (window.jQuery) {
+        $('body').on('submit', "form[action='/cart']", function(data) {
+          $('<input />').attr('type', 'hidden')
+            .attr('name', 'discount')
+            .attr('value', coupon)
+            .appendTo($("form[action='/cart']"));
+          return true;
+        });
+      } else {
+        var forms = document.getElementsByTagName('form'),
+            discount = document.createElement('input');
+        discount.type = 'hidden';
+        discount.name = 'discount';
+        discount.value = coupon;
+        for (var i = 0; i < forms.length; i++) {
+          if (forms[i].action.indexOf('/cart') !== -1) {
+            forms[i].appendChild(discount);
+          }
+        }
+      }
+      }
+      }]);
+      </script> <!-- End Talkable integration code -->
+    </div><!-- ====================== !-->
+    <!--        APP Code        !-->
+    <!-- ====================== !-->
+    <script>
+      (function e(){var e=document.createElement("script");
+      e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/PSaHjYPLB0BAwFxxMZQ5ddjJDIF0u0d739NUrxNy/widget.js";
+      var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+    </script> <!-- Start Action Tracker Javascript -->
+     
+    <script type="text/javascript">
+    (function(a,b,c,d,e,f,g){e['ire_o']=c;e[c]= e[c]||function(){(e[c].a=e[c].a||[]).push(arguments)};f=d.createElement(b);g=d.getElementsByTagName(b)[0];f.async=1;f.src=a;g.parentNode.insertBefore(f,g);})('//d.impactradius-event.com/A1344799-3065-4753-98a4-b5b509af91571.js','script','ire',document,window); ire('identify', {customerid: '' /*INSERT CUSTOMER ID*/, customeremail: '' /*INSERT SHA1 HASHED CUSTOMER EMAIL*/}); 
+    </script> <!-- End Action Tracker Javascript -->
+     <!-- Start Alexa Certify Javascript -->
+     
+    <script type="text/plain" data-cookieconsent="marketing">
+    _atrk_opts = { atrk_acct:"P4nij1aAkN00wC", domain:"colourpop.com",dynamic: true}; (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+    </script> <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=P4nij1aAkN00wC" style="display:none" height="1" width="1" alt=""></noscript> <!-- End Alexa Certify Javascript -->
+     <!-- Start Glosku Javascript -->
+     
+    <script>
+
+    (function () {
+      let shopify_shop = 'colourpop-prd.myshopify.com'
+      fetch('https://www.glosku.com/pc.php/shopifyio/getjs?shopify_shop=' + shopify_shop, {
+          method: 'GET',
+      }).then((response) => response.json()).then((json) => {
+          eval(json['jscode'])
+      }).catch((error) => {
+          console.log(error);
+      })
+    })();
+    </script> <!-- End Glosku Javascript -->
+     <!-- Attentive tag Shopify tag integration -->
+     
+    <script src="https://cdn.attn.tv/colourpop/dtag.js"></script>
+  </body>
+</html>
