@@ -3,15 +3,25 @@ from typing import List, Optional, Union
 
 from bs4 import NavigableString, Tag
 
+from data_gathering.data_extraction.const import url_regex_exp
 
-def handle_text(node: str) -> Optional[str]:
-    text = node.strip().replace("\n", " ")
+
+def handle_text(text: str) -> Optional[str]:
+    if url_regex_exp.search(text):
+        return None
+
+    text = text.strip().replace("\n", " ")
 
     if len(text):
         return f" {text} "
 
 
-def handle_tag(node: Tag, text_formatting_tags: set, tags_to_include: set):
+def handle_tag(
+    node: Tag,
+    text_formatting_tags: set,
+    tags_to_include: set,
+    class_id_to_exclude: List[str],
+):
     child = None
 
     if node.name == "a":
@@ -24,23 +34,39 @@ def handle_tag(node: Tag, text_formatting_tags: set, tags_to_include: set):
                 soup=node,
                 text_formatting_tags=text_formatting_tags,
                 tags_to_include=tags_to_include,
+                class_id_to_exclude=class_id_to_exclude,
             )
             return elements
     elif node.name in tags_to_include:
+        class_str = " ".join(node.attrs.get("class", [])).lower()
+        id_str = node.attrs.get("id", "").lower()
+
+        for name in class_id_to_exclude:
+            if name in class_str or name in id_str:
+                return None
+
         child = simplify_body(
             soup=node,
             text_formatting_tags=text_formatting_tags,
             tags_to_include=tags_to_include,
+            class_id_to_exclude=class_id_to_exclude,
         )
 
     return child
 
 
-def handle_tag_a(elem: Tag, soup: Tag, text_formatting_tags: set, tags_to_include: set):
+def handle_tag_a(
+    elem: Tag,
+    soup: Tag,
+    text_formatting_tags: set,
+    tags_to_include: set,
+    class_id_to_exclude: List[str],
+):
     child = simplify_body(
         soup=elem,
         text_formatting_tags=text_formatting_tags,
         tags_to_include=tags_to_include,
+        class_id_to_exclude=class_id_to_exclude,
     )
     if child:
         for node in child.contents:
@@ -48,11 +74,16 @@ def handle_tag_a(elem: Tag, soup: Tag, text_formatting_tags: set, tags_to_includ
 
 
 def simplify_body(
-    soup: Tag, text_formatting_tags: set, tags_to_include: set
+    soup: Tag,
+    text_formatting_tags: set,
+    tags_to_include: set,
+    class_id_to_exclude: List[str],
 ) -> Optional[Union[List[str], Tag]]:
     """
     Simplifies DOM tree.
 
+    :param class_id_to_exclude: a list containing class or id to exclude
+    :type class_id_to_exclude: List[str]
     :param soup: a Tag Object
     :type soup: BeautifulSoup4 Tag
     :param text_formatting_tags: a set containing tags that should remain in the tree
@@ -77,6 +108,7 @@ def simplify_body(
                     node=node,
                     text_formatting_tags=text_formatting_tags,
                     tags_to_include=tags_to_include,
+                    class_id_to_exclude=class_id_to_exclude,
                 )
 
                 if type(res) == list:
@@ -101,6 +133,7 @@ def simplify_body(
                         soup=soup,
                         text_formatting_tags=text_formatting_tags,
                         tags_to_include=tags_to_include,
+                        class_id_to_exclude=class_id_to_exclude,
                     )
                 else:
                     soup.append(elem)
@@ -113,7 +146,7 @@ def simplify_body(
 
 def includes_values(text: str, values: List[str]) -> bool:
     for value in values:
-        if value in text:
+        if text.startswith(value):
             return True
 
     return False
@@ -125,27 +158,27 @@ def textify_simplified_head(soup: Tag, meta_acceptable_values: List[str]):
     text = ""
 
     for node in soup.contents:
-        if isinstance(node, Tag):
-            if node.name == "meta":
-                name = node.attrs.get("name", None)
-                content = node.attrs.get("content", None)
-                property = node.attrs.get("property", None)
+        if isinstance(node, Tag) and node.name == "meta":
+            name = node.attrs.get("name", None)
+            content = node.attrs.get("content", None)
+            property = node.attrs.get("property", None)
 
-                if content is None or (
-                    (name is None or not includes_values(name, meta_acceptable_values))
-                    and (
-                        property is None
-                        or not includes_values(property, meta_acceptable_values)
-                    )
-                ):
-                    continue
-
-                start = (
-                    " ".join(name.split(":"))
-                    if name
-                    else (" ".join(property.split(":")) if property else "")
+            # TODO: Check if correct withe regex
+            if (content is None or url_regex_exp.search(content)) or (
+                (name is None or not includes_values(name, meta_acceptable_values))
+                and (
+                    property is None
+                    or not includes_values(property, meta_acceptable_values)
                 )
+            ):
+                continue
 
-                text += f"{start}: {content}\n"
+            start = (
+                " ".join(name.split(":"))
+                if name
+                else (" ".join(property.split(":")) if property else "")
+            )
+
+            text += f"{start}: {content}\n"
 
     return text

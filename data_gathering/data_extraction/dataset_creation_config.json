@@ -1,7 +1,6 @@
 {
     "tags": [
         "article",
-        "aside",
         "body",
         "button",
         "dd",
@@ -20,7 +19,6 @@
         "label",
         "li",
         "main",
-        "meta",
         "ol",
         "option",
         "p",
@@ -36,9 +34,7 @@
         "title",
         "tr",
         "ul",
-        "head",
-        "title",
-        "html"
+        "title"
     ],
     "text_formatting_tags": [
         "b",

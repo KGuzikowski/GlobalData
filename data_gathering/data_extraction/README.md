@@ -17,21 +17,30 @@ ChatGPT will be used to construct the final dataset.
 
 # What product info to extract?
 - title
+- brand
 - price
 - quantity (of each size)
 - discounts
 - description
 - specifications
+- material
+- measurements
 - sizes
 - categories
 - breadcrumbs
 - colors
 - variants
-- options
 - ratings
 - opinions
-- delivery information
+- delivery information????
 - similar products
+- recommended for me
+- related products
+- Products You May Also Like
+
+
+Prompt to be used for ChatGPT:
+Extract all information about the product from this text from a web store. Extract product title, brand, current price, old price, specifications (including material and dimensions), description, all sizes, all colors, all variants, categories, breadcrumbs, ratings (including number per each rating), opinions, number of available items (for each size) if provided else return null, similar products, products I may also like, related products, recommended for me. Categorize the product yourself (provide one general and one specific category). For each opinion return only the opinion text itself. If there's no information return: null. Answer should be in a proper JSON format. The text:
 
 # How to modify tree modification?
 - Don't merge sibling nodes with just text into one. Let them be separate ???? IDK - test both and decide
@@ -42,12 +51,55 @@ ChatGPT will be used to construct the final dataset.
 - How to categorize products? How do I say which are similar or the same? The name might not be enough. Maybe I should use the description?
 
 # Uwaga
-- remove douglas z zbioru danych - wyjebac pliki z douglasa
+- remove douglas, ikea z zbioru danych
+
 
 # html parser vs lxml:
 - lxml simplify time: 0.18664660945099995
 - html parser simplify time: 0.10447529040329413
 
-
 - lxml md time: 0.0016778466235480365
 - html parser md time: 0.017234264529081146
+
+
+All `aside` tags can be removed.
+
+### Classes/ids that can be removed:
+#### Most important ones:
+- nav
+- banner
+- footer
+- shipping
+- popup
+- checkout
+- payments
+- returns
+- delivery
+- support
+- warranty
+
+#### Rest:
+- image
+- privacy
+- benefit
+- sign-in
+- sign-up
+- login
+- password
+- add-to-cart
+- announcement
+- notification
+- wishlist
+- social
+- json
+- alert
+- disclaimer
+- contact
+- cookies
+- newsletter
+- basket
+- askforproduct
+- ask-about-product
+- mobile-header
+- header-menu
+- customer
