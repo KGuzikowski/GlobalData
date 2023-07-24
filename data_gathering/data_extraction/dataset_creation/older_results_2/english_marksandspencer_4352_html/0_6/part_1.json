@@ -1,0 +1,72 @@
+{
+  "title": "Pure Cotton Striped Oversized Girlfriend Style Shirt",
+  "brand": "M&S Collection",
+  "current_price": {
+    "price": 25.0,
+    "currency": "USD"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "Material",
+      "value": "Cotton"
+    },
+    {
+      "name": "Dimensions",
+      "value": null
+    },
+    {
+      "name": "Other Features",
+      "value": [
+        {
+          "name": "Striped Print",
+          "value": "Subtle"
+        }
+      ]
+    }
+  ],
+  "description": "A subtle striped print gives this pure cotton shirt a smart look",
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "colors": [
+    "Blue/White"
+  ],
+  "variants": [],
+  "categories": [
+    "Clothing",
+    "Women's Clothing",
+    "Shirts & Tops",
+    "Blouses"
+  ],
+  "general_category": "Clothing",
+  "specific_category": "Blouses",
+  "breadcrumbs": [
+    "Home",
+    "Clothing",
+    "Women's Clothing",
+    "Shirts & Tops",
+    "Blouses"
+  ],
+  "customer_ratings": {
+    "average_rating": 4.1,
+    "5_stars": 20,
+    "4_stars": 7,
+    "3_stars": 1,
+    "2_stars": 3,
+    "1_star": 3
+  },
+  "number_of_available_items": {
+    "S": 10,
+    "M": 15,
+    "L": 8,
+    "XL": 12
+  },
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

@@ -1,0 +1,104 @@
+{
+  "product_title": "Toddler Girls Christmas Dress +Headband Baby Girls Christmas Holiday Dress",
+  "brand": null,
+  "current_price": 31.99,
+  "old_price": 39.99,
+  "specifications": {
+    "material": null,
+    "dimensions": [
+      {
+        "size": "90",
+        "recommended_age": "12-18 Months",
+        "bust": "53CM/20.8''",
+        "waist": "53CM/20.8''",
+        "length": "46CM/18.1''"
+      },
+      {
+        "size": "100",
+        "recommended_age": "18-24 Months",
+        "bust": "56CM/22.0‘’",
+        "waist": "56CM/22.0''",
+        "length": "49CM/19.2''"
+      },
+      {
+        "size": "110",
+        "recommended_age": "2-3 Years",
+        "bust": "59CM/23.2‘’",
+        "waist": "59CM/23.2‘’",
+        "length": "51CM/20.0''"
+      },
+      {
+        "size": "120",
+        "recommended_age": "3-4 Years",
+        "bust": "61CM/24.0''",
+        "waist": "61CM/24.0''",
+        "length": "54CM/21.2''"
+      },
+      {
+        "size": "130",
+        "recommended_age": "4-5 Years",
+        "bust": "64CM/25.1''",
+        "waist": "64CM/25.1''",
+        "length": "56CM/22.0''"
+      }
+    ]
+  },
+  "description": "Package include:1PC Dress+1PC Headband Size Chart: For non US buyers Products are listed in US Sizes   Size Recommended Age Bust Waist Length 90 12-18 Months 53CM/20.8'' 53CM/20.8'' 46CM/18.1'' 100 18-24 Months 56CM/22.0‘’ 56CM/22.0'' 49CM/19.2'' 110 2-3 Years 59CM/23.2‘’ 59CM/23.2‘’ 51CM/20.0'' 120 3-4 Years 61CM/24.0'' 61CM/24.0'' 54CM/21.2'' 130 4-5 Years 64CM/25.1'' 64CM/25.1'' 56CM/22.0''",
+  "sizes": [
+    "90",
+    "100",
+    "110",
+    "120",
+    "130"
+  ],
+  "colors": [
+    "Red"
+  ],
+  "variants": [
+    {
+      "color": "Red",
+      "size": "2T",
+      "price": 31.99
+    },
+    {
+      "color": "Red",
+      "size": "3T",
+      "price": 31.99
+    },
+    {
+      "color": "Red",
+      "size": "4T",
+      "price": 31.99
+    },
+    {
+      "color": "Red",
+      "size": "5",
+      "price": 31.99
+    },
+    {
+      "color": "Red",
+      "size": "18M",
+      "price": 31.99
+    }
+  ],
+  "categories": [
+    {
+      "general": "Clothing",
+      "specific": "Dresses"
+    }
+  ],
+  "breadcrumbs": null,
+  "ratings": null,
+  "opinions": null,
+  "number_available_items": {
+    "90": null,
+    "100": null,
+    "110": null,
+    "120": null,
+    "130": null
+  },
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

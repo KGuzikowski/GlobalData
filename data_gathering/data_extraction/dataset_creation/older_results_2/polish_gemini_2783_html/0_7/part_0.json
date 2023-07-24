@@ -1,0 +1,86 @@
+{
+  "title": "ERDBAR, mus owocowy w tubce, jabłko, banan, malina BIO, po 1 roku życia, 100 g",
+  "brand": "Erdbar",
+  "current_price": {
+    "price": 5.39,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "specification_name": "Material",
+      "specification_value": "Mus bananowy\* 45%, mus jabłkowy\* 30%, mus malinowy\* 25%"
+    },
+    {
+      "specification_name": "Dimensions",
+      "specification_value": "100g"
+    },
+    {
+      "specification_name": "Other Features",
+      "specification_value": [
+        {
+          "feature_name": "Wiek",
+          "feature_value": "od 1 roku życia"
+        },
+        {
+          "feature_name": "dla dzieci",
+          "feature_value": null
+        },
+        {
+          "feature_name": "Postać",
+          "feature_value": "mus"
+        },
+        {
+          "feature_name": "Kluczowy składnik",
+          "feature_value": "jabłko, banan, malina"
+        },
+        {
+          "feature_name": "Cecha specjalna",
+          "feature_value": "BIO"
+        },
+        {
+          "feature_name": "Rodzaj produktu",
+          "feature_value": "w tubce"
+        },
+        {
+          "feature_name": "Typ produktu",
+          "feature_value": "środek spożywczy"
+        }
+      ]
+    }
+  ],
+  "description": "ERDBAR mus owocowy do wyciskania w tubce, jabłko, banan, malina BIO.",
+  "sizes": null,
+  "colors": null,
+  "variants": null,
+  "categories": [
+    "Apteka Gemini",
+    "Dziecko",
+    "Żywienie dziecka",
+    "Desery",
+    "ERDBAR, mus owocowy w tubce, jabłko, banan, malina BIO, po 1 roku życia, 100 g"
+  ],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [
+    "Apteka Gemini",
+    "Dziecko",
+    "Żywienie dziecka",
+    "Desery",
+    "ERDBAR, mus owocowy w tubce, jabłko, banan, malina BIO, po 1 roku życia, 100 g"
+  ],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "100g": "Produkt niedostępny"
+  },
+  "similar_products": [
+    "Kindii Pure, bawełniane płatki dla niemowląt, 60 sztuk",
+    "Bepanthen Baby, maść przeciw odparzeniom pieluszkowym dla niemowląt, 100 g",
+    "Symphar, fizjologiczny roztwór NaCl 0,9%, ampułki, 50 x 5 ml",
+    "Vigantol 20 000IU, krople doustne, roztwór, 10 ml",
+    "Dicoflor Baby, dla niemowląt i dzieci, krople, 5 ml"
+  ],
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

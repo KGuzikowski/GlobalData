@@ -1,0 +1,62 @@
+{
+  "title": "Tomahawk INDIANINA dodatek do stroju",
+  "brand": null,
+  "current_price": {
+    "price": 19.89,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "product_features": [
+    {
+      "name": "szerokość",
+      "value": "ok. 15cm"
+    },
+    {
+      "name": "długość",
+      "value": "ok. 45cm"
+    }
+  ],
+  "short_description": "Indiański tomahawk to świetny dodatek do stroju, z pewnością urozmaici kostium indianina. Plastikowy tomahawk ozdobiony sztucznym futerkiem.",
+  "colors_variants": null,
+  "size_variants": null,
+  "product_categories": [
+    "dodatek do stroju",
+    "kostium",
+    "indianin",
+    "strój",
+    "party",
+    "akcesoria"
+  ],
+  "customer_ratings": {
+    "average_rating": 4.2,
+    "number_of_ratings": 5
+  },
+  "customer_reviews": [
+    "Fajny. Na pierwszy rzut oka wygląda jak prawdziwy.A ta Tomahawk prezentował się z Peruka :)",
+    "bardzo fajny produkt",
+    "Zgodny ze zdjęciem, aczkolwiek zbyt solidny nie jest. Szybka dostawa.",
+    "Super",
+    "Jestem zadowolony"
+  ],
+  "similar_or_related_products": [
+    "Naszyjnik indiański do stroju INDIANINA",
+    "Pióropusz indiański kolorowy",
+    "Strzała w głowie",
+    "Zestaw ŁUK I STRZAŁA",
+    "Peruka POCAHONTAS",
+    "Opaska Indianki",
+    "Opaska indiańska biała",
+    "Naszyjnik indiański"
+  ],
+  "products_recommended_for_me": [
+    "Farby do malowania twarzy",
+    "Opaska indiańska INDIAŃSKIE PIÓRA",
+    "Opaska INDIAŃSKA",
+    "Zestaw ŁUK I STRZAŁA",
+    "Strój dziecięcy INDIANIN 7-9 lat",
+    "Strój INDIANKI dla dziewczynki",
+    "Strój INDIANINA dla chłopca",
+    "Strój ZADZIORNEGO INDIANINA dla chłopca",
+    "Strój ZADZIORNEJ INDIANKI dla dziewczynki"
+  ]
+}

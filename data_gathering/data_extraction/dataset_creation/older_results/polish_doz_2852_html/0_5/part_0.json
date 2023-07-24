@@ -1,0 +1,89 @@
+{
+  "product_title": "Huggies Natural Care, chusteczki nawilżane z aloesem, (56x3)168 szt.",
+  "brand": "Huggies",
+  "current_price": "20.59 zł",
+  "old_price": null,
+  "specifications": {
+    "material": "naturalne włókna celulozowe",
+    "dimensions": null
+  },
+  "description": "Chusteczki nawilżane z aloesem – delikatnie oczyszczają wrażliwą skórę dziecka. Formuła na bazie oczyszczonej wody, wzbogacona ekstraktem z aloesu i witaminą E.",
+  "sizes": [
+    "56x3"
+  ],
+  "colors": null,
+  "variants": null,
+  "categories": {
+    "general": "Higiena dziecka",
+    "specific": "Chusteczki nawilżane dla niemowląt i dzieci"
+  },
+  "breadcrumbs": [
+    "Portal DOZ.pl"
+  ],
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": null,
+  "available_items": {
+    "56x3": 168
+  },
+  "similar_products": [
+    {
+      "product_title": "Pikabu Baby Care, chusteczki nawilżane Pure, 60 szt",
+      "brand": "Pikabu Baby Care",
+      "current_price": "6.99 zł",
+      "old_price": null,
+      "categories": {
+        "general": "Higiena dziecka",
+        "specific": "Chusteczki nawilżane dla niemowląt i dzieci"
+      }
+    },
+    {
+      "product_title": "Cleanic Baby Atopical, chusteczki nawilżane dla niemowląt i dzieci, 50 szt.",
+      "brand": "Cleanic Baby",
+      "current_price": "11.69 zł",
+      "old_price": null,
+      "categories": {
+        "general": "Higiena dziecka",
+        "specific": "Chusteczki nawilżane dla niemowląt i dzieci"
+      }
+    },
+    {
+      "product_title": "Zestaw Higieniczny Baby",
+      "brand": null,
+      "current_price": "21.33 zł",
+      "old_price": null,
+      "categories": {
+        "general": "Higiena dziecka",
+        "specific": "Zestawy higieniczne dla niemowląt i dzieci"
+      }
+    },
+    {
+      "product_title": "Kindii, Pure Sensitive, chusteczki dla niemowląt i dzieci, 60 szt.",
+      "brand": "Kindii",
+      "current_price": "7.99 zł",
+      "old_price": null,
+      "categories": {
+        "general": "Higiena dziecka",
+        "specific": "Chusteczki nawilżane dla niemowląt i dzieci"
+      }
+    },
+    {
+      "product_title": "Kindii Bamboo, chusteczki dla niemowląt i dzieci, 60 szt.",
+      "brand": "Kindii",
+      "current_price": "7.49 zł",
+      "old_price": null,
+      "categories": {
+        "general": "Higiena dziecka",
+        "specific": "Chusteczki dla niemowląt i dzieci"
+      }
+    }
+  ],
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

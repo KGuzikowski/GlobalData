@@ -1,0 +1,54 @@
+{
+  "product_title": "Saint Nicholas",
+  "brand": null,
+  "current_price": 19.99,
+  "old_price": null,
+  "specifications": {
+    "release_date": "03/13/2018",
+    "UPC": "0760137101291",
+    "original_release": "2017",
+    "source": "Fox Hollow Features",
+    "time": "1:10:00",
+    "sales_rank": "74,638",
+    "special_features": "Closed Caption",
+    "cast_and_crew": {
+      "performance_credits": [
+        "Monte Bezell",
+        "Francesca VanHorne",
+        "A.R. Garcia",
+        "Ashlynn Alexander"
+      ],
+      "technical_credits": [
+        "Jose A. Esquea",
+        "Ali Abouomar",
+        "Monte Bezell",
+        "A.R. Garcia"
+      ]
+    },
+    "scene_index": [
+      "Chapter 1 [14:35]",
+      "Chapter 2 [10:48]",
+      "Chapter 3 [10:20]",
+      "Chapter 4 [6:33]",
+      "Chapter 5 [6:35]",
+      "Chapter 6 [10:16]",
+      "Chapter 7 [11:00]"
+    ],
+    "menu": "Play Chapters"
+  },
+  "description": "Shop Barnes & Noble for Saint Nicholas on DVD by Jose A. Esquea featuring Jose A. Esquea, Monte Bezell, Francesca VanHorne, A.R. Garcia.",
+  "sizes": null,
+  "colors": null,
+  "variants": null,
+  "categories": ["Movies & TV Shows", "DVD"],
+  "breadcrumbs": ["Barnes & Noble"],
+  "ratings": null,
+  "opinions": null,
+  "number_of_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Movies & TV Shows",
+  "specific_category": "DVD"
+}

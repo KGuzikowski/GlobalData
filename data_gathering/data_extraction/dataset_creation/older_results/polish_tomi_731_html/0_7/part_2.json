@@ -1,0 +1,38 @@
+{
+  "product_title": "Ceratka na materac 70x100cm, szwedzka",
+  "brand": "Horizon",
+  "current_price": null,
+  "old_price": null,
+  "specifications": {
+    "material": "ceratka szwedzka",
+    "dimensions": "70x100cm"
+  },
+  "description": "Podkład ceratowy do łóżeczek i wózków, wykonany z oddychającej ceratki szwedzkiej. Chroni materac przed przemoczeniem.",
+  "sizes": [
+    "70x100cm"
+  ],
+  "colors": null,
+  "variants": null,
+  "categories": [
+    {
+      "general": "Dla dzieci",
+      "specific": "Akcesoria do łóżeczek i wózków"
+    }
+  ],
+  "breadcrumbs": null,
+  "ratings": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "opinions": [],
+  "available_items": {
+    "70x100cm": null
+  },
+  "similar_products": null,
+  "products_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

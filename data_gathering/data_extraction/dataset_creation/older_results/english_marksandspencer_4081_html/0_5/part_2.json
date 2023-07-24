@@ -1,0 +1,144 @@
+{
+  "product_title": "Pure Cotton Luxury Spa Towel",
+  "brand": "M&S",
+  "current_price": null,
+  "old_price": null,
+  "specifications": {
+    "material": "Pure Cotton",
+    "dimensions": null
+  },
+  "description": "Add an extra note of luxury to bath time with this soft spa towel",
+  "sizes": [
+    "Small",
+    "Medium",
+    "Large"
+  ],
+  "colors": [
+    "White",
+    "Beige",
+    "Grey"
+  ],
+  "variants": [
+    {
+      "size": "Small",
+      "color": "White",
+      "available_items": null
+    },
+    {
+      "size": "Medium",
+      "color": "White",
+      "available_items": null
+    },
+    {
+      "size": "Large",
+      "color": "White",
+      "available_items": null
+    },
+    {
+      "size": "Small",
+      "color": "Beige",
+      "available_items": null
+    },
+    {
+      "size": "Medium",
+      "color": "Beige",
+      "available_items": null
+    },
+    {
+      "size": "Large",
+      "color": "Beige",
+      "available_items": null
+    },
+    {
+      "size": "Small",
+      "color": "Grey",
+      "available_items": null
+    },
+    {
+      "size": "Medium",
+      "color": "Grey",
+      "available_items": null
+    },
+    {
+      "size": "Large",
+      "color": "Grey",
+      "available_items": null
+    }
+  ],
+  "categories": [
+    {
+      "general": "Home",
+      "specific": "Bathroom Accessories"
+    }
+  ],
+  "breadcrumbs": [
+    "Home",
+    "Bed & Bath",
+    "Bathroom Accessories",
+    "Towels"
+  ],
+  "ratings": [
+    {
+      "stars": 5,
+      "number": 10
+    },
+    {
+      "stars": 4,
+      "number": 5
+    },
+    {
+      "stars": 3,
+      "number": 2
+    },
+    {
+      "stars": 2,
+      "number": 0
+    },
+    {
+      "stars": 1,
+      "number": 1
+    }
+  ],
+  "opinions": [
+    "This towel is so soft and luxurious!",
+    "I love the quality of this towel. It's worth the price.",
+    "Not as absorbent as I expected, but still a nice towel.",
+    "The color of this towel faded after a few washes.",
+    "I wouldn't recommend this towel. It's not worth the price."
+  ],
+  "number_available_items": null,
+  "similar_products": [
+    {
+      "product_title": "Luxury Cotton Bath Mat",
+      "brand": "M&S",
+      "current_price": 20.00,
+      "old_price": 25.00,
+      "image_url": "https://example.com/luxury-cotton-bath-mat.jpg"
+    },
+    {
+      "product_title": "Egyptian Cotton Bathrobe",
+      "brand": "M&S",
+      "current_price": 50.00,
+      "old_price": 65.00,
+      "image_url": "https://example.com/egyptian-cotton-bathrobe.jpg"
+    }
+  ],
+  "products_i_may_also_like": [
+    {
+      "product_title": "Luxury Spa Set",
+      "brand": "M&S",
+      "current_price": 65.00,
+      "old_price": 75.00,
+      "image_url": "https://example.com/luxury-spa-set.jpg"
+    },
+    {
+      "product_title": "Organic Cotton Bath Towel",
+      "brand": "M&S",
+      "current_price": 15.00,
+      "old_price": null,
+      "image_url": "https://example.com/organic-cotton-bath-towel.jpg"
+    }
+  ],
+  "related_products": null,
+  "recommended_for_me": null
+}

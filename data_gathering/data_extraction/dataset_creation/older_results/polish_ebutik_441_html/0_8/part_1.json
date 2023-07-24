@@ -1,0 +1,35 @@
+{
+   "product_title": "Jasnopomarańczowa dopasowana sukienka San Diego RUE PARIS",
+   "brand": "RUE PARIS",
+   "current_price": null,
+   "old_price": null,
+   "specifications": {
+      "material": "90% bawełna, 10% elastan",
+      "dimensions": "Rozmiar S: 160-168 cm wzrostu, 82 cm obwodu klatki piersiowej, 72-80 cm obwodu talii. Rozmiar M: 162-172 cm wzrostu, 86 cm obwodu klatki piersiowej, 78-86 cm obwodu talii. Rozmiar L: 164-174 cm wzrostu, 91 cm obwodu klatki piersiowej, 84-90 cm obwodu talii."
+   },
+   "description": "Jasnopomarańczowa sukienka basic San Diego RUE PARIS",
+   "all_sizes": ["S", "M", "L"],
+   "all_colors": ["jasny pomarańczowy"],
+   "all_variants": ["Tsion"],
+   "categories": ["Sukienki", "Sukienki dopasowane"],
+   "breadcrumbs": ["Nowości", "Nowości Sukienki", "Sukienki dopasowane", "BASIC", "SUKIENKI AKCJA PROMOCYJNA"],
+   "ratings": {
+      "5": 0,
+      "4": 0,
+      "3": 0,
+      "2": 0,
+      "1": 0
+   },
+   "opinions": null,
+   "number_of_available_items": {
+      "S": null,
+      "M": null,
+      "L": null
+   },
+   "similar_products": null,
+   "products_I_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null,
+   "general_category": "Sukienki",
+   "specific_category": "Sukienki dopasowane"
+}

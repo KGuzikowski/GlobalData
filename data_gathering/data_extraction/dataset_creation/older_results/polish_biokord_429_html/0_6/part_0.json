@@ -1,0 +1,78 @@
+{
+   "productTitle": "Arganowy Krem do Twarzy Nawilżający, Giardino Dei Sensi",
+   "brand": "Giardino Dei Sensi",
+   "currentPrice": "24.00 PLN",
+   "oldPrice": null,
+   "specifications": {
+      "material": null,
+      "dimensions": "75 ml"
+   },
+   "description": "Arganowy Krem do Twarzy Nawilżający, Giardino Dei Sensi - Kremy na dzień - Pielęgnacja Twarzy",
+   "sizes": null,
+   "colors": null,
+   "variants": null,
+   "categories": [
+      "Pielęgnacja Twarzy",
+      "Kremy na dzień"
+   ],
+   "breadcrumbs": [
+      "Strona główna",
+      "Pielęgnacja Twarzy",
+      "Kremy na dzień",
+      "Arganowy Krem do Twarzy Nawilżający, Giardino Dei Sensi"
+   ],
+   "ratings": {
+      "5": 0,
+      "4": 0,
+      "3": 0,
+      "2": 0,
+      "1": 0
+   },
+   "opinions": [],
+   "availableItems": {
+      "75 ml": null
+   },
+   "similarProducts": [
+      {
+         "productTitle": null,
+         "brand": null,
+         "currentPrice": null,
+         "oldPrice": null,
+         "specifications": null,
+         "description": null,
+         "sizes": null,
+         "colors": null,
+         "variants": null
+      }
+   ],
+   "productsIMayAlsoLike": [
+      {
+         "productTitle": null,
+         "brand": null,
+         "currentPrice": null,
+         "oldPrice": null,
+         "specifications": null,
+         "description": null,
+         "sizes": null,
+         "colors": null,
+         "variants": null
+      }
+   ],
+   "relatedProducts": [
+      {
+         "productTitle": null,
+         "brand": null,
+         "currentPrice": null,
+         "oldPrice": null,
+         "specifications": null,
+         "description": null,
+         "sizes": null,
+         "colors": null,
+         "variants": null
+      }
+   ],
+   "recommendedForMe": null,
+   "generalCategory": "Pielęgnacja Twarzy",
+   "specificCategory": "Kremy na dzień"
+}
+For each opinion, there was no information, so the "opinions" array is empty. The "availableItems" object has a key-value pair with the size and a null value, indicating that there is no information about the number of available items for this product. The "similarProducts", "productsIMayAlsoLike", "relatedProducts", and "recommendedForMe" fields all have null values, indicating that there is no information about these categories. The "generalCategory" is "Pielęgnacja Twarzy", and the "specificCategory" is "Kremy na dzień".

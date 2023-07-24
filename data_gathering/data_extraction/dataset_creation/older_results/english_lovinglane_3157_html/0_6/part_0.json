@@ -1,0 +1,109 @@
+{
+  "product_title": "Portable Baby Backpack",
+  "brand": null,
+  "current_price": 66.03,
+  "old_price": null,
+  "specifications": {
+    "material": "cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton",
+    "dimensions": {
+      "mattress_size": "30*73cm",
+      "bed_size": "30*73*24cm",
+      "bag_size": "41*21*32cm"
+    }
+  },
+  "description": "Name: Multifunctional Mummy Bed BagAccessories: portable mattressMattress size: (30*73)cmBed size: (30*73*24)cmBag size:(41*21*32)cmMaterial: cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton",
+  "sizes": null,
+  "colors": [
+    "Black 2",
+    "Light green",
+    "Green 2",
+    "Blue",
+    "Grey",
+    "Green",
+    "Pink grey",
+    "Grey 2",
+    "Pink",
+    "Black"
+  ],
+  "variants": [
+    {
+      "color": "Black 2",
+      "price": 66.03,
+      "quantity": null
+    },
+    {
+      "color": "Light green",
+      "price": 66.03,
+      "quantity": null
+    },
+    {
+      "color": "Green 2",
+      "price": 66.03,
+      "quantity": null
+    },
+    {
+      "color": "Blue",
+      "price": 66.03,
+      "quantity": null
+    },
+    {
+      "color": "Grey",
+      "price": 66.03,
+      "quantity": null
+    },
+    {
+      "color": "Green",
+      "price": 66.03,
+      "quantity": null
+    },
+    {
+      "color": "Pink grey",
+      "price": 66.03,
+      "quantity": null
+    },
+    {
+      "color": "Grey 2",
+      "price": 66.03,
+      "quantity": null
+    },
+    {
+      "color": "Pink",
+      "price": 66.03,
+      "quantity": null
+    },
+    {
+      "color": "Black",
+      "price": 66.03,
+      "quantity": null
+    }
+  ],
+  "categories": {
+    "general": null,
+    "specific": null
+  },
+  "breadcrumbs": null,
+  "ratings": {
+    "5 stars": null,
+    "4 stars": null,
+    "3 stars": null,
+    "2 stars": null,
+    "1 star": null
+  },
+  "opinions": null,
+  "number_available_items": {
+    "Black 2": null,
+    "Light green": null,
+    "Green 2": null,
+    "Blue": null,
+    "Grey": null,
+    "Green": null,
+    "Pink grey": null,
+    "Grey 2": null,
+    "Pink": null,
+    "Black": null
+  },
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

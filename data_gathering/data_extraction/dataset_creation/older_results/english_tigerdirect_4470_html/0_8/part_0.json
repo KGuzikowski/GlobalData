@@ -1,0 +1,42 @@
+{
+   "product_title": "Axiom Fiber Optic Duplex Cable",
+   "brand": "Axiom",
+   "current_price": 20.00,
+   "old_price": 20.00,
+   "specifications":{
+      "category": "Fiber Optic Cables",
+      "length_feet": 3.3,
+      "cable_type": "Network Cable",
+      "left_connector_type": "SC single-mode",
+      "right_connector_type": "ST single-mode",
+      "brand": "Axiom Memory"
+   },
+   "description": "Axiom offers a full line of efficient & cost effective cabling solutions for your networking project. We offer a variety of solutions including fiber, infinband, antenna & stacking cables. Whether you're updrading components or installing a brand new network, you'll receive the highest quality connectivity products, a Lifetime Warranty and free technical support.",
+   "sizes": null,
+   "colors": null,
+   "variants": null,
+   "categories": [
+      "Network Cables",
+      "Fiber Optic Cables"
+   ],
+   "breadcrumbs": [
+      "Tigerdirect",
+      "Network Cables",
+      "Fiber Optic Cables"
+   ],
+   "ratings": {
+      "5": null,
+      "4": null,
+      "3": null,
+      "2": null,
+      "1": null
+   },
+   "opinions": null,
+   "number_available_items": null,
+   "similar_products": null,
+   "products_i_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null,
+   "general_category": "Computer Accessories",
+   "specific_category": "Networking Cables"
+}

@@ -1,0 +1,130 @@
+{
+   "product_title": "ERDBAR, mus owocowy w tubce, jabłko, banan, malina BIO, po 1 roku życia, 100 g",
+   "brand": "Erdbar",
+   "current_price": "5,39 zł",
+   "old_price": null,
+   "specifications": {
+      "material": null,
+      "dimensions": null,
+      "age_range": "od 1 roku życia",
+      "form": "mus",
+      "key_ingredient": ["jabłko", "banan", "malina"],
+      "special_feature": "BIO",
+      "product_type": "środek spożywczy",
+      "package_type": "w tubce",
+      "weight": "100g",
+      "country_of_origin": "Niemcy",
+      "nutritional_info": {
+         "energy": "320kJ/77kcal",
+         "fat": "0,5g (w tym kwasy tłuszczowe nasycone 0,1g)",
+         "carbohydrates": "15,9g (w tym cukry 11,4g)",
+         "fiber": "2,7g",
+         "protein": "0,6g",
+         "salt": "0,01g",
+         "sodium": "0,00g"
+      }
+   },
+   "description": "ERDBAR mus owocowy do wyciskania w tubce, jabłko, banan, malina BIO.",
+   "sizes": null,
+   "colors": null,
+   "variants": null,
+   "categories": {
+      "general_category": "Żywienie dziecka",
+      "specific_category": "Desery"
+   },
+   "breadcrumbs": [
+      "Apteka Gemini",
+      "Dziecko",
+      "Żywienie dziecka",
+      "Desery",
+      "ERDBAR, mus owocowy w tubce, jabłko, banan, malina BIO, po 1 roku życia, 100 g"
+   ],
+   "ratings": {
+      "5": 0,
+      "4": 0,
+      "3": 0,
+      "2": 0,
+      "1": 0
+   },
+   "opinions": null,
+   "available_sizes": null,
+   "similar_products": null,
+   "products_i_may_also_like": [
+      {
+         "product_title": "Kindii Pure, bawełniane płatki dla niemowląt, 60 sztuk",
+         "brand": null,
+         "current_price": "5,79 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Bepanthen Baby, maść przeciw odparzeniom pieluszkowym dla niemowląt, 100 g",
+         "brand": null,
+         "current_price": "28,49 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Symphar, fizjologiczny roztwór NaCl 0,9%, ampułki, 50 x 5 ml",
+         "brand": null,
+         "current_price": "10,49 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Vigantol 20 000IU, krople doustne, roztwór, 10 ml",
+         "brand": null,
+         "current_price": "15,09 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Dicoflor Baby, dla niemowląt i dzieci, krople, 5 ml",
+         "brand": null,
+         "current_price": "22,39 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Aromactiv+, plastry aromatyczne od 1 dnia życia, 5 sztuk",
+         "brand": null,
+         "current_price": "13,59 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Linomag 200 mg/ g, maść, 100 g",
+         "brand": null,
+         "current_price": "22,89 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Bepanthen Baby, maść przeciw odparzeniom pieluszkowym dla niemowląt, 100 g + dodatkowo 30 g",
+         "brand": null,
+         "current_price": "28,49 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Alantan Plus (20 mg + 50 mg)/ g, maść, 30 g",
+         "brand": null,
+         "current_price": "7,09 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "4 Lacti Baby od pierwszych dni życia, krople, 5 ml",
+         "brand": null,
+         "current_price": "8,89 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Unimer Baby NaCl 0,9%, sól fizjologiczna, 5 ml x 50 ampułek",
+         "brand": null,
+         "current_price": "12,59 zł",
+         "old_price": null
+      },
+      {
+         "product_title": "Bebilon Advance 1, mleko początkowe gotowe do spożycia, od urodzenia, 200 ml",
+         "brand": null,
+         "current_price": "3,69 zł",
+         "old_price": null
+      }
+   ],
+   "related_products": null,
+   "recommended_for_me": null
+} 
+
+For the opinions field, null was returned as there were no opinions provided in the text.

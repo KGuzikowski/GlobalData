@@ -1,0 +1,72 @@
+{
+  "product_title": "Jasnopomarańczowa dopasowana sukienka San Diego RUE PARIS",
+  "brand": "RUE PARIS",
+  "current_price": null,
+  "old_price": null,
+  "specifications": {
+    "material": "90% bawełna, 10% elastan",
+    "dimensions": {
+      "length": "midi",
+      "style": "casual",
+      "occasion": "codzienne",
+      "fit": "standardowy",
+      "closure": "brak",
+      "silhouette": "sukienka ołówkowa"
+    }
+  },
+  "description": "Jasnopomarańczowa sukienka basic San Diego RUE PARIS skład materiału: 90% bawełna, 10% elastan sposób prania: pranie w pralce w 30°C",
+  "sizes": {
+    "S": {
+      "international_size": "36",
+      "height_range": "160-168",
+      "chest_circumference": "82",
+      "waist_circumference": "72-80",
+      "available_items": null
+    },
+    "M": {
+      "international_size": "38",
+      "height_range": "162-172",
+      "chest_circumference": "86",
+      "waist_circumference": "78-86",
+      "available_items": null
+    },
+    "L": {
+      "international_size": "40",
+      "height_range": "164-174",
+      "chest_circumference": "91",
+      "waist_circumference": "84-90",
+      "available_items": null
+    }
+  },
+  "colors": [
+    "jasny pomarańczowy"
+  ],
+  "variants": [
+    "Tsion"
+  ],
+  "categories": [
+    "Sukienki dopasowane BASIC",
+    "SUKIENKI AKCJA PROMOCYJNA"
+  ],
+  "breadcrumbs": [
+    "Nowości",
+    "Nowości Sukienki",
+    "Sukienki dopasowane BASIC",
+    "SUKIENKI AKCJA PROMOCYJNA"
+  ],
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": null,
+  "number_of_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Sukienki",
+  "specific_category": "Sukienki dopasowane"
+}

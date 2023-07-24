@@ -1,0 +1,83 @@
+{
+  "product_title": "Collection X by Justice Cutout Leotard",
+  "brand": "Justice",
+  "current_price": 21.0,
+  "old_price": 28.0,
+  "specifications": {
+    "product_id": "303531",
+    "material": "90% polyester and 10% elastane",
+    "care_instructions": "Machine wash, tumble dry",
+    "imported": true
+  },
+  "description": "Whether your girl decides to wear our girl’s cutout leotard for practice or layered under a pair of our denim shorts for a day with her friends, she’ll be ready for wherever the day takes her. This sleeveless style is cut from a breathable stretch fabric and has a scoop neck, a cutout at the back, and full coverage brief bottom with a small logo at the hip.",
+  "sizes": [
+    "XS (5/6)",
+    "SMALL (7/8)",
+    "MEDIUM (10)",
+    "LARGE (12/14)",
+    "XL (16/18)"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "variants": [
+    {
+      "color": "Black",
+      "size": "XS (5/6)",
+      "price": 21.0,
+      "old_price": 28.0,
+      "available_items": null
+    },
+    {
+      "color": "Black",
+      "size": "SMALL (7/8)",
+      "price": 21.0,
+      "old_price": 28.0,
+      "available_items": null
+    },
+    {
+      "color": "Black",
+      "size": "MEDIUM (10)",
+      "price": 21.0,
+      "old_price": 28.0,
+      "available_items": null
+    },
+    {
+      "color": "Black",
+      "size": "LARGE (12/14)",
+      "price": 21.0,
+      "old_price": 28.0,
+      "available_items": null
+    },
+    {
+      "color": "Black",
+      "size": "XL (16/18)",
+      "price": 21.0,
+      "old_price": 28.0,
+      "available_items": null
+    }
+  ],
+  "categories": [
+    "Activewear",
+    "Tops",
+    "Knit Tops",
+    "Knit Sleeveless"
+  ],
+  "breadcrumbs": [
+    "All Girls Clothes & Accessories",
+    "Girls Tanks"
+  ],
+  "ratings": {
+    "5.0": 1
+  },
+  "opinions": [
+    "My daughter loves this leotard! It’s comfortable and fits well."
+  ],
+  "number_of_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Clothing",
+  "specific_category": "Girls' Activewear"
+}

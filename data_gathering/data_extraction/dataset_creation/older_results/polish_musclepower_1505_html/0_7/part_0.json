@@ -1,0 +1,51 @@
+{
+    "product_title": "SOLGAR L-Lysine 1000 mg - 50 tabs",
+    "brand": "SOLGAR",
+    "current_price": 41.78,
+    "old_price": null,
+    "specifications": {
+        "material": null,
+        "dimensions": null
+    },
+    "description": "Zbilansowaną dietę uzupełnisz suplementem L-Lysine 1000 mg. Jedna tabletka dziennie zapewni Ci najwyższą dzienną porcję substancji aktywnej. Firma Solgar nie tylko produkuje swoje preparaty z trzyetapowo weryfikowanych surowców, ale też prowadzi badania.",
+    "sizes": ["uniwersalny"],
+    "colors": null,
+    "variants": {
+        "1 szt.": 41.78,
+        "2 szt.": 40.53,
+        "4 szt.": 40.53,
+        "6 szt.": 40.53,
+        "8 szt.": 40.53,
+        "10 szt.": 40.53,
+        "12 szt.": 40.53,
+        "14 szt.": 40.53,
+        "16 szt.": 40.53,
+        "18 szt.": 40.53,
+        "20 szt.": 40.53
+    },
+    "categories": ["Supplements", "Vitamins and Minerals"],
+    "breadcrumbs": ["Home", "Supplements", "Vitamins and Minerals"],
+    "ratings": {
+        "5": 0,
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+    },
+    "opinions": [],
+    "number_of_available_items": {
+        "uniwersalny": null
+    },
+    "similar_products": null,
+    "products_I_may_also_like": null,
+    "related_products": null,
+    "recommended_for_me": null,
+    "general_category": "Supplements",
+    "specific_category": "Vitamins and Minerals"
+} 
+
+For each opinion return only the opinion text itself: 
+
+{
+   "opinions": []
+}

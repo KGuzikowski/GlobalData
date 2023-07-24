@@ -1,0 +1,44 @@
+{
+  "title": "Nóż Gerber Quadrant bamboo",
+  "brand": "Gerber",
+  "current_price": {
+    "price": 129,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "Material",
+      "value": "7Cr17MoV"
+    },
+    {
+      "name": "Dimensions",
+      "value": "Długość całkowita: 170mm\nDługość po złożeniu: 99mm\nDługość ostrza: 68mm\nWaga: 88g"
+    },
+    {
+      "name": "Other Features",
+      "value": [
+        {
+          "name": "Rękojeść",
+          "value": "stal+ bambus"
+        }
+      ]
+    }
+  ],
+  "description": "Nóż składany, ostrze ścięte, wykonane ze stali 7Cr17Mov, blokada frame lock, okładzina bambusowa, lakierowany, część ostrza polerowana, klips do wpięcia.",
+  "sizes": [],
+  "colors": [
+    "Bezbarwny"
+  ],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {},
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

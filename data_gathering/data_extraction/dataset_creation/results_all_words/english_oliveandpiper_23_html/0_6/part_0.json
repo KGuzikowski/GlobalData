@@ -1,0 +1,49 @@
+{
+  "title": "Versailles Stud Earrings",
+  "brand": "Olive + Piper",
+  "current_price": {
+    "price": 42.00,
+    "currency": "USD"
+  },
+  "old_price": null,
+  "product_features": [
+    {
+      "name": "Width",
+      "value": "1\""
+    },
+    {
+      "name": "Weight",
+      "value": "0.84 oz per pair"
+    },
+    {
+      "name": "Plating",
+      "value": "14K gold plated or silver tone plated"
+    },
+    {
+      "name": "Material",
+      "value": "Glass crystals"
+    },
+    {
+      "name": "Posts",
+      "value": "Surgical steel"
+    },
+    {
+      "name": "Hypoallergenic",
+      "value": "Yes"
+    },
+    {
+      "name": "Nickel Free",
+      "value": "Yes"
+    }
+  ],
+  "short_description": "Pretty floral stud earrings with brilliant fanned crystals. A gorgeous statement piece with a vintage-inspired look.",
+  "colors_variants": [
+    "Silver"
+  ],
+  "size_variants": [],
+  "product_categories": ["Jewelry"],
+  "customer_ratings": null,
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

@@ -1,0 +1,39 @@
+{
+   "product_title": "Jasnopomarańczowa dopasowana sukienka San Diego RUE PARIS",
+   "brand": "RUE PARIS",
+   "current_price": "54,99 zł",
+   "old_price": "79,99 zł",
+   "specifications": {
+      "material": "90% bawełna, 10% elastan",
+      "dimensions": {
+         "szerokość pod pachami": "33 cm",
+         "długość całkowita": "112 cm",
+         "biodra": "35 cm"
+      }
+   },
+   "description": "Jasnopomarańczowa sukienka basic San Diego RUE PARIS",
+   "sizes": ["S", "M", "L"],
+   "colors": ["jasny pomarańczowy"],
+   "variants": ["RV-SK-7531.54"],
+   "categories": ["Sukienki", "Sukienki dopasowane BASIC", "SUKIENKI AKCJA PROMOCYJNA"],
+   "breadcrumbs": ["Home", "Nowości", "Nowości Sukienki", "Sukienki dopasowane BASIC", "SUKIENKI AKCJA PROMOCYJNA"],
+   "ratings": {
+      "5 gwiazdek": 0,
+      "4 gwiazdki": 0,
+      "3 gwiazdki": 0,
+      "2 gwiazdki": 0,
+      "1 gwiazdka": 0
+   },
+   "opinions": [],
+   "available_sizes": {
+      "S": null,
+      "M": null,
+      "L": null
+   },
+   "similar_products": [],
+   "products_i_may_also_like": [],
+   "related_products": [],
+   "recommended_for_me": [],
+   "general_category": "Sukienki",
+   "specific_category": "Sukienki dopasowane BASIC"
+}

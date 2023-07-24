@@ -1,0 +1,83 @@
+{
+  "title": "Portable Baby Backpack",
+  "brand": "Loving Lane Co",
+  "current_price": {
+    "price": 66.03,
+    "currency": "USD"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton"
+    },
+    {
+      "name": "dimensions",
+      "value": "Mattress size: (30*73)cm, Bed size: (30*73*24)cm, Bag size:(41*21*32)cm"
+    },
+    {
+      "name": "other_features",
+      "value": [
+        {
+          "name": "accessories",
+          "value": "portable mattress"
+        }
+      ]
+    }
+  ],
+  "description": "Name: Multifunctional Mummy Bed BagAccessories: portable mattressMattress size: (30*73)cmBed size: (30*73*24)cmBag size:(41*21*32)cmMaterial: cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton",
+  "sizes": [],
+  "colors": ["Black", "Light green", "Green", "Blue", "Grey", "Pink grey", "Grey 2", "Pink"],
+  "variants": [
+    {
+      "name": "Black 2",
+      "value": "$66.03"
+    },
+    {
+      "name": "Light green",
+      "value": "$66.03"
+    },
+    {
+      "name": "Green 2",
+      "value": "$66.03"
+    },
+    {
+      "name": "Blue",
+      "value": "$66.03"
+    },
+    {
+      "name": "Grey",
+      "value": "$66.03"
+    },
+    {
+      "name": "Green",
+      "value": "$66.03"
+    },
+    {
+      "name": "Pink grey",
+      "value": "$66.03"
+    },
+    {
+      "name": "Grey 2",
+      "value": "$66.03"
+    },
+    {
+      "name": "Pink",
+      "value": "$66.03"
+    },
+    {
+      "name": "Black",
+      "value": "$66.03"
+    }
+  ],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {},
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

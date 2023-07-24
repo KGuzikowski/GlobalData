@@ -1,0 +1,68 @@
+{
+   "product_title": "Portable Baby Backpack",
+   "brand": null,
+   "current_price": 66.03,
+   "old_price": null,
+   "specifications": {
+        "accessories": "portable mattress",
+        "mattress_size": "(30*73)cm",
+        "bed_size": "(30*73*24)cm",
+        "bag_size": "(41*21*32)cm",
+        "material": "cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton"
+   },
+   "description": "Name: Multifunctional Mummy Bed BagAccessories: portable mattressMattress size: (30*73)cmBed size: (30*73*24)cmBag size:(41*21*32)cmMaterial: cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton",
+   "sizes": {
+        "Black 2": 0,
+        "Light green": 0,
+        "Green 2": 0,
+        "Blue": 0,
+        "Grey": 0,
+        "Green": 0,
+        "Pink grey": 0,
+        "Grey 2": 0,
+        "Pink": 0,
+        "Black": 0
+   },
+   "colors": {
+        "Black 2": true,
+        "Light green": true,
+        "Green 2": true,
+        "Blue": true,
+        "Grey": true,
+        "Green": true,
+        "Pink grey": true,
+        "Grey 2": true,
+        "Pink": true,
+        "Black": true
+   },
+   "variants": {
+        "Black 2": 66.03,
+        "Light green": 66.03,
+        "Green 2": 66.03,
+        "Blue": 66.03,
+        "Grey": 66.03,
+        "Green": 66.03,
+        "Pink grey": 66.03,
+        "Grey 2": 66.03,
+        "Pink": 66.03,
+        "Black": 66.03
+   },
+   "categories": {
+        "general": "Baby Products",
+        "specific": "Baby Travel Gear"
+   },
+   "breadcrumbs": null,
+   "ratings": {
+        "5": 0,
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+   },
+   "opinions": [],
+   "available_items": null,
+   "similar_products": null,
+   "products_i_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null
+}

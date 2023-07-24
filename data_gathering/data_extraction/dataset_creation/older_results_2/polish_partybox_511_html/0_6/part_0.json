@@ -1,0 +1,39 @@
+{
+  "title": "Tomahawk INDIANINA dodatek do stroju",
+  "brand": null,
+  "current_price": {
+    "price": 19.89,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "plastikowy tomahawk ozdobiony sztucznym futerkiem."
+    },
+    {
+      "name": "dimensions",
+      "value": "szerokość: ok. 15cm, długość: ok. 45cm"
+    },
+    {
+      "name": "other_features",
+      "value": []
+    }
+  ],
+  "description": "Indiański tomahawk to świetny dodatek do stroju, z pewnością urozmaici kostium indianina.",
+  "sizes": [],
+  "colors": [],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "": null
+  },
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

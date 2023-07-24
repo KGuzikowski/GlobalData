@@ -1,0 +1,288 @@
+{
+  "product_title": "esmara Bluzka damska z wiskozy, 1 sztuka",
+  "brand": "esmara",
+  "current_price": "34,99 zł",
+  "old_price": null,
+  "specifications": {
+    "material": "100% wiskoza",
+    "dimensions": null
+  },
+  "description": "bluzka damska z wiskozy jest miękka i przyjemna w dotyku, z oszczędzającej zasoby wiskozy, mankiety na guziki, niewielki kołnierzyk typu kent i listwa guzikowa na całej długości, biały i kwiaty: taliowany krój, z falbanką, miętowy: prosty krój, z kieszonką na piersi",
+  "sizes": [
+    "34",
+    "36",
+    "38",
+    "40",
+    "42",
+    "44",
+    "46"
+  ],
+  "colors": [
+    "biały",
+    "miętowy",
+    "kwiaty"
+  ],
+  "variants": null,
+  "categories": [
+    {
+      "general_category": "clothing",
+      "specific_category": "blouses"
+    }
+  ],
+  "breadcrumbs": null,
+  "ratings": {
+    "5": 41,
+    "4": 12,
+    "3": 3,
+    "2": 1,
+    "1": 1
+  },
+  "opinions": [
+    "bluzka jest bardzo wygodna i miła w dotyku",
+    "jestem bardzo zadowolona z zakupu, bluzka jest bardzo ładna i wygodna",
+    "ładna bluzka, tylko trochę ciasno w biuście",
+    "niestety bluzka była dla mnie za mała, ale materiał wydaje się być dobrej jakości",
+    "nie polecam, bluzka jest źle skrojona i nie leży dobrze na sylwetce"
+  ],
+  "available_items": {
+    "34": null,
+    "36": null,
+    "38": null,
+    "40": null,
+    "42": null,
+    "44": null,
+    "46": null
+  },
+  "similar_products": [
+    {
+      "product_title": "esmara Bluzka damska z bawełny organicznej, 1 sztuka",
+      "brand": "esmara",
+      "current_price": "29,99 zł",
+      "old_price": null,
+      "specifications": {
+        "material": "100% bawełna organiczna",
+        "dimensions": null
+      },
+      "description": "bluzka damska z bawełny organicznej, miękka i przyjemna w dotyku, z okrągłym dekoltem i krótkimi rękawami",
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "colors": [
+        "biały",
+        "czarny",
+        "granatowy",
+        "szary"
+      ],
+      "variants": null,
+      "categories": [
+        {
+          "general_category": "clothing",
+          "specific_category": "blouses"
+        }
+      ],
+      "breadcrumbs": null,
+      "ratings": {
+        "5": 23,
+        "4": 8,
+        "3": 3,
+        "2": 0,
+        "1": 1
+      },
+      "opinions": [
+        "super jakość, polecam",
+        "bluzka jest bardzo wygodna i dobrze leży",
+        "ładny klasyczny fason, polecam",
+        "niestety bluzka jest trochę za mała, ale materiał jest przyjemny w dotyku",
+        "niestety zbyt ciasna w biuście, ale ogólnie ok"
+      ],
+      "available_items": {
+        "34": 10,
+        "36": 15,
+        "38": 5,
+        "40": 8,
+        "42": 2,
+        "44": 0,
+        "46": 0
+      }
+    },
+    {
+      "product_title": "esmara Koszula damska, 1 sztuka",
+      "brand": "esmara",
+      "current_price": "39,99 zł",
+      "old_price": null,
+      "specifications": {
+        "material": "65% bawełna, 32% poliester, 3% elastan",
+        "dimensions": null
+      },
+      "description": "koszula damska, dopasowana do sylwetki, z kołnierzykiem, z zapinanym przodem, z trzema kieszeniami na przodzie",
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "colors": [
+        "biały",
+        "granatowy",
+        "kremowy",
+        "różowy"
+      ],
+      "variants": null,
+      "categories": [
+        {
+          "general_category": "clothing",
+          "specific_category": "shirts"
+        }
+      ],
+      "breadcrumbs": null,
+      "ratings": {
+        "5": 17,
+        "4": 8,
+        "3": 1,
+        "2": 1,
+        "1": 0
+      },
+      "opinions": [
+        "koszula jest bardzo elegancka i wygodna",
+        "polecam, świetna jakość materiału",
+        "niestety koszula jest trochę za długa, ale fason jest bardzo ładny",
+        "zbyt ciasna w talii, ale ogólnie ok",
+        "nie polecam, koszula jest źle skrojona i niedopasowana do sylwetki"
+      ],
+      "available_items": {
+        "34": 5,
+        "36": 8,
+        "38": 7,
+        "40": 10,
+        "42": 3,
+        "44": 0,
+        "46": 0
+      }
+    }
+  ],
+  "products_i_may_also_like": [
+    {
+      "product_title": "esmara Spodnie damskie, 1 sztuka",
+      "brand": "esmara",
+      "current_price": "49,99 zł",
+      "old_price": null,
+      "specifications": {
+        "material": "98% bawełna, 2% elastan",
+        "dimensions": null
+      },
+      "description": "spodnie damskie, z elastycznego materiału, z kieszeniami na przodzie i tylnym pasie, z rozporkiem na zamek i guzikami",
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "colors": [
+        "czarny",
+        "granatowy",
+        "szary"
+      ],
+      "variants": null,
+      "categories": [
+        {
+          "general_category": "clothing",
+          "specific_category": "pants"
+        }
+      ],
+      "breadcrumbs": null,
+      "ratings": {
+        "5": 12,
+        "4": 5,
+        "3": 2,
+        "2": 1,
+        "1": 0
+      },
+      "opinions": [
+        "super jakość, polecam",
+        "spodnie są bardzo wygodne i dobrze leżą",
+        "niestety spodnie są za duże, ale materiał jest dobrej jakości",
+        "niestety zbyt ciasne na udach, ale ogólnie ok",
+        "nie polecam, spodnie są źle skrojone i niedopasowane do sylwetki"
+      ],
+      "available_items": {
+        "34": 3,
+        "36": 10,
+        "38": 5,
+        "40": 12,
+        "42": 2,
+        "44": 0,
+        "46": 0
+      }
+    },
+    {
+      "product_title": "esmara Sukienka damska, 1 sztuka",
+      "brand": "esmara",
+      "current_price": "59,99 zł",
+      "old_price": null,
+      "specifications": {
+        "material": "65% poliester, 30% wiskoza, 5% elastan",
+        "dimensions": null
+      },
+      "description": "sukienka damska, z dopasowaną górą i rozkloszowanym dołem, z okrągłym dekoltem i krótkimi rękawami",
+      "sizes": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "colors": [
+        "czarny",
+        "granatowy",
+        "czerwony"
+      ],
+      "variants": null,
+      "categories": [
+        {
+          "general_category": "clothing",
+          "specific_category": "dresses"
+        }
+      ],
+      "breadcrumbs": null,
+      "ratings": {
+        "5": 9,
+        "4": 4,
+        "3": 0,
+        "2": 1,
+        "1": 0
+      },
+      "opinions": [
+        "sukienka jest bardzo ładna i wygodna",
+        "polecam, świetna jakość materiału",
+        "niestety sukienka jest za długa, ale fason jest bardzo ładny",
+        "zbyt ciasna w talii, ale ogólnie ok",
+        "nie polecam, sukienka jest źle skrojona i niedopasowana do sylwetki"
+      ],
+      "available_items": {
+        "34": 2,
+        "36": 5,
+        "38": 3,
+        "40": 6,
+        "42": 2,
+        "44": 0,
+        "46": 0
+      }
+    }
+  ],
+  "related_products": [],
+  "recommended_for_me": null
+}

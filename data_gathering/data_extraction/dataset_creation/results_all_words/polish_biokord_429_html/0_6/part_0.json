@@ -1,0 +1,29 @@
+{
+  "title": "Arganowy Krem do Twarzy Nawilżający, Giardino Dei Sensi",
+  "brand": "Giardino Dei Sensi",
+  "current_price": {
+    "amount": 24.00,
+    "currency": "PLN"
+  },
+  "old_price": null,
+  "product_features": [
+    {
+      "name": "Pojemność",
+      "value": "75 ml"
+    }
+  ],
+  "short_description": "Linia Eco Bio ARGAN to linia kosmetyków powstała z poszanowania drogocennych właściwości oleju arganowego zwanego złotem pustyni. Krem w postaci lekkiej emulsji, która wykorzystuje dobroczynne właściwości ekologicznego oleju arganowego, bogatego w kwasy tłuszczowe oraz witaminy E i A. Zapewnia nawilżenie skóry przez cały dzień. Jeden gest dla nawilżonej i aksamitnej skóry.",
+  "colors_variants": null,
+  "size_variants": null,
+  "product_categories": [
+    "Kremy na dzień",
+    "Pielęgnacja Twarzy"
+  ],
+  "customer_ratings": {
+    "average_rating": 0.0,
+    "number_of_ratings": 0
+  },
+  "customer_reviews": null,
+  "similar_or_related_products": null,
+  "products_recommended_for_me": null
+}

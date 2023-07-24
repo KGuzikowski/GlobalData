@@ -1,0 +1,37 @@
+{
+  "product_title": "Orange Textured Mesh Ring Detail Cut Out Midaxi Dress",
+  "brand": "PrettyLittleThing",
+  "current_price": null,
+  "old_price": null,
+  "specifications": {
+    "material": "textured mesh",
+    "dimensions": null
+  },
+  "description": "Stand out from the crowd in this statement midaxi dress. Featuring an orange textured mesh material with a ring detail and cut-out design, we're obsessed. Finish off the look with strappy heels and statement accessories.",
+  "sizes": {
+    "Main Range": ["XS", "S", "M", "L", "XL"],
+    "Petite": ["XS", "S", "M", "L"],
+    "Tall": ["XS", "S", "M", "L"],
+    "Shape": ["XS", "S", "M", "L", "XL"],
+    "Plus": ["L", "XL", "2X", "3X", "4X"]
+  },
+  "colors": ["Orange"],
+  "variants": null,
+  "categories": ["Clothing", "Dresses"],
+  "breadcrumbs": ["Home", "Clothing", "Dresses"],
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": [],
+  "number_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Clothing",
+  "specific_category": "Dresses"
+}

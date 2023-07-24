@@ -1,0 +1,46 @@
+{
+   "product_title": "CyberPower CPS1000E - UPS",
+   "brand": "CyberPower",
+   "current_price": "668,28 zł",
+   "old_price": "809 zł",
+   "specifications": {
+      "czas_podtrzymania_obciazenia_100": "Brak danych",
+      "czas_podtrzymania_obciazenia_50": "Brak danych",
+      "moc_pozorna": "1000 VA",
+      "moc_skuteczna": "700 W",
+      "obudowa": "Tower"
+   },
+   "description": "UPS CyberPower CPS1000E jest dostępny w Morele.net! Szukasz tego produktu? Sprawdź - najczęściej to właśnie Morele.net ma najniższą cenę w Polsce.",
+   "sizes": null,
+   "colors": null,
+   "variants": null,
+   "categories": ["Elektronika", "UPS-y"],
+   "breadcrumbs": ["Sklep", "Elektronika", "UPS-y"],
+   "ratings": {
+      "5": "0%",
+      "4": "100%",
+      "3": "0%",
+      "2": "0%",
+      "1": "0%"
+   },
+   "opinions": [
+      "Bardzo przyzwoicie wykonany i zapakowany produkt. Spasowanie,lakier obudowy,instrukcja w języku polskim, robią dobre wrażenie o producencie. Po podłączeniu akumulatora i zasilania z sieci, CP działa od razu. Poza ustawieniem żądanego prądu ładowania akumulatora (w zależności od pojemności)CP nie wymaga w zasadzie żadnych ustawień. Czasy podtrzymania napięcia,są takie jak podaje producent. U mnie CP pracuje z akumulatorem żelowym 200Ah i podtrzymuje pracę: kondensacyjny kocioł gazowy, pompa cwu, oświetlenie kotłowni LED,oświetlenie awaryjne domu LED, router wifi, a dodatkowo, w przypadku dłuższych przerw w dostawach prądu, także laptop, lodówka. CP posiada dwa wentylatory, które przy podpiętym obciążeniu pow.30% włączają się, mimo pracy z sieci, i są dosyć głośne. Dlatego UPS powinien pracować w pomieszczeniu z którego nie będzie go słychać."
+   ],
+   "available_items": null,
+   "similar_products": [
+      "809 zł",
+      "879 zł",
+      "892,37 zł",
+      "899 zł",
+      "1 199 zł",
+      "1 271,58 zł",
+      "1 419 zł",
+      "239,09 zł",
+      "242,05 zł"
+   ],
+   "products_i_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null,
+   "general_category": "Elektronika",
+   "specific_category": "UPS-y"
+}

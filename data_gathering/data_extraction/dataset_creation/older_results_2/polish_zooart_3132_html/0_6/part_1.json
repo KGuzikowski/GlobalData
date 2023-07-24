@@ -1,0 +1,42 @@
+{
+  "title": "Dolina Noteci Flipper z wołowiną i drobiem 24x800g",
+  "brand": "Dolina Noteci",
+  "current_price": {
+    "price": 104.16,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "specification_name": "material",
+      "specification_value": "wołowina i drobiem"
+    },
+    {
+      "specification_name": "dimensions",
+      "specification_value": "24x800g"
+    },
+    {
+      "specification_name": "other_features",
+      "specification_value": [
+        {
+          "feature_name": "Podgląd",
+          "feature_value": null
+        }
+      ]
+    }
+  ],
+  "description": "Pełnoporcjowa karma z wołowiną i drobiem.",
+  "sizes": [],
+  "colors": [],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {},
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

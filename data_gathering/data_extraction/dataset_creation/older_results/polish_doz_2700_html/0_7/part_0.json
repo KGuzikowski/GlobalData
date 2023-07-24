@@ -1,0 +1,79 @@
+{
+  "product_title": "Bibi Happiness, smoczek uspokajający, ortodontyczny, 0 - 2 m, pomarańczowy, 1 szt.",
+  "brand": "Bibi",
+  "current_price": "18.99 zł",
+  "old_price": null,
+  "specifications": {
+    "material": "Bez BPA, Bez ftalanów",
+    "dimensions": null
+  },
+  "description": "Bibi Happiness jest to uspokajający, ortodontyczny smoczek przeznaczony dla niemowląt od urodzenia do 2 miesiąca życia. Produkt posiada ortodontyczny kształt, który wspomaga naturalny rozwój zgryzu i podniebienia maluszka, a także nie zaburza odruchu ssania.",
+  "all_sizes": [
+    "0-2 m"
+  ],
+  "all_colors": [
+    "pomarańczowy"
+  ],
+  "all_variants": [
+    "Bibi Happiness, smoczek uspokajający, ortodontyczny, 0 - 2 m, pomarańczowy, 1 szt."
+  ],
+  "categories": [
+    "akcesoria",
+    "smoczek uspokajający",
+    "soczek ortodontyczny",
+    "niemowlę"
+  ],
+  "breadcrumbs": [
+    "Portal DOZ.pl"
+  ],
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": [],
+  "number_of_available_items": {
+    "0-2 m": 1
+  },
+  "similar_products": [
+    {
+      "product_title": "Lovi Botanic boy, smoczek uspokajający, dynamiczny, 0-3 miesięcy, 2 szt.",
+      "brand": "Lovi",
+      "current_price": "23.99 zł"
+    }
+  ],
+  "products_I_may_also_like": [
+    {
+      "product_title": "Baby Ono, laktator ręczny Anatomy, 1 szt.",
+      "brand": "Baby Ono",
+      "current_price": "55.49 zł"
+    }
+  ],
+  "related_products": [
+    {
+      "product_title": "Zestaw Baby Ono laktator ręczny + wkładki laktacyjne",
+      "brand": "Baby Ono",
+      "current_price": "62.89 zł"
+    },
+    {
+      "product_title": "Mój Pierwszy Zestaw Pikabu",
+      "brand": "Pikabu",
+      "current_price": "53.86 zł"
+    },
+    {
+      "product_title": "DOZ Daily Mama, wkładki laktacyjne, 60 szt.",
+      "brand": "DOZ",
+      "current_price": "16.99 zł"
+    },
+    {
+      "product_title": "Zestaw 2x DOZ Daily Mama, wkładki laktacyjne, 60 szt.",
+      "brand": "DOZ",
+      "current_price": "23.78 zł"
+    }
+  ],
+  "recommended_for_me": null,
+  "general_category": "baby products",
+  "specific_category": "pacifiers"
+}

@@ -1,0 +1,51 @@
+{
+  "productTitle": "Alien Resurrection (Sony PlayStation 1, 2000)",
+  "brand": "Fox Interactive",
+  "currentPrice": 85.00,
+  "oldPrice": null,
+  "specifications": {
+    "platform": "Sony PlayStation 1",
+    "releaseYear": 2000,
+    "gameName": "Alien Resurrection",
+    "genre": "Shooter",
+    "esrbDescriptor": "Animated Blood & Gore, Animated Violence",
+    "esrbRating": "M - Mature",
+    "gameNameSpecialFeatures": [
+      "Navigate Ellen Ripley and her team through the close quartered Auriga in an effort to destroy the alien queen",
+      "Blast on the enemy with pulse rifles, flamethrowers, electric guns, and grenade launchers",
+      "Defend your party as the aliens attack you from the ground, the ceiling, and from the wall"
+    ],
+    "controlElements": "Gamepad/Joystick",
+    "numberOfPlayers": 1,
+    "location": "USA"
+  },
+  "description": "Throughout the Alien movies Ellen Ripley has battled soldiers, queens, mutant varieties, and even experienced her own death, and now she's been brought back by a team of scientists that want to gain access to the alien queen hosted in her body at the time of her demise...",
+  "sizes": null,
+  "colors": null,
+  "variants": null,
+  "categories": ["Electronics", "Video Games & Consoles", "Video Games"],
+  "breadcrumbs": ["eBay", "Video Games & Consoles", "Video Games"],
+  "ratings": {
+    "5": 11,
+    "4": 4,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": [
+    "Good graphics",
+    "Compelling gameplay",
+    "Good value"
+  ],
+  "numberOfAvailableItems": {
+    "brandNew": 10,
+    "openBox": null,
+    "preOwned": null
+  },
+  "similarProducts": null,
+  "productsIMayAlsoLike": null,
+  "relatedProducts": null,
+  "recommendedForMe": null,
+  "generalCategory": "Video Games",
+  "specificCategory": "PlayStation 1 Games"
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Sporty Spice Bra - Black",
+  "brand": "Fashion Nova",
+  "current_price": {
+    "price": 2.98,
+    "currency": "USD"
+  },
+  "old_price": null,
+  "product_features": [
+    {
+      "specification_name": "Color",
+      "value": "Black"
+    },
+    {
+      "specification_name": "Fit",
+      "value": null
+    }
+  ],
+  "short_description": "Sporty Spice Bra - Black",
+  "colors_variants": [
+    "Black",
+    "Heather Grey",
+    "Pink"
+  ],
+  "size_variants": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "product_categories": [
+    "Lingerie & Sleepwear",
+    "All"
+  ],
+  "customer_ratings": null,
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

@@ -1,0 +1,132 @@
+{
+  "product_title": "Collection X by Justice Cutout Leotard",
+  "brand": "Justice",
+  "current_price": 21.00,
+  "old_price": 28.00,
+  "specifications": {
+    "product_family": "303531",
+    "material": "90% polyester and 10% elastane",
+    "care_instructions": "Machine wash, tumble dry",
+    "imported": true
+  },
+  "description": "Whether your girl decides to wear our girl’s cutout leotard for practice or layered under a pair of our denim shorts for a day with her friends, she’ll be ready for wherever the day takes her. This sleeveless style is cut from a breathable stretch fabric and has a scoop neck, a cutout at the back, and full coverage brief bottom with a small logo at the hip.",
+  "sizes": [
+    {
+      "size": "XS (5/6)",
+      "available_items": null
+    },
+    {
+      "size": "SMALL (7/8)",
+      "available_items": null
+    },
+    {
+      "size": "MEDIUM (10)",
+      "available_items": null
+    },
+    {
+      "size": "LARGE (12/14)",
+      "available_items": null
+    },
+    {
+      "size": "XL (16/18)",
+      "available_items": null
+    }
+  ],
+  "colors": [
+    "Black"
+  ],
+  "variants": [
+    {
+      "color": "Black",
+      "size": "XS (5/6)",
+      "current_price": 21.00,
+      "old_price": 28.00
+    },
+    {
+      "color": "Black",
+      "size": "SMALL (7/8)",
+      "current_price": 21.00,
+      "old_price": 28.00
+    },
+    {
+      "color": "Black",
+      "size": "MEDIUM (10)",
+      "current_price": 21.00,
+      "old_price": 28.00
+    },
+    {
+      "color": "Black",
+      "size": "LARGE (12/14)",
+      "current_price": 21.00,
+      "old_price": 28.00
+    },
+    {
+      "color": "Black",
+      "size": "XL (16/18)",
+      "current_price": 21.00,
+      "old_price": 28.00
+    }
+  ],
+  "categories": [
+    {
+      "general": "Activewear",
+      "specific": "Knit Sleeveless Tops"
+    },
+    {
+      "general": "All Girls Clothes & Accessories",
+      "specific": null
+    },
+    {
+      "general": "Collection X",
+      "specific": null
+    },
+    {
+      "general": "Exclusives",
+      "specific": null
+    },
+    {
+      "general": "Girls Plus Size Clothing",
+      "specific": null
+    },
+    {
+      "general": "Girls Tanks",
+      "specific": null
+    },
+    {
+      "general": "Justice Athleisure",
+      "specific": null
+    },
+    {
+      "general": "New Arrivals",
+      "specific": null
+    },
+    {
+      "general": "Tops",
+      "specific": null
+    },
+    {
+      "general": "Activewear",
+      "specific": null
+    },
+    {
+      "general": "Tops",
+      "specific": null
+    },
+    {
+      "general": "Tees Leggings Sale",
+      "specific": null
+    }
+  ],
+  "breadcrumbs": null,
+  "ratings": {
+    "5": 1
+  },
+  "opinions": [
+    "My daughter loves this leotard! It fits perfectly and is very comfortable."
+  ],
+  "number_of_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Portable Baby Backpack",
+  "brand": "Loving Lane Co",
+  "current_price": {
+    "price": 66.03,
+    "currency": "USD"
+  },
+  "old_price": null,
+  "product_features": [
+    {
+      "name": "Accessories",
+      "value": "portable mattress"
+    },
+    {
+      "name": "Material",
+      "value": "cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton"
+    }
+  ],
+  "short_description": "Name: Multifunctional Mummy Bed Bag Accessories: portable mattress Mattress size: (30*73)cm Bed size: (30*73*24)cm Bag size:(41*21*32)cm Material: cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton",
+  "colors_variants": [
+    "Black 2",
+    "Light green",
+    "Green 2",
+    "Blue",
+    "Grey",
+    "Green",
+    "Pink grey",
+    "Grey 2",
+    "Pink",
+    "Black"
+  ],
+  "size_variants": null,
+  "product_categories": ["Baby Backpack", "Mummy Bed Bag"],
+  "customer_ratings": null,
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

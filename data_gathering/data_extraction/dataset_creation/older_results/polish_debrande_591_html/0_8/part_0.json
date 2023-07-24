@@ -1,0 +1,36 @@
+{
+  "product_title": "BUTY PUMA ESCAPER SL (364422-05)",
+  "brand": "PUMA",
+  "current_price": 159.00,
+  "old_price": 229.00,
+  "specifications": {
+    "model": "364422-05",
+    "color": "BIAŁY/ CZERWONY",
+    "material": "INNY MATERIAŁ",
+    "style": "LIFESTYLE",
+    "season": "CAŁOROCZNE",
+    "przeznaczenie": "UNIWERSALNE"
+  },
+  "description": "Obuwie przeznaczone do użytku codziennego (casual, lifestyle)",
+  "sizes": ["uniwersalny"],
+  "colors": ["biały", "bordowy"],
+  "variants": null,
+  "categories": ["buty", "buty sportowe"],
+  "breadcrumbs": [
+    { "name": "Home", "url": "https://debrande.pl/" },
+    { "name": "Obuwie", "url": "https://debrande.pl/obuwie" },
+    { "name": "Buty sportowe", "url": "https://debrande.pl/obuwie/buty-sportowe" },
+    { "name": "BUTY PUMA ESCAPER SL (364422-05)", "url": "https://debrande.pl/obuwie/buty-sportowe/buty-puma-escaper-sl-364422-05" }
+  ],
+  "ratings": {
+    "5": 482
+  },
+  "opinions": ["Szybko i sprawnie, czapka extra", "Ok"],
+  "number_of_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "buty",
+  "specific_category": "buty sportowe"
+}

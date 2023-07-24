@@ -1,0 +1,90 @@
+{
+  "product_title": "Zegarek Mads Dante I ed.",
+  "brand": "Seizmont",
+  "current_price": "999 zł",
+  "old_price": null,
+  "specifications": {
+    "material": "Stal nierdzewna",
+    "sapphire_glass": true,
+    "dimensions": {
+      "case_width": "44 mm",
+      "case_depth": "12 mm",
+      "strap_width": "2,2 cm",
+      "strap_length": "18 cm",
+      "max_wrist_circumference": "19,5 cm",
+      "min_wrist_circumference": "13,2 cm"
+    },
+    "water_resistance": "3 ATM",
+    "movement": "Automatyczny ruch mechaniczny ST1646",
+    "weight": "157 g"
+  },
+  "description": "Życie nigdy się nie kończy – przygotuj się zatem na ciąg dalszy. Zasilany twoją energią zegarek z widocznym mechanizmem Mads Dante dopasuje się do ciebie, tempo do tempa. Zrób dziś to, czego inni nie zrobią. Dzięki temu jutro będziesz mógł zrobić to, czego inni nie mogą. Dzięki szkieletowej tarczy i wystawowemu dekielkowi będziesz mieć miejsce w pierwszym rzędzie w samym sercu zegarka. Dzięki wytrzymałemu kryształowi szafiru nie musisz się martwić zadrapaniami. Ten męski zegarek wykorzystuje energię poprzez naturalny ruch twojego nadgarstka lub można go ręcznie nakręcić. Oznacza to, że już nigdy nie kupisz (i będziesz miał trudności z włożeniem) baterii do zegarka… pozostawiając sobie więcej czasu na wykorzystanie tej chwili. Wykonany z odpornej na rdzę stali nierdzewnej w złocistym odcieniu z pasującą czarno-złocistą bransoletą ze stali nierdzewnej. Mechanizm jest w kolorze szarym i chroniony mocnym szafirowym kryształem. Zaprojektowany w Danii i wysyłany w charakterystycznym pudełku upominkowym.",
+  "sizes": null,
+  "colors": [
+    {
+      "color_name": "Złoty",
+      "color_code": null
+    }
+  ],
+  "variants": null,
+  "categories": [
+    {
+      "name": "Zegarki",
+      "url": "/zegarki"
+    },
+    {
+      "name": "Zegarki na rękę",
+      "url": "/zegarki-na-reke"
+    }
+  ],
+  "breadcrumbs": [
+    {
+      "name": "Trendhim",
+      "url": "https://www.trendhim.pl/"
+    },
+    {
+      "name": "Zegarki",
+      "url": "https://www.trendhim.pl/zegarki/"
+    },
+    {
+      "name": "Zegarki na rękę",
+      "url": "https://www.trendhim.pl/zegarki-na-reke/"
+    }
+  ],
+  "ratings": [
+    {
+      "stars": 5,
+      "count": 700
+    },
+    {
+      "stars": 4,
+      "count": 150
+    },
+    {
+      "stars": 3,
+      "count": 80
+    },
+    {
+      "stars": 2,
+      "count": 30
+    },
+    {
+      "stars": 1,
+      "count": 13
+    }
+  ],
+  "opinions": [
+    "Zegarek jest piękny i elegancki. W rzeczywistości wygląda lepiej niż na zdjęciach. Jest wyjątkowy i przyciąga uwagę. Polecam go każdemu.",
+    "Zegarek jest świetny, bardzo ładny i dobrze wykonany. Bardzo mi się podoba i jest bardzo wygodny.",
+    "Jestem bardzo zadowolony z zakupu. Zegarek jest piękny i dobrze wykonany. Polecam go każdemu, kto szuka eleganckiego zegarka.",
+    "Zegarek jest bardzo ładny i dobrze wykonany. Jestem z niego bardzo zadowolony.",
+    "Zegarek jest bardzo ładny i elegancki. Jest dobrze wykonany i bardzo wygodny. Polecam go każdemu, kto szuka dobrego zegarka."
+  ],
+  "number_of_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Zegarki",
+  "specific_category": "Zegarki na rękę"
+}

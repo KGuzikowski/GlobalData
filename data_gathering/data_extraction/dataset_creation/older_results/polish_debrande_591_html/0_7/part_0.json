@@ -1,0 +1,37 @@
+{
+   "product_title": "BUTY PUMA ESCAPER SL (364422-05)",
+   "brand": "PUMA",
+   "current_price": 159.00,
+   "old_price": 229.00,
+   "specifications": {
+      "model": "364422-05",
+      "color": "BIAŁY/ CZERWONY",
+      "material": "INNY MATERIAŁ",
+      "style": "LIFESTYLE",
+      "season": "CAŁOROCZNE",
+      "przeznaczenie": "UNIWERSALNE",
+      "sizing": ["uniwersalny"],
+      "dimensions": null
+   },
+   "description": "Obuwie nowe, oryginalne, z kompletem metek producenta, zapakowane w karton. Obuwie przeznaczone do użytku codziennego (casual, lifestyle).",
+   "sizes": ["uniwersalny"],
+   "colors": ["biały", "bordowy"],
+   "variants": null,
+   "categories": {
+      "general": "Obuwie",
+      "specific": "Buty sportowe"
+   },
+   "breadcrumbs": null,
+   "ratings": {
+      "5": 482
+   },
+   "opinions": [
+      "Szybko i sprawnie, czapka extra",
+      "Ok"
+   ],
+   "number_available_items": null,
+   "similar_products": null,
+   "products_I_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null
+}

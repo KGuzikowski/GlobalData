@@ -1,0 +1,48 @@
+{
+  "title": "Torebka ViP Lady - V20-04-104-90",
+  "brand": "ViP",
+  "current_price": {
+    "from": 319.00,
+    "to": 152.00,
+    "currency": "zł"
+  },
+  "old_price": 319.00,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "skóra naturalna"
+    },
+    {
+      "name": "dimensions",
+      "value": "47 x 29 x 13 cm"
+    },
+    {
+      "name": "other_features",
+      "value": [
+        {
+          "feature": "2 małe kieszenie"
+        },
+        {
+          "feature": "miejsce na pióro"
+        },
+        {
+          "feature": "kieszeń zapinana na suwak"
+        }
+      ]
+    }
+  ],
+  "description": "Jednokomorowa torebka firmy ViP wykonana ze skóry naturalnej. Zamykana na zamek błyskawiczny. Wewnątrz 2 małe kieszenie, miejsce na pióro oraz kolejna kieszeń zapinana na suwak. Wymiary: 47 x 29 x 13 cm.",
+  "sizes": null,
+  "colors": null,
+  "variants": null,
+  "categories": null,
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": null,
+  "customer_ratings": null,
+  "number_of_available_items": null,
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

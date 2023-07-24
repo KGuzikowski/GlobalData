@@ -1,0 +1,31 @@
+{
+  "product_title": "Torebka ViP Lady",
+  "brand": "ViP",
+  "current_price": "152,00 zł",
+  "old_price": "319,00 zł",
+  "specifications": {
+    "material": "skóra naturalna",
+    "dimensions": "47 x 29 x 13 cm"
+  },
+  "description": "Jednokomorowa torebka firmy ViP wykonana ze skóry naturalnej. Zamykana na zamek błyskawiczny. Wewnątrz 2 małe kieszenie, miejsce na pióro oraz kolejna kieszeń zapinana na suwak. Wymiary: 47 x 29 x 13 cm.",
+  "sizes": null,
+  "colors": null,
+  "variants": null,
+  "categories": ["Torebki", "Torebki damskie"],
+  "breadcrumbs": ["eObuwie", "Torebki", "Torebki damskie"],
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": null,
+  "number_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": ["Torebka ViP Lady - V20-04-104-90"],
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Torebki",
+  "specific_category": "Torebki damskie"
+}

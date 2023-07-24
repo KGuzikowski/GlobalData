@@ -1,0 +1,36 @@
+{
+   "product_title": "Nóż Gerber Quadrant bamboo",
+   "brand": "Gerber",
+   "current_price": 129,
+   "old_price": null,
+   "specifications": {
+      "material": "7Cr17MoV steel and bamboo",
+      "dimensions": {
+         "total_length": "170mm",
+         "folded_length": "99mm",
+         "blade_length": "68mm",
+         "weight": "88g"
+      }
+   },
+   "description": "Folding knife with a 7Cr17MoV steel blade, frame lock, bamboo handle, polished blade, and clip. Not available in physical stores.",
+   "sizes": null,
+   "colors": ["Bezbarwny"],
+   "variants": null,
+   "categories": ["Outdoor Gear", "Knives"],
+   "breadcrumbs": ["Home", "Outdoor Gear", "Knives"],
+   "ratings": {
+      "5 stars": null,
+      "4 stars": null,
+      "3 stars": null,
+      "2 stars": null,
+      "1 star": null
+   },
+   "opinions": null,
+   "available_items": null,
+   "similar_products": null,
+   "products_I_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null,
+   "general_category": "Outdoor Gear",
+   "specific_category": "Knives"
+}

@@ -1,0 +1,62 @@
+{
+  "title": "Hair Coverage Root Concealer",
+  "brand": "Westmore Beauty",
+  "current_price": {
+    "price": 29.00,
+    "currency": "USD"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "Material",
+      "value": "Mica, Synthetic Fluorphlogopite, Zinc Stearate, Octyldodecyl Stearoyl Stearate, Ethylhexyl Palmitate, Silica, Pentaerythrityl Tetraisostearate, Zea Mays (Corn) Starch, Aluminum Starch Octenylsuccinate, Kaolin, Ethylhexylglycerin, Caprylyl Glycol, Sodium Dehydroacetate, Tin Oxide, Dimethicone, Triethoxycaprylylsilane, Titanium Dioxide (CI 77891), Iron Oxides (CI 77491), Iron Oxides (CI 77499), Iron Oxides (CI 77492)"
+    },
+    {
+      "name": "Dimensions",
+      "value": "0.07 oz / 2.1 g"
+    },
+    {
+      "name": "Other Features",
+      "value": [
+        {
+          "name": "Talc-free",
+          "value": true
+        },
+        {
+          "name": "Water & sweat resistant",
+          "value": true
+        },
+        {
+          "name": "Cling to hair strands",
+          "value": true
+        },
+        {
+          "name": "Absorb excess oil",
+          "value": true
+        },
+        {
+          "name": "Flawless-looking locks",
+          "value": true
+        },
+        {
+          "name": "Lasts all day",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "description": "Instantly cover unwanted grays and roots or fill in thinning areas for fuller-looking hair. Our talc-free, water & sweat resistant formula clings to hair strands to absorb excess oil and give you flawless-looking locks that last all day.",
+  "sizes": ["0.07 oz / 2.1 g"],
+  "colors": ["Blond", "Honey", "Brunette", "Dark Brunette", "Black", "Grey", "Red"],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": null,
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

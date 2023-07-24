@@ -1,0 +1,74 @@
+{
+  "product_title": "Sporty Spice Bra - Black",
+  "brand": "Fashion Nova",
+  "current_price": 2.98,
+  "old_price": 5.99,
+  "specifications": {
+    "material": "92% Micromodal, 8% Elastane",
+    "dimensions": null
+  },
+  "description": "Buy Sporty Spice Bra in Black from Fashion Nova. These Lingerie & Sleepwear are available in most sizes. Receive free US shipping on orders over $75.",
+  "sizes": {
+    "XS": "Out of stock",
+    "S": "Out of stock",
+    "M": "Out of stock",
+    "L": "Out of stock"
+  },
+  "colors": [
+    "Black",
+    "Heather Grey",
+    "Pink"
+  ],
+  "variants": null,
+  "categories": [
+    "Lingerie & Sleepwear",
+    "Bras",
+    "Bras/Bralettes/Panties"
+  ],
+  "breadcrumbs": [
+    "Fashion Nova",
+    "Women",
+    "Lingerie & Sleepwear"
+  ],
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": null,
+  "number_available_items": {
+    "XS": null,
+    "S": null,
+    "M": null,
+    "L": null
+  },
+  "similar_products": [
+    {
+      "product_title": null,
+      "brand": null,
+      "current_price": null,
+      "old_price": null,
+      "specifications": null,
+      "description": null,
+      "sizes": null,
+      "colors": null,
+      "variants": null,
+      "categories": null,
+      "breadcrumbs": null,
+      "ratings": null,
+      "opinions": null,
+      "number_available_items": null
+    }
+  ],
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Lingerie",
+  "specific_category": "Bras"
+} 
+
+For opinions, null is returned as there are no opinions available. 
+
+Note: The text does not provide enough information for some fields, such as the number of available items, opinions, similar products, products I may also like, related products, and recommended for me. In those cases, null is returned. The categorization of the product was made based on the available information and may vary depending on the criteria used.

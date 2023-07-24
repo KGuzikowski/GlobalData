@@ -1,0 +1,95 @@
+{
+  "title": "Pure Cotton Striped Oversized Girlfriend Style Shirt",
+  "brand": "M&S Collection",
+  "current_price": {
+    "price": 9.99,
+    "currency": "£"
+  },
+  "old_price": 25.00,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "100% cotton (exclusive of trimmings)"
+    },
+    {
+      "name": "dimensions",
+      "value": "Neck to hem length for a size 12: 78cm"
+    },
+    {
+      "name": "other_features",
+      "value": [
+        {
+          "feature": "Fit and style",
+          "description": "Regular fit"
+        },
+        {
+          "feature": "Features",
+          "description": "Better Cotton Initiative"
+        }
+      ]
+    }
+  ],
+  "description": "A subtle striped print gives this pure cotton shirt a smart look. It's cut in a regular fit with a flattering longline curved hem. Button cuffs and a collared neck offer a neat finish. We've added a single pocket to the button-down front for a dash of extra detail. We only ever use responsibly sourced cotton for our clothes. M&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles. We've styled this with trousers and boots.",
+  "sizes": [
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "18",
+    "20",
+    "22",
+    "24"
+  ],
+  "colors": [
+    "blue mix"
+  ],
+  "variants": [
+    {
+      "variant_name": "Also available in",
+      "variant_value": "Blue striped shirt"
+    },
+    {
+      "variant_name": "Also available in",
+      "variant_value": "Plain shirts"
+    },
+    {
+      "variant_name": "Also available in",
+      "variant_value": "Yellow shirt"
+    }
+  ],
+  "categories": [
+    "Shirts & Blouses"
+  ],
+  "general_category": "Shirts & Blouses",
+  "specific_category": "SubCategory_26950251",
+  "breadcrumbs": [
+    "Discover more in Shirts & Blouses",
+    "White Shirts",
+    "Cotton Shirts",
+    "Stripe Shirts",
+    "Oversized Shirts",
+    "Shirts & Blouses"
+  ],
+  "customer_ratings": {
+    "average_rating": 4.1,
+    "number_of_ratings": 34
+  },
+  "number_of_available_items": {
+    "6": 0,
+    "8": 0,
+    "10": 0,
+    "12": 0,
+    "14": 0,
+    "16": 0,
+    "18": 0,
+    "20": 0,
+    "22": 0,
+    "24": 0
+  },
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

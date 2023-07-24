@@ -1,0 +1,53 @@
+{
+   "product_title": "Patterned Valet Lanyard",
+   "brand": "Justice",
+   "current_price": 10.00,
+   "old_price": null,
+   "specifications": {
+      "material": "Man-made",
+      "dimensions": null
+   },
+   "description": "Our girls’ lanyard is perfect for keeping her keys and school ID on hand. A dual-sided release buckle and lobster claw clasp make it easy to detach her items. And an allover pattern is easy to spot in her backpack.",
+   "sizes": [
+      "ONE SIZE"
+   ],
+   "colors": [
+      "Multi"
+   ],
+   "variants": [
+      {
+         "color": "Multi",
+         "size": "ONE SIZE",
+         "price": 10.00,
+         "availability": null
+      }
+   ],
+   "categories": [
+      {
+         "general": "Accessories",
+         "specific": "Lanyards"
+      }
+   ],
+   "breadcrumbs": [
+      "All Girls Clothes & Accessories",
+      "School Shop - Backpacks, Lunchboxes",
+      "Shoes & Accessories",
+      "Bags"
+   ],
+   "ratings": {
+      "5": 1
+   },
+   "opinions": [
+      "Our girls’ lanyard is perfect for keeping her keys and school ID on hand. A dual-sided release buckle and lobster claw clasp make it easy to detach her items. And an allover pattern is easy to spot in her backpack."
+   ],
+   "number_available_items": [
+      {
+         "size": "ONE SIZE",
+         "quantity": null
+      }
+   ],
+   "similar_products": null,
+   "products_i_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null
+}

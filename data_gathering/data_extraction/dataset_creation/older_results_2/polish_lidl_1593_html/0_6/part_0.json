@@ -1,0 +1,54 @@
+{
+  "title": "esmara Bluzka damska z wiskozy, 1 sztuka",
+  "brand": "esmara",
+  "current_price": {
+    "price": 34.99,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "Material",
+      "value": "100% wiskoza"
+    },
+    {
+      "name": "Dimensions",
+      "value": "34 - 46"
+    },
+    {
+      "name": "Other Features",
+      "value": [
+        {
+          "name": "Miękka i przyjemna w dotyku",
+          "value": true
+        },
+        {
+          "name": "Mankiety na guziki",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "description": "bluzka damska z wiskozy jest miękka i przyjemna w dotyku, z oszczędzającej zasoby wiskozy, mankiety na guziki, niewielki kołnierzyk typu kent i listwa guzikowa na całej długości, biały i kwiaty: taliowany krój, z falbanką, miętowy: prosty krój, z kieszonką na piersi",
+  "sizes": ["34", "36", "38", "40", "42", "44", "46"],
+  "colors": ["biały", "miętowy", "kwiaty"],
+  "variants": [
+    {
+      "name": "Rozmiar",
+      "value": "wybierz wariant"
+    }
+  ],
+  "categories": ["Bluzki"],
+  "general_category": "Odzież",
+  "specific_category": "Damska",
+  "breadcrumbs": ["LIDL.PL", "Odzież", "Bluzki"],
+  "customer_ratings": {
+    "average_rating": null,
+    "number_of_ratings": null
+  },
+  "number_of_available_items": {},
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

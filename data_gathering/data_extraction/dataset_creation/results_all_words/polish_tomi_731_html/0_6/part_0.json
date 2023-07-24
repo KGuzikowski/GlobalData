@@ -1,0 +1,27 @@
+{
+  "title": "Ceratka na materac 70x100cm, szwedzka",
+  "brand": "Horizon",
+  "current_price": {
+    "price": null,
+    "currency": null
+  },
+  "old_price": null,
+  "product_features": [
+    {
+      "name": "producent",
+      "value": "Horizon"
+    },
+    {
+      "name": "ean",
+      "value": "5907612400097"
+    }
+  ],
+  "short_description": "Podkład ceratowy do łóżeczek i wózków, wykonany z oddychającej ceratki szwedzkiej. Chroni materac przed przemoczeniem.",
+  "colors_variants": null,
+  "size_variants": null,
+  "product_categories": ["Podkład ceratowy"],
+  "customer_ratings": null,
+  "customer_reviews": null,
+  "similar_or_related_products": ["Akuku podkład ceratkowy gruby 50 x 120 cm"],
+  "products_recommended_for_me": ["Akuku podkład ceratowy gruby 90 x 120 cm"]
+}

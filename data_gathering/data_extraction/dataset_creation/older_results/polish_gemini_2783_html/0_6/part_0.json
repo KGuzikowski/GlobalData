@@ -1,0 +1,45 @@
+{
+   "product_title": "ERDBAR, mus owocowy w tubce, jabłko, banan, malina BIO, po 1 roku życia, 100 g",
+   "brand": "Erdbar",
+   "current_price": "5,39 zł",
+   "old_price": null,
+   "specifications": {
+      "material": null,
+      "dimensions": null,
+      "age": "od 1 roku życia",
+      "form": "mus",
+      "main_ingredients": ["jabłko", "banan", "malina"],
+      "special_feature": "BIO",
+      "net_content": "100g"
+   },
+   "description": "ERDBAR mus owocowy do wyciskania w tubce, jabłko, banan, malina BIO.",
+   "sizes": null,
+   "colors": null,
+   "variants": null,
+   "categories": {
+      "general_category": "Desery",
+      "specific_category": "Żywienie dziecka"
+   },
+   "breadcrumbs": ["Apteka Gemini", "Dziecko", "Żywienie dziecka", "Desery", "ERDBAR, mus owocowy w tubce, jabłko, banan, malina BIO, po 1 roku życia, 100 g"],
+   "ratings": {
+      "5": 0,
+      "4": 0,
+      "3": 0,
+      "2": 0,
+      "1": 0
+   },
+   "opinions": null,
+   "number_available_items": null,
+   "similar_products": [
+      "Kindii Pure, bawełniane płatki dla niemowląt, 60 sztuk",
+      "Bepanthen Baby, maść przeciw odparzeniom pieluszkowym dla niemowląt, 100 g",
+      "Symphar, fizjologiczny roztwór NaCl 0,9%, ampułki, 50 x 5 ml",
+      "Vigantol 20 000IU, krople doustne, roztwór, 10 ml",
+      "Dicoflor Baby, dla niemowląt i dzieci, krople, 5 ml"
+   ],
+   "products_i_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null
+} 
+
+For each opinion, the information is not provided so the output for "opinions" is null. The "number_available_items" is also not provided, so it is null. The general category is "Desery" and the specific category is "Żywienie dziecka".

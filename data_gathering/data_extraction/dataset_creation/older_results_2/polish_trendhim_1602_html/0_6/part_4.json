@@ -1,0 +1,59 @@
+{
+  "title": "Zegarek Mads Dante I ed.",
+  "brand": "Seizmont",
+  "current_price": {
+    "price": 999,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "Material",
+      "value": "N/A"
+    },
+    {
+      "name": "Dimensions",
+      "value": "N/A"
+    },
+    {
+      "name": "Other Features",
+      "value": [
+        {
+          "feature": "Uwiecznij wspomnienie dzięki zdjęciu nadrukowanemu na dekiel zegarka."
+        },
+        {
+          "feature": "Twoje zdjęcie jest nadrukowywane po wewnętrznej stronie szkła, co zapewnia długowieczność"
+        },
+        {
+          "feature": "Nadruk wysycha niemal natychmiast, tworząc ultra wyrazisty obraz."
+        },
+        {
+          "feature": "Proces doda 1 dzień do szacowanej daty dostawy (w tym ekspresowej)"
+        },
+        {
+          "feature": "Nadrukowany kolor może się nieznacznie różnić od tego, jak wygląda na ekranie"
+        },
+        {
+          "feature": "Nadrukowane produkty nie podlegają zwrotowi/wymianie"
+        },
+        {
+          "feature": "Nadruk dodaje 79 zł do sumy"
+        }
+      ]
+    }
+  ],
+  "description": "Kup: Seizmont - Zegarek Mads Dante I ed. za jedyne 999 zł. Kupuj w Trendhim. 365-dniowe zwroty. Z dumą oferujemy doskonałe zakupy.",
+  "sizes": [],
+  "colors": [],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {},
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

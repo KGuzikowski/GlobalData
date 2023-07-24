@@ -1,0 +1,42 @@
+{
+  "product_title": "Bandana Nike DRI-FIT HEAD TIE 4.0",
+  "brand": "Nike",
+  "current_price": "59 zł",
+  "old_price": null,
+  "specifications": {
+    "material": "88% Poliester, 12% Spandex",
+    "dimensions": "6 x 98 cm"
+  },
+  "description": "Bandana Nike DRI-FIT HEAD TIE 4.0 wykonana z cienkiej dzianiny. Rozmiar: uniwersalny Wymiary: 6 x 98 cm. Skład: 88 % Poliester, 12 % Spandex",
+  "sizes": [
+    "uniwersalny"
+  ],
+  "colors": [
+    "Różowy"
+  ],
+  "variants": null,
+  "categories": [
+    {
+      "general": "Accessories",
+      "specific": "Headwear"
+    }
+  ],
+  "breadcrumbs": null,
+  "ratings": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "opinions": [],
+  "available_items": {
+    "uniwersalny": null
+  },
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+} 
+
+Note: Since there is no information available on ratings, opinions, available items, similar products, products I may also like, related products, and recommended for me, they are given as null in the JSON output.

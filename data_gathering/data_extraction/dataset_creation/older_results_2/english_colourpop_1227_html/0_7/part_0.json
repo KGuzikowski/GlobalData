@@ -1,0 +1,40 @@
+{
+  "title": "Blending Sponge",
+  "brand": null,
+  "current_price": {
+    "price": 8,
+    "currency": null
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "material",
+      "value": null
+    },
+    {
+      "name": "dimensions",
+      "value": null
+    },
+    {
+      "name": "other_features",
+      "value": []
+    }
+  ],
+  "description": "A reusable, multifunctional complexion sponge that evenly and effortlessly blends makeup for the most flawless application.",
+  "sizes": [],
+  "colors": [],
+  "variants": [],
+  "categories": [
+    "Makeup",
+    "Tools & Accessories"
+  ],
+  "general_category": "Makeup",
+  "specific_category": "Tools & Accessories",
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": null,
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

@@ -1,0 +1,108 @@
+{
+  "productTitle": "Toddler Girls Christmas Dress +Headband Baby Girls Christmas Holiday Dress",
+  "brand": null,
+  "currentPrice": 31.99,
+  "oldPrice": 39.99,
+  "specifications": {
+    "material": null,
+    "dimensions": [
+      {
+        "size": "90",
+        "recommendedAge": "12-18 Months",
+        "bust": "53CM/20.8''",
+        "waist": "53CM/20.8''",
+        "length": "46CM/18.1''"
+      },
+      {
+        "size": "100",
+        "recommendedAge": "18-24 Months",
+        "bust": "56CM/22.0‘’",
+        "waist": "56CM/22.0''",
+        "length": "49CM/19.2''"
+      },
+      {
+        "size": "110",
+        "recommendedAge": "2-3 Years",
+        "bust": "59CM/23.2‘’",
+        "waist": "59CM/23.2‘’",
+        "length": "51CM/20.0''"
+      },
+      {
+        "size": "120",
+        "recommendedAge": "3-4 Years",
+        "bust": "61CM/24.0''",
+        "waist": "61CM/24.0''",
+        "length": "54CM/21.2''"
+      },
+      {
+        "size": "130",
+        "recommendedAge": "4-5 Years",
+        "bust": "64CM/25.1''",
+        "waist": "64CM/25.1''",
+        "length": "56CM/22.0''"
+      }
+    ]
+  },
+  "description": "Package include:1PC Dress+1PC Headband Size Chart: For non US buyers Products are listed in US Sizes   Size Recommended Age Bust Waist Length 90 12-18 Months 53CM/20.8'' 53CM/20.8'' 46CM/18.1'' 100 18-24 Months 56CM/22.0‘’ 56CM/22.0'' 49CM/19.2'' 110 2-3 Years 59CM/23.2‘’ 59CM/23.2‘’ 51CM/20.0'' 120 3-4 Years 61C",
+  "sizes": [
+    "2T",
+    "3T",
+    "4T",
+    "5",
+    "18M"
+  ],
+  "colors": [
+    "Red"
+  ],
+  "variants": [
+    {
+      "color": "Red",
+      "size": "2T",
+      "price": 31.99
+    },
+    {
+      "color": "Red",
+      "size": "3T",
+      "price": 31.99
+    },
+    {
+      "color": "Red",
+      "size": "4T",
+      "price": 31.99
+    },
+    {
+      "color": "Red",
+      "size": "5",
+      "price": 31.99
+    },
+    {
+      "color": "Red",
+      "size": "18M",
+      "price": 31.99
+    }
+  ],
+  "categories": {
+    "general": "Clothing",
+    "specific": "Girls' Clothing"
+  },
+  "breadcrumbs": null,
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": null,
+  "availableItemsBySize": {
+    "2T": null,
+    "3T": null,
+    "4T": null,
+    "5": null,
+    "18M": null
+  },
+  "similarProducts": null,
+  "productsMayAlsoLike": null,
+  "relatedProducts": null,
+  "recommendedForMe": null
+}

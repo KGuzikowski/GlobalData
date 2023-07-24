@@ -1,0 +1,44 @@
+{
+  "product_title": "adidas Satin Women Track Tops",
+  "brand": "adidas",
+  "current_price": "309.00",
+  "old_price": null,
+  "specifications": {
+    "material": "Satin",
+    "dimensions": null
+  },
+  "description": "Stay comfortable in style with this adidas Satin Women Track Top. The black satin material adds a touch of elegance to this classic design. Perfect for everyday wear or dressing up for a special occasion.",
+  "sizes": [
+    "34",
+    "36",
+    "38",
+    "40"
+  ],
+  "colors": [
+    "Black"
+  ],
+  "variants": null,
+  "categories": {
+    "general_category": "Clothing",
+    "specific_category": "Women's Clothing"
+  },
+  "breadcrumbs": null,
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": null,
+  "number_available_items": {
+    "34": null,
+    "36": null,
+    "38": null,
+    "40": null
+  },
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

@@ -51,7 +51,7 @@ Extract all information about the product from this text from a web store. Extra
 - How to categorize products? How do I say which are similar or the same? The name might not be enough. Maybe I should use the description?
 
 # Uwaga
-- remove douglas, ikea z zbioru danych
+- remove douglas, ikea, deguns z zbioru danych
 
 
 # html parser vs lxml:
@@ -79,7 +79,6 @@ All `aside` tags can be removed.
 - warranty
 
 #### Rest:
-- image
 - privacy
 - benefit
 - sign-in
@@ -103,3 +102,6 @@ All `aside` tags can be removed.
 - mobile-header
 - header-menu
 - customer
+
+
+limoniapps????

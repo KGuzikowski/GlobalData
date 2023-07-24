@@ -1,0 +1,33 @@
+{
+    "product_title": "Ceratka na materac 70x100cm, szwedzka",
+    "brand": "Horizon",
+    "current_price": null,
+    "old_price": null,
+    "specifications": {
+        "material": "ceratka szwedzka",
+        "dimensions": "70x100cm"
+    },
+    "description": "Podkład ceratowy do łóżeczek i wózków, wykonany z oddychającej ceratki szwedzkiej. Chroni materac przed przemoczeniem.",
+    "sizes": ["70x100cm"],
+    "colors": null,
+    "variants": null,
+    "categories": ["Dla dzieci", "Pościel i akcesoria"],
+    "breadcrumbs": ["Sklep dla dzieci TOMI.pl", "Dla dzieci", "Pościel i akcesoria"],
+    "ratings": {
+        "5": 0,
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+    },
+    "opinions": null,
+    "number_of_available_items": {
+        "70x100cm": null
+    },
+    "similar_products": ["Akuku podkład ceratkowy gruby 50 x 120 cm", "Akuku podkład ceratowy gruby 90 x 120 cm"],
+    "products_I_may_also_like": null,
+    "related_products": null,
+    "recommended_for_me": null,
+    "general_category": "Dla dzieci",
+    "specific_category": "Pościel i akcesoria"
+}

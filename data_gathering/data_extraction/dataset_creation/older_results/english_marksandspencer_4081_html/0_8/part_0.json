@@ -1,0 +1,75 @@
+{
+   "productTitle": "Pure Cotton Luxury Spa Towel",
+   "brand": "M&S",
+   "currentPrice": "£12.50",
+   "oldPrice": "£32.50",
+   "specifications": {
+      "material": "Pure Cotton",
+      "dimensions": null
+   },
+   "description": "Add an extra note of luxury to bath time with this soft spa towel",
+   "sizes": [
+      {
+         "name": "Hand Towel",
+         "stock": "Low stock",
+         "available": null
+      },
+      {
+         "name": "Bath Towel",
+         "stock": "Low stock",
+         "available": null
+      },
+      {
+         "name": "Bath Sheet",
+         "stock": "Low stock",
+         "available": null
+      }
+   ],
+   "colors": [
+      "duck egg",
+      ...
+   ],
+   "variants": null,
+   "categories": [
+      {
+         "general": "Home & Garden",
+         "specific": "Bathroom Accessories"
+      }
+   ],
+   "breadcrumbs": [
+      "Home",
+      "Home & Garden",
+      "Bathroom Accessories",
+      "Towels"
+   ],
+   "ratings": [
+      {
+         "stars": 5,
+         "number": 235
+      },
+      {
+         "stars": 4,
+         "number": 150
+      },
+      ...
+   ],
+   "opinions": [
+      "This towel is so soft and absorbent, I love it!",
+      "Great quality towel, definitely worth the price.",
+      ...
+   ],
+   "availableItems": null,
+   "similarProducts": [
+      {
+         "productTitle": "Luxury Egyptian Cotton Towel",
+         "brand": "M&S",
+         "currentPrice": "£16.00",
+         "oldPrice": null,
+         "imageUrl": "https://...",
+         ...
+      },
+      ...
+   ],
+   "recommendedProducts": null,
+   "relatedProducts": null
+}

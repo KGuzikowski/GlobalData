@@ -1,0 +1,30 @@
+{
+  "title": "Medicine - Czapka Urban Story",
+  "brand": "Medicine",
+  "current_price": {
+    "price": 19.90,
+    "currency": "zł"
+  },
+  "old_price": 39.90,
+  "product_features": [
+    {
+      "name": "label",
+      "value": "-50%"
+    }
+  ],
+  "short_description": "Medicine - Czapka Urban Story kup na Answear.com i wyglądaj wyjątkowo! Zamów dziś, przymierz jutro! Darmowa dostawa i zwrot od 180 zł",
+  "colors_variants": [],
+  "size_variants": [],
+  "product_categories": [
+    "Akcesoria",
+    "Czapki i kapelusze",
+    "Czapki"
+  ],
+  "customer_ratings": null,
+  "customer_reviews": [],
+  "similar_or_related_products": [
+    "Desigual komin",
+    "CMP Czapka"
+  ],
+  "products_recommended_for_me": []
+}

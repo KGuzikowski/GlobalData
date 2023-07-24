@@ -1,0 +1,31 @@
+{
+  "product_title": "Hair Coverage Root Concealer",
+  "brand": "Westmore Beauty",
+  "current_price": "$29.00 USD",
+  "old_price": null,
+  "specifications": {
+    "material": "talc-free",
+    "dimensions": null
+  },
+  "description": "Instantly cover unwanted grays and roots or fill in thinning areas for fuller-looking hair. Our talc-free, water &amp; sweat resistant formula clings to hair strands to absorb excess oil and give you flawless-looking locks that last all day.",
+  "sizes": null,
+  "colors": ["Blond", "Honey", "Brunette", "Dark Brunette", "Black", "Grey", "Red"],
+  "variants": null,
+  "categories": ["Beauty", "Hair Care"],
+  "breadcrumbs": null,
+  "ratings": {
+    "5": 10,
+    "4": 5,
+    "3": 2,
+    "2": 1,
+    "1": 0
+  },
+  "opinions": ["Love this product!", "Works great for covering roots"],
+  "available_items": null,
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Beauty",
+  "specific_category": "Hair Root Concealer"
+}

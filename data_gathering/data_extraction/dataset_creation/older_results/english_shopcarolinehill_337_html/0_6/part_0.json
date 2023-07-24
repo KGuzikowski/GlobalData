@@ -1,0 +1,31 @@
+{
+  "product_title": "Russell Star Anklet GOLD",
+  "brand": "Caroline Hill",
+  "current_price": 20.00,
+  "old_price": null,
+  "specifications": {
+    "material": "metal",
+    "dimensions": "8.5\" long 2\" extender"
+  },
+  "description": "This anklet features shiny metal stars for a great look.",
+  "sizes": null,
+  "colors": null,
+  "variants": null,
+  "categories": ["Jewelry", "Anklets"],
+  "breadcrumbs": ["Home", "Jewelry", "Anklets"],
+  "ratings": {
+    "5 stars": 0,
+    "4 stars": 0,
+    "3 stars": 0,
+    "2 stars": 0,
+    "1 star": 0
+  },
+  "opinions": null,
+  "available_items": null,
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Jewelry",
+  "specific_category": "Anklets"
+}

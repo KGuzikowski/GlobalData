@@ -1,0 +1,33 @@
+{
+  "product_title": "Pure Cotton Luxury Spa Towel",
+  "brand": "M&S",
+  "current_price": null,
+  "old_price": null,
+  "specifications": {
+    "material": "100% Cotton",
+    "dimensions": "70cm x 125cm"
+  },
+  "description": "Add an extra note of luxury to bath time with this soft spa towel",
+  "sizes": ["One Size"],
+  "colors": ["White", "Grey"],
+  "variants": null,
+  "categories": ["Home & Garden", "Bathroom Accessories"],
+  "breadcrumbs": ["Home", "Home & Garden", "Bathroom Accessories", "Towels"],
+  "ratings": {
+    "5": 3,
+    "4": 1,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": ["Love this towel! So soft and luxurious."],
+  "available_items": {
+    "One Size": 50
+  },
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Home & Garden",
+  "specific_category": "Bathroom Accessories"
+}

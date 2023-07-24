@@ -1,0 +1,36 @@
+{
+  "product_title": "ALAVIS Sanicell 60tab.",
+  "brand": "Alavis",
+  "current_price": "103,61 zł",
+  "old_price": "189,00 zł",
+  "specifications": {
+    "material": "Suplement weterynaryjny",
+    "dimensions": "60 kapsułek"
+  },
+  "description": "Suplement ten regeneruje wątrobę, wzmocnienie odporności, ochrona przed chorobami nowotworowymi.",
+  "sizes": [
+    "uniwersalny"
+  ],
+  "colors": null,
+  "variants": null,
+  "categories": [
+    {
+      "general_category": "Pet supplies",
+      "specific_category": "Pet health"
+    }
+  ],
+  "breadcrumbs": null,
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": null,
+  "number_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Huggies Natural Care, chusteczki nawilżane z aloesem, (56x3)168 szt.",
+  "brand": "Huggies",
+  "current_price": {
+    "price": 20.59,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "Material",
+      "value": "Natural fibers"
+    },
+    {
+      "name": "Dimensions",
+      "value": "Not specified"
+    },
+    {
+      "name": "Other features",
+      "value": [
+        {
+          "name": "Multi-layer structure",
+          "value": "Yes"
+        },
+        {
+          "name": "Contains aloe extract and vitamin E",
+          "value": "Yes"
+        },
+        {
+          "name": "Alcohol-free",
+          "value": "Yes"
+        },
+        {
+          "name": "pH balanced",
+          "value": "Yes"
+        }
+      ]
+    }
+  ],
+  "description": "Chusteczki nawilżane z aloesem – delikatnie oczyszczają wrażliwą skórę dziecka. Formuła na bazie oczyszczonej wody, wzbogacona ekstraktem z aloesu i witaminą E.",
+  "sizes": ["56x3"],
+  "colors": [],
+  "variants": [],
+  "categories": ["chusteczki", "nadwrażliwość"],
+  "general_category": "chusteczki",
+  "specific_category": "nadwrażliwość",
+  "breadcrumbs": ["Huggies Natural Care, chusteczki nawilżane z aloesem, (56x3)168 szt.", "chusteczki", "nadwrażliwość"],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "56x3": 168
+  },
+  "similar_products": ["Pikabu Baby Care, chusteczki nawilżane Pure, 60 szt", "Cleanic Baby Atopical, chusteczki nawilżane dla niemowląt i dzieci, 50 szt.", "Zestaw Higieniczny Baby", "Kindii, Pure Sensitive, chusteczki dla niemowląt i dzieci, 60 szt.", "Kindii Bamboo, chusteczki dla niemowląt i dzieci, 60 szt.", "Pikabu Baby Care, kremowy szampon i płyn do kąpieli, 300 ml", "Pikabu Baby Care, oliwka w kremie, 100 ml", "Pikabu Baby Care, pielęgnacyjny krem do twarzy i ciała, 300 ml", "Clochee Baby & Kids, naturalne masełko do twarzy i ciała dla dzieci, 50 ml", "Cynkokrem, krem dla dzieci od pierwszych dni życia, 150 g"],
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

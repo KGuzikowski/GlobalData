@@ -152,12 +152,10 @@ def includes_values(text: str, values: List[str]) -> bool:
     return False
 
 
-def textify_simplified_head(soup: Tag, meta_acceptable_values: List[str]):
-    assert soup.name == "head"
-
+def textify_meta_tags(soup: Tag, meta_acceptable_values: List[str]):
     text = ""
 
-    for node in soup.contents:
+    for node in soup.findAll("meta"):
         if isinstance(node, Tag) and node.name == "meta":
             name = node.attrs.get("name", None)
             content = node.attrs.get("content", None)

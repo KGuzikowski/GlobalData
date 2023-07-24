@@ -1,0 +1,39 @@
+{
+  "product_title": "Champion Youth Mega Slides",
+  "brand": "Champion",
+  "current_price": "$25.00",
+  "old_price": null,
+  "specifications": {
+    "material": "synthetic",
+    "dimensions": null
+  },
+  "description": "Ease your way into comfortable style with the kids Champion Mega Slide Slide Sandal.",
+  "sizes": ["1.0", "2.0", "3.0", "11.0", "12.0", "13.0"],
+  "colors": null,
+  "variants": null,
+  "categories": {
+    "general": "Footwear",
+    "specific": "Slides"
+  },
+  "breadcrumbs": ["Home", "Footwear", "Slides", "Champion Youth Mega Slides"],
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 1,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": null,
+  "number_available_items": {
+    "1.0": null,
+    "2.0": null,
+    "3.0": null,
+    "11.0": null,
+    "12.0": null,
+    "13.0": null
+  },
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

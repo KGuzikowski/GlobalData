@@ -1,0 +1,74 @@
+{
+  "title": "Sunny Health & Fitness Fully Adjustable Power Zone",
+  "brand": "Sunny Health & Fitness",
+  "current_price": {
+    "price": 323.99,
+    "currency": "$"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "durable material"
+    },
+    {
+      "name": "dimensions",
+      "value": "61L x 29.7W x 50.6H, 67 lbs."
+    },
+    {
+      "name": "other_features",
+      "value": [
+        {
+          "feature": "7 adjustable backrest positions"
+        },
+        {
+          "feature": "4 way adjustable seat"
+        },
+        {
+          "feature": "3 level adjustable foam rollers"
+        },
+        {
+          "feature": "Weight capacity: 1,000 lbs"
+        },
+        {
+          "feature": "U-shaped stability support legs"
+        },
+        {
+          "feature": "Easy to wipe clean"
+        },
+        {
+          "feature": "Transpity wheels for easy storage and portability"
+        },
+        {
+          "feature": "Eco-friendly foam cushioning"
+        },
+        {
+          "feature": "4 foot sponges for extra stability"
+        },
+        {
+          "feature": "Wear & tear resistant"
+        }
+      ]
+    }
+  ],
+  "description": "This adjustable power zone provides adjustable and customizable options so you can stay comfortable while challenging your body! This weight bench has 7 adjustable positions（-20°, 0°, 15°, 30°, 45°, 60°, 85°) for a variety of workout options. A 7 level backrest, a 4 level seat and 3 level foam rollers allow for a highly...",
+  "sizes": [
+    "61L x 29.7W x 50.6H, 67 lbs."
+  ],
+  "colors": [
+    "Black"
+  ],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "61L x 29.7W x 50.6H, 67 lbs.": null
+  },
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

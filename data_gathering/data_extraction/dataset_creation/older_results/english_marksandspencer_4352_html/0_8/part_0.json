@@ -1,0 +1,82 @@
+{
+  "product_title": "Pure Cotton Striped Oversized Girlfriend Style Shirt",
+  "brand": "M&S Collection",
+  "current_price": "£9.99",
+  "old_price": "£25.00",
+  "specifications": {
+    "material": "100% cotton (exclusive of trimmings)",
+    "dimensions": "Neck to hem length for a size 12: 78cm",
+    "features": "Better Cotton Initiative"
+  },
+  "description": "A subtle striped print gives this pure cotton shirt a smart look. It's cut in a regular fit with a flattering longline curved hem. Button cuffs and a collared neck offer a neat finish. We've added a single pocket to the button-down front for a dash of extra detail. We only ever use responsibly sourced cotton for our clothes. M&S Collection: easy-to-wear wardrobe staples that combine classic and contemporary styles.",
+  "sizes": [
+    "6",
+    "8",
+    "10",
+    "12",
+    "14",
+    "16",
+    "18",
+    "20",
+    "22",
+    "24"
+  ],
+  "colors": [
+    "blue mix"
+  ],
+  "variants": [
+    "Blue striped shirt",
+    "Plain shirts",
+    "Yellow shirt"
+  ],
+  "categories": [
+    {
+      "general": "Clothing",
+      "specific": "Shirts & Blouses"
+    }
+  ],
+  "breadcrumbs": [
+    {
+      "name": "M&S Collection",
+      "url": "#"
+    },
+    {
+      "name": "Shirts & Blouses",
+      "url": "#"
+    },
+    {
+      "name": "Pure Cotton Striped Oversized Girlfriend Style Shirt",
+      "url": "#"
+    }
+  ],
+  "ratings": [
+    {
+      "stars": 5,
+      "number": 15
+    },
+    {
+      "stars": 4,
+      "number": 12
+    },
+    {
+      "stars": 3,
+      "number": 5
+    },
+    {
+      "stars": 2,
+      "number": 1
+    },
+    {
+      "stars": 1,
+      "number": 1
+    }
+  ],
+  "opinions": [
+    "Fits a little big"
+  ],
+  "number_available_items": null,
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

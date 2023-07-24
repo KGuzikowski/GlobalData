@@ -1,0 +1,50 @@
+{
+  "product_title": "b.box komplet 5 szczoteczek do czyszczenia bidonów i słomek",
+  "brand": "b.box",
+  "current_price": null,
+  "old_price": null,
+  "specifications": {
+    "material": "nylon, PP, stal nierdzewna",
+    "dimensions": {
+      "szczoteczka do rurki od bidonu (kubka niekapka)": "dł. 13cm",
+      "szczoteczka do rurki od butelki i miseczki": "dł. 10cm",
+      "malutka szczoteczka do dziurek odpowietrzających": "dł. 6cm",
+      "szczoteczka do smoczka": "dł. 5,5cm",
+      "szczoteczka do ogólnego czyszczenia i czyszczenia gwintu nakrętki": "dł. 6cm",
+      "kółko z wypustką (do podważania uszczelek i zawieszenia kompletu szczoteczek)": null
+    }
+  },
+  "description": "Praktyczny komplet szczoteczek do czyszczenia bidonów, butelek, słomek, smoczków itp. akcesoriów b.box. Właściwości produktu: pięcioelementowy zestaw do czyszczenie słomek, butelek, bidonów, smoczków i innych trudno dostępnych miejsc. 5 szczoteczek o różnej długości i kształcie. 1 kółko do zawieszenia wszystkich szczoteczek. Kółko posiada wypustkę do podważania uszczelki w bidonie. By wygodnie myć akcesoria, każdą ze szczoteczek można zdjąć z kółka i używać oddzielnie. Poręczny komplet pozwalający we właściwy sposób zadbać o higienę akcesoriów do picia b.box. Praktyczne rozwiązanie w domu i w podróży.",
+  "sizes": null,
+  "colors": null,
+  "variants": null,
+  "categories": {
+    "general": "Akcesoria dla dzieci",
+    "specific": "Akcesoria do karmienia"
+  },
+  "breadcrumbs": null,
+  "ratings": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "opinions": null,
+  "number_of_available_items": {
+    "szczoteczka do rurki od bidonu (kubka niekapka)": null,
+    "szczoteczka do rurki od butelki i miseczki": null,
+    "malutka szczoteczka do dziurek odpowietrzających": null,
+    "szczoteczka do smoczka": null,
+    "szczoteczka do ogólnego czyszczenia i czyszczenia gwintu nakrętki": null,
+    "kółko z wypustką (do podważania uszczelek i zawieszenia kompletu szczoteczek)": null
+  },
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+} 
+
+For each opinion return only the opinion text itself. If there's no information return: null. 
+
+Opinions: null

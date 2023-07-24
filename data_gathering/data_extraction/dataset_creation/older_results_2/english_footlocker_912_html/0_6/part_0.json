@@ -1,0 +1,54 @@
+{
+  "title": "Nike Nsw Cuffed Beanie Unisex Knitted Hats & Beanies",
+  "brand": "Nike",
+  "current_price": {
+    "price": 129.00,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "Material",
+      "value": "Wool"
+    },
+    {
+      "name": "Dimensions",
+      "value": null
+    },
+    {
+      "name": "Other Features",
+      "value": null
+    }
+  ],
+  "description": "",
+  "sizes": [
+    "One Size"
+  ],
+  "colors": [
+    "Grey"
+  ],
+  "variants": [
+    {
+      "name": "Color",
+      "value": "Grey"
+    }
+  ],
+  "categories": [
+    "Unisex",
+    "Knitted Hats & Beanies"
+  ],
+  "general_category": "Unisex",
+  "specific_category": "Knitted Hats & Beanies",
+  "breadcrumbs": [
+    "Unisex",
+    "Knitted Hats & Beanies"
+  ],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "One Size": null
+  },
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Monoprice Cat6 RJ-45 180-Degree Punch Down Keystone Jack Short Body 28mm, White",
+  "brand": "Monoprice",
+  "current_price": {
+    "price": 1.99,
+    "currency": "USD"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "N/A"
+    },
+    {
+      "name": "dimensions",
+      "value": "28mm"
+    },
+    {
+      "name": "other_features",
+      "value": [
+        {
+          "name": "backwards compatible",
+          "value": "true"
+        }
+      ]
+    }
+  ],
+  "description": "This Short Body Punch Down keystone jack series allows you to terminate Cat6 cables easily and quickly. The short body takes up less space and is easier deploy. This keystone jack is backwards compatible.",
+  "sizes": [],
+  "colors": ["White", "black", "blue", "gray", "orange", "white - selected"],
+  "variants": [],
+  "categories": ["Networking", "Network Installation Accessories", "Networking Keystones"],
+  "general_category": "Networking",
+  "specific_category": "Network Installation Accessories",
+  "breadcrumbs": ["HOME", "Networking", "Network Installation Accessories", "Networking Keystones"],
+  "customer_ratings": null,
+  "number_of_available_items": {},
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

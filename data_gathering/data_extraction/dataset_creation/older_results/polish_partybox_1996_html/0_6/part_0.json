@@ -1,0 +1,85 @@
+{
+   "product_title": "Girlanda flagi VINTAGE NOEL 1.5m",
+   "brand": null,
+   "current_price": "29 z�",
+   "old_price": null,
+   "specifications": {
+      "material": "materia� sznurkowy",
+      "dimensions": {
+         "length": "ok. 150cm",
+         "flag": {
+            "width": "ok. 10cm",
+            "height": "ok. 12cm"
+         }
+      }
+   },
+   "description": "Girlanda flagi VINTAGE NOEL 1.5m - idealne rozwi�zanie na Twoj� imprez�. Zr�b co� inaczej, zaszalej! Stroje karnawa�owe, ba�niowe przebrania, dekoracje - sklep PartyBox jakich nie ma nigdzie indziej. Sprawd�!",
+   "sizes": null,
+   "colors": [
+      "br�zowy",
+      "be�owy"
+   ],
+   "variants": null,
+   "categories": {
+      "general": "Party Supplies",
+      "specific": "Party Decorations"
+   },
+   "breadcrumbs": null,
+   "ratings": {
+      "5 stars": 0,
+      "4 stars": 0,
+      "3 stars": 0,
+      "2 stars": 0,
+      "1 star": 0
+   },
+   "opinions": [],
+   "number_available_items": null,
+   "similar_products": [
+      {
+         "product_title": "Kurtyna imprezowa Z�OTA",
+         "current_price": "19,89 z�"
+      },
+      {
+         "product_title": "Konfetti diamentowe (100szt.)",
+         "current_price": "4,89 z�"
+      },
+      {
+         "product_title": "Z�ota dekoracja wisz�ca �WIDERKI (5szt.)",
+         "current_price": "5,89 z�"
+      },
+      {
+         "product_title": "Kurtyna imprezowa srebrna LAMETA",
+         "current_price": "19,89 z�"
+      },
+      {
+         "product_title": "Konfetti GWIAZDKI Z�OTE",
+         "current_price": "5,89 z�"
+      }
+   ],
+   "products_i_may_also_like": null,
+   "related_products": [
+      {
+         "product_title": "�wi�teczne zawieszki na prezenty DREWNIANE ZAWIESZKI",
+         "current_price": "12,89 z�"
+      },
+      {
+         "product_title": "Bileciki na prezenty �wi�teczne VINTAGE NOEL (8szt.)",
+         "current_price": "29 z�"
+      },
+      {
+         "product_title": "Dekoracje drewniane VINTAGE NOEL (6szt.)",
+         "current_price": "24,99 z�"
+      },
+      {
+         "product_title": "Tabliczka drewniana VINTAGE NOEL",
+         "current_price": "34,99 z�"
+      },
+      {
+         "product_title": "Zawieszki VINTAGE NOEL bileciki do prezent�w",
+         "current_price": "16,89 z�"
+      }
+   ],
+   "recommended_for_me": null
+} 
+
+For the opinions field, as there are no opinions available, an empty array is returned.

@@ -1,3 +1,6 @@
+data_gathering/data_extraction/web_pages/**
+data_gathering/data_extraction/dataset_creation/**/*.txt
+
 ##########################
 # KEDRO PROJECT
 

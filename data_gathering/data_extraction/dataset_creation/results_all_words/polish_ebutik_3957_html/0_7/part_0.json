@@ -1,0 +1,50 @@
+{
+  "title": "Żółta długa bluzka plus size z dekoltem w serek",
+  "brand": "RELEVANCE",
+  "current_price": {
+    "price": 89.99,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "product_features": [
+    {
+      "name": "wzór dominujący",
+      "value": "gładki"
+    },
+    {
+      "name": "materiał dominujący",
+      "value": "bawełna"
+    },
+    {
+      "name": "długość",
+      "value": "długa"
+    },
+    {
+      "name": "rękaw",
+      "value": "krótki rękaw"
+    },
+    {
+      "name": "dekolt",
+      "value": "serek / dekolt V"
+    },
+    {
+      "name": "cechy dodatkowe",
+      "value": "print (nadruk), kieszenie"
+    }
+  ],
+  "short_description": "Żółta długa bluzka plus size z dekoltem w serek. dodatki: kieszenie",
+  "colors_variants": [
+    "żółty"
+  ],
+  "size_variants": [
+    "One size"
+  ],
+  "product_categories": [
+    "bluzka codzienna", 
+    "casual"
+  ],
+  "customer_ratings": null,
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

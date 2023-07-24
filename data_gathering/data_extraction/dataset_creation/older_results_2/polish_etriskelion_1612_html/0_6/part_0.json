@@ -1,0 +1,48 @@
+{
+  "title": "Figi Obsessive Miamor",
+  "brand": "Obsessive",
+  "current_price": {
+    "price": 39.60,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "Materiał",
+      "value": "85% poliamid\n15% elastan"
+    },
+    {
+      "name": "Długość towaru w centymetrach",
+      "value": "15"
+    },
+    {
+      "name": "Szerokość towaru w centymetrach",
+      "value": "10"
+    },
+    {
+      "name": "Wysokość towaru w centymetrach",
+      "value": "7"
+    }
+  ],
+  "description": "Figi od Obsessive do kolejna odsłona kolekcji Miamor. To propozycja dla pań, które dobrze czują się w cieplejszych tonach i chcą odejść od klasycznej czerni. Głęboki, bordowy kolor pięknie prezentuje się na kobiecym ciele. Figi wykonano z połączenia elastycznego materiału z delikatną koronką. Gładka tkanina i przyjemna koronka zapewniają prawdziwy komfort noszenia. Krój majteczek zaprojektowano w taki sposób aby podkreślał krągłość pośladków. Figi sprawdzą się zarówno podczas intymnych chwil jak i do noszenia na co dzień.",
+  "sizes": ["L/XL"],
+  "colors": ["Bordowy"],
+  "variants": [
+    {
+      "name": "Nazwa dostawcy",
+      "value": "Miamor figi kolor: bordowy L/XL"
+    }
+  ],
+  "categories": ["Dzień Kobiet"],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "L/XL": null
+  },
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

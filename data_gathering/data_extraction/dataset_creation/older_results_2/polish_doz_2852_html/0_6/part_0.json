@@ -1,0 +1,74 @@
+{
+  "title": "Huggies Natural Care, chusteczki nawilżane z aloesem, (56x3)168 szt.",
+  "brand": "Huggies",
+  "current_price": {
+    "price": 20.59,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "specification_name": "material",
+      "specification_value": "naturalne włókna celulozowe"
+    },
+    {
+      "specification_name": "dimensions",
+      "specification_value": null
+    },
+    {
+      "specification_name": "other_features",
+      "specification_value": [
+        {
+          "feature": "Mają wielowarstwową strukturę, dzięki czemu łatwo usuwają brud."
+        },
+        {
+          "feature": "Nasączone oczyszczoną wodą."
+        },
+        {
+          "feature": "Wyprodukowane z naturalnych włókien celulozowych."
+        },
+        {
+          "feature": "Zawierają naturalny ekstrakt z aloesu i witaminę E."
+        },
+        {
+          "feature": "Formuła doskonale nawilża i łagodzi podrażnioną skórę dziecka."
+        },
+        {
+          "feature": "Nie zawierają alkoholu, a ich pH jest zrównoważone."
+        },
+        {
+          "feature": "Nie pozostawiają na skórze lepkiej warstwy."
+        }
+      ]
+    }
+  ],
+  "description": "Chusteczki nawilżane z aloesem – delikatnie oczyszczają wrażliwą skórę dziecka. Formuła na bazie oczyszczonej wody, wzbogacona ekstraktem z aloesu i witaminą E.",
+  "sizes": [
+    "56x3"
+  ],
+  "colors": null,
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "56x3": 168
+  },
+  "similar_products": [
+    "Pikabu Baby Care, chusteczki nawilżane Pure, 60 szt",
+    "Cleanic Baby Atopical, chusteczki nawilżane dla niemowląt i dzieci, 50 szt.",
+    "Zestaw Higieniczny Baby",
+    "Kindii, Pure Sensitive, chusteczki dla niemowląt i dzieci, 60 szt.",
+    "Kindii Bamboo, chusteczki dla niemowląt i dzieci, 60 szt.",
+    "Pikabu Baby Care, kremowy szampon i płyn do kąpieli, 300 ml",
+    "Pikabu Baby Care, oliwka w kremie, 100 ml",
+    "Pikabu Baby Care, pielęgnacyjny krem do twarzy i ciała, 300 ml",
+    "Clochee Baby & Kids, naturalne masełko do twarzy i ciała dla dzieci, 50 ml",
+    "Cynkokrem, krem dla dzieci od pierwszych dni życia, 150 g"
+  ],
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

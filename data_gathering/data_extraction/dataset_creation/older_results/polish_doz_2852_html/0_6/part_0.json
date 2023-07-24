@@ -1,0 +1,80 @@
+{
+  "product_title": "Huggies Natural Care, chusteczki nawilżane z aloesem, (56x3)168 szt.",
+  "brand": "Huggies",
+  "current_price": "20.59 zł",
+  "old_price": null,
+  "specifications": {
+    "material": "naturalne włókna celulozowe",
+    "dimensions": null,
+    "ingredients": "Aqua, Butoxy PEG-4, PG-Amodimethicone, Aloe Barbadensis Extract, Polysorbate 20, Caprylyl Glycol, Sodium Benzoate, Coco-Betaine, Malic Acid, Parfum, Sodium Citrate, Tocopheryl Acetate."
+  },
+  "description": "Chusteczki nawilżane z aloesem – delikatnie oczyszczają wrażliwą skórę dziecka. Formuła na bazie oczyszczonej wody, wzbogacona ekstraktem z aloesu i witaminą E.",
+  "sizes": [
+    "56x3"
+  ],
+  "colors": null,
+  "variants": null,
+  "categories": [
+    {
+      "general": "Dziecko",
+      "specific": "Higiena i pielęgnacja"
+    }
+  ],
+  "breadcrumbs": null,
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": [],
+  "available_items": {
+    "56x3": "168 szt."
+  },
+  "similar_products": [
+    {
+      "product_title": "Pikabu Baby Care, chusteczki nawilżane Pure, 60 szt",
+      "current_price": "6.99 zł"
+    },
+    {
+      "product_title": "Cleanic Baby Atopical, chusteczki nawilżane dla niemowląt i dzieci, 50 szt.",
+      "current_price": "11.69 zł"
+    },
+    {
+      "product_title": "Zestaw Higieniczny Baby",
+      "current_price": "21.33 zł"
+    },
+    {
+      "product_title": "Kindii, Pure Sensitive, chusteczki dla niemowląt i dzieci, 60 szt.",
+      "current_price": "7.99 zł"
+    },
+    {
+      "product_title": "Kindii Bamboo, chusteczki dla niemowląt i dzieci, 60 szt.",
+      "current_price": "7.49 zł"
+    },
+    {
+      "product_title": "Pikabu Baby Care, kremowy szampon i płyn do kąpieli, 300 ml",
+      "current_price": "24.99 zł"
+    },
+    {
+      "product_title": "Pikabu Baby Care, oliwka w kremie, 100 ml",
+      "current_price": "19.99 zł"
+    },
+    {
+      "product_title": "Pikabu Baby Care, pielęgnacyjny krem do twarzy i ciała, 300 ml",
+      "current_price": "24.99 zł"
+    },
+    {
+      "product_title": "Clochee Baby & Kids, naturalne masełko do twarzy i ciała dla dzieci, 50 ml",
+      "current_price": "41.19 zł"
+    },
+    {
+      "product_title": "Cynkokrem, krem dla dzieci od pierwszych dni życia, 150 g",
+      "current_price": "19.99 zł"
+    }
+  ],
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

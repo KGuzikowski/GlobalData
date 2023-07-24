@@ -1,0 +1,65 @@
+{
+  "product_title": "Arganowy Krem do Twarzy Nawilżający, Giardino Dei Sensi",
+  "brand": "Giardino Dei Sensi",
+  "current_price": "24.00",
+  "old_price": null,
+  "specifications": {
+    "material": null,
+    "dimensions": "75 ml"
+  },
+  "description": "Arganowy Krem do Twarzy Nawilżający, Giardino Dei Sensi - Kremy na dzień - Pielęgnacja Twarzy",
+  "sizes": null,
+  "colors": null,
+  "variants": null,
+  "categories": [
+    {
+      "general": "Pielęgnacja Twarzy",
+      "specific": "Kremy na dzień"
+    }
+  ],
+  "breadcrumbs": [
+    "Strona główna",
+    "Pielęgnacja Twarzy",
+    "Kremy na dzień",
+    "Arganowy Krem do Twarzy Nawilżający, Giardino Dei Sensi"
+  ],
+  "ratings": {
+    "5": 0,
+    "4": 0,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
+  "opinions": [],
+  "number_available_items": null,
+  "similar_products": [
+    {
+      "product_title": "Krem do Twarzy z Olejem Arganowym, Ziaja",
+      "brand": "Ziaja",
+      "current_price": "17.99",
+      "old_price": null
+    },
+    {
+      "product_title": "Krem do Twarzy z Olejem Arganowym, Bielenda",
+      "brand": "Bielenda",
+      "current_price": "28.99",
+      "old_price": null
+    }
+  ],
+  "products_i_may_also_like": [
+    {
+      "product_title": "Krem do Twarzy z Olejem Jojoba, Nacomi",
+      "brand": "Nacomi",
+      "current_price": "29.99",
+      "old_price": null
+    },
+    {
+      "product_title": "Krem do Twarzy z Olejem Rokitnikowym, Sylveco",
+      "brand": "Sylveco",
+      "current_price": "29.99",
+      "old_price": null
+    }
+  ],
+  "related_products": null,
+  "recommended_for_me": null
+}

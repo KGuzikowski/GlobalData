@@ -1,0 +1,67 @@
+{
+  "product_title": "POLO RIAN 1",
+  "brand": null,
+  "current_price": 79.9,
+  "old_price": 99.9,
+  "specifications": {
+    "material": "100% bawełny",
+    "dimensions": null
+  },
+  "description": "Męskie polo w kolorze jasnopomarańczowym. Wykonane ze 100% bawełny.",
+  "sizes": [
+    {
+      "size": "S",
+      "availability": "brak (powiadom o dostępności)",
+      "available_items": null
+    },
+    {
+      "size": "M",
+      "availability": "brak (powiadom o dostępności)",
+      "available_items": null
+    },
+    {
+      "size": "L",
+      "availability": null,
+      "available_items": null
+    },
+    {
+      "size": "XL",
+      "availability": null,
+      "available_items": null
+    },
+    {
+      "size": "XXL",
+      "availability": null,
+      "available_items": null
+    },
+    {
+      "size": "XXXL",
+      "availability": "brak (powiadom o dostępności)",
+      "available_items": null
+    }
+  ],
+  "colors": [
+    "jasnopomarańczowy"
+  ],
+  "variants": null,
+  "categories": [
+    {
+      "general_category": "Clothing",
+      "specific_category": "Men's Clothing"
+    }
+  ],
+  "breadcrumbs": null,
+  "ratings": {
+    "5": null,
+    "4": null,
+    "3": null,
+    "2": null,
+    "1": null
+  },
+  "opinions": [],
+  "available_items_per_size": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

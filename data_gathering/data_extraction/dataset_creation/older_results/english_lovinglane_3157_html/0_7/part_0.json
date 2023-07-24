@@ -1,0 +1,107 @@
+{
+   "product_title":"Portable Baby Backpack",
+   "brand":"Unknown",
+   "current_price":{
+      "amount":66.03,
+      "currency":"USD"
+   },
+   "old_price":null,
+   "specifications":{
+      "material":"Cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton",
+      "dimensions":{
+         "mattress_size":"(30*73)cm",
+         "bed_size":"(30*73*24)cm",
+         "bag_size":"(41*21*32)cm"
+      }
+   },
+   "description":"Name: Multifunctional Mummy Bed BagAccessories: portable mattressMattress size: (30*73)cmBed size: (30*73*24)cmBag size:(41*21*32)cmMaterial: cationic fabric, PVC waterproof layer, pure cotton lining, aluminum foil thermal insulation cotton",
+   "sizes":[
+      {
+         "size":"One Size",
+         "available":null
+      }
+   ],
+   "colors":[
+      "Black 2",
+      "Light green",
+      "Green 2",
+      "Blue",
+      "Grey",
+      "Green",
+      "Pink grey",
+      "Grey 2",
+      "Pink",
+      "Black"
+   ],
+   "variants":[
+      {
+         "color":"Black 2",
+         "price":66.03
+      },
+      {
+         "color":"Light green",
+         "price":66.03
+      },
+      {
+         "color":"Green 2",
+         "price":66.03
+      },
+      {
+         "color":"Blue",
+         "price":66.03
+      },
+      {
+         "color":"Grey",
+         "price":66.03
+      },
+      {
+         "color":"Green",
+         "price":66.03
+      },
+      {
+         "color":"Pink grey",
+         "price":66.03
+      },
+      {
+         "color":"Grey 2",
+         "price":66.03
+      },
+      {
+         "color":"Pink",
+         "price":66.03
+      },
+      {
+         "color":"Black",
+         "price":66.03
+      }
+   ],
+   "categories":[
+      "Baby Gear",
+      "Diaper Bags"
+   ],
+   "breadcrumbs":[
+      "Home",
+      "Baby Gear",
+      "Diaper Bags"
+   ],
+   "ratings":{
+      "5":null,
+      "4":null,
+      "3":null,
+      "2":null,
+      "1":null
+   },
+   "opinions":[],
+   "available_items":[
+      {
+         "size":"One Size",
+         "available":null
+      }
+   ],
+   "similar_products":null,
+   "products_I_may_also_like":null,
+   "related_products":null,
+   "recommended_for_me":null,
+   "general_category":"Baby Gear",
+   "specific_category":"Diaper Bags"
+}

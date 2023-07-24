@@ -1,0 +1,84 @@
+{
+  "title": "Sunny Health & Fitness Fully Adjustable Power Zone",
+  "brand": "Sunny Health & Fitness",
+  "current_price": {
+    "price": 323.99,
+    "currency": "$"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "specification_name": "Material",
+      "specification_value": "Durable material"
+    },
+    {
+      "specification_name": "Dimensions",
+      "specification_value": "61L x 29.7W x 50.6H, 67 lbs."
+    },
+    {
+      "specification_name": "Other Features",
+      "specification_value": [
+        {
+          "feature_name": "7 adjustable backrest positions",
+          "feature_value": null
+        },
+        {
+          "feature_name": "4 way adjustable seat",
+          "feature_value": null
+        },
+        {
+          "feature_name": "3 level adjustable foam rollers",
+          "feature_value": null
+        },
+        {
+          "feature_name": "Weight capacity",
+          "feature_value": "1,000 lbs"
+        },
+        {
+          "feature_name": "U-shaped stability support legs",
+          "feature_value": null
+        },
+        {
+          "feature_name": "Easy to wipe clean",
+          "feature_value": null
+        },
+        {
+          "feature_name": "Transpity wheels for easy storage and portability",
+          "feature_value": null
+        },
+        {
+          "feature_name": "Eco-friendly foam cushioning",
+          "feature_value": null
+        },
+        {
+          "feature_name": "4 foot sponges for extra stability",
+          "feature_value": null
+        },
+        {
+          "feature_name": "Wear & tear resistant",
+          "feature_value": null
+        }
+      ]
+    }
+  ],
+  "description": "This adjustable power zone provides adjustable and customizable options so you can stay comfortable while challenging your body! This weight bench has 7 adjustable positions（-20°, 0°, 15°, 30°, 45°, 60°, 85°) for a variety of workout options. A 7 level backrest, a 4 level seat and 3 level foam rollers allow for a highly...",
+  "sizes": [
+    "61L x 29.7W x 50.6H, 67 lbs."
+  ],
+  "colors": [
+    "Black"
+  ],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "61L x 29.7W x 50.6H, 67 lbs.": null
+  },
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

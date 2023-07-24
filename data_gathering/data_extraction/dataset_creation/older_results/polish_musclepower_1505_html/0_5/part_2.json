@@ -1,0 +1,44 @@
+{
+   "product_title": "SOLGAR L-Lysine 1000 mg - 50 tabs",
+   "brand": "SOLGAR",
+   "current_price": null,
+   "old_price": null,
+   "specifications": {
+      "active_ingredients": [
+         {
+            "name": "L-Lizyna (w wolnej postaci, jako HCl)",
+            "amount": "1000 mg"
+         }
+      ],
+      "other_ingredients": [
+         "celuloza mikrokrystaliczna",
+         "celuloza roślinna",
+         "kwas stearynowy roślinny",
+         "krzemionka",
+         "gliceryna roślinna"
+      ],
+      "package_size": "50 tabs",
+      "net_weight": "50 tabs"
+   },
+   "description": "Zbilansowaną dietę uzupełnisz suplementem L-Lysine 1000 mg. Jedna tabletka dziennie zapewni Ci najwyższą dzienną porcję substancji aktywnej. Firma Solgar nie tylko produkuje swoje preparaty z trzyetapowo weryfikowanych surowców, ale też prowadzi badania.",
+   "sizes": null,
+   "colors": null,
+   "variants": null,
+   "categories": {
+      "general": "Supplements",
+      "specific": "Vitamins and Minerals"
+   },
+   "breadcrumbs": null,
+   "ratings": {
+      "5": 1
+   },
+   "opinions": [
+      "Produkt bardzo skuteczny, polecam!",
+      "Bardzo dobra jakość, nie ma niepożądanych efektów ubocznych."
+   ],
+   "number_of_available_items": null,
+   "similar_products": null,
+   "products_i_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null
+}

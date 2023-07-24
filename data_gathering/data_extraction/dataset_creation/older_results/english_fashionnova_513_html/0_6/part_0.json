@@ -1,0 +1,35 @@
+{
+    "product_title": "Serendipity Top - Ivory",
+    "brand": "Fashion Nova",
+    "current_price": 10.00,
+    "old_price": 19.99,
+    "specifications": {
+        "material": "92% Polyester 8% Spandex",
+        "dimensions": null
+    },
+    "description": "Buy Serendipity Top in Ivory from Fashion Nova. These Knit Tops are available in most sizes. Receive free US shipping on orders over $75.",
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "White"],
+    "variants": null,
+    "categories": ["Women's Clothing", "Tops", "Knit Tops"],
+    "breadcrumbs": ["Home", "Women", "Women's Clothing", "Tops", "Knit Tops", "Serendipity Top - Ivory"],
+    "ratings": {
+        "5": 0,
+        "4": 0,
+        "3": 0,
+        "2": 0,
+        "1": 0
+    },
+    "opinions": null,
+    "number_of_available_items": {
+        "S": 0,
+        "M": 0,
+        "L": 0
+    },
+    "similar_products": [],
+    "products_I_may_also_like": [],
+    "related_products": [],
+    "recommended_for_me": null,
+    "general_category": "Women's Clothing",
+    "specific_category": "Tops"
+}

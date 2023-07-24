@@ -1,0 +1,63 @@
+{
+  "title": "Serendipity Top - Ivory",
+  "brand": "Fashion Nova",
+  "current_price": {
+    "from": 10.00,
+    "to": 19.99,
+    "currency": "USD"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "92% Polyester 8% Spandex"
+    },
+    {
+      "name": "dimensions",
+      "value": null
+    },
+    {
+      "name": "other_features",
+      "value": [
+        {
+          "name": "Available in Black and White",
+          "value": null
+        },
+        {
+          "name": "Lace Romper",
+          "value": null
+        },
+        {
+          "name": "Super Deep V",
+          "value": null
+        },
+        {
+          "name": "Knot Front",
+          "value": null
+        },
+        {
+          "name": "Lined",
+          "value": null
+        }
+      ]
+    }
+  ],
+  "description": "Buy Serendipity Top in Ivory from Fashion Nova. These Knit Tops are available in most sizes. Receive free US shipping on orders over $75.",
+  "sizes": ["S", "M", "L"],
+  "colors": ["Ivory"],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "S": null,
+    "M": null,
+    "L": null
+  },
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

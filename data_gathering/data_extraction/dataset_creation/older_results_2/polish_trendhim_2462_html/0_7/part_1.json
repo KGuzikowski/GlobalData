@@ -1,0 +1,54 @@
+{
+  "title": "Atlas | Srebrzysty naszyjnik ze stali nierdzewnej z zawieszką z gwiazdą polarną",
+  "brand": "Arkai",
+  "current_price": {
+    "price": 299,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "Stal nierdzewna 316L"
+    },
+    {
+      "name": "dimensions",
+      "value": [
+        {
+          "name": "Zawieszka",
+          "value": {
+            "height": 35,
+            "width": 25,
+            "depth": 4
+          }
+        },
+        {
+          "name": "Łańcuszek",
+          "value": {
+            "length": "65 cm - 75 cm",
+            "thickness": 3,
+            "weight": 28
+          }
+        }
+      ]
+    },
+    {
+      "name": "other_features",
+      "value": []
+    }
+  ],
+  "description": "Kolekcja Atlas honoruje odkrywców wśród nas. Ten męski naszyjnik zawiera kompas i zawieszkę z gwiazdą północy. Zarówno zawieszka, jak i łańcuszek są wykonane z chirurgicznej stali nierdzewnej, a ogniwa łańcuszka są zakrzywione dla większego komfortu. Długość łańcuszka można regulować, dzięki czemu masz kontrolę nad tym, jak nisko opada zawieszka. Zapięcie na karabińczyk jest lekko zakrzywione, dzięki czemu kółeczko może płasko przylegać do skóry. Zaprojektowany w Danii. Wysyłany w oryginalnym opakowaniu.",
+  "sizes": [],
+  "colors": [],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": {},
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

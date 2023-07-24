@@ -1,0 +1,27 @@
+{
+"title": "Pure Cotton Luxury Spa Towel",
+"brand": "M&S",
+"current_price": {"from": 12.50, "to": 32.50, "currency": "£"},
+"old_price": null,
+"specifications": [
+{"name": "material", "value": "100% cotton"},
+{"name": "dimensions", "value": "650 gsm"},
+{"name": "other_features", "value": [
+{"name": "keep_away_from_fire", "value": "true"}
+]}
+],
+"description": "Add an extra note of luxury to bath time with this soft spa towel. It's made from pure cotton, with the 650 gsm weight making it thick and absorbent. Pamper yourself or give someone an indulgent gift. This towel’s GSM rating is 650 GSM. GSM stands for grams per square metre and indicates the weight and density of the towel. Our towels range from 450-800 GSM. At the lower end of the scale, 450-600 GSM signifies a lightweight towel: good value and quick-drying, with added benefits such as low-twist yarn to make them feel more like their heavier-weight counterparts. At the higher end of the scale, 600-800 GSM signifies a heavier, more luxurious towel. The pile in these deluxe towels is denser and more lavish. Towels at the lower end of this range are great for everyday use, while those at the higher end resemble the towels you’d find in a luxury hotel.",
+"sizes": ["Hand Towel", "Bath Towel", "Bath Sheet"],
+"colors": ["duck egg"],
+"variants": [],
+"categories": ["Home & Living", "Bathroom", "Towels"],
+"general_category": "Home & Living",
+"specific_category": "Towels",
+"breadcrumbs": ["Home & Living", "Bathroom", "Towels"],
+"customer_ratings": {"average_rating": 4.5, "number_of_ratings": 435},
+"number_of_available_items": {"Hand Towel": "Low stock", "Bath Towel": "Low stock", "Bath Sheet": "Low stock"},
+"similar_products": [],
+"products_i_may_also_like": [],
+"related_products": [],
+"recommended_for_me": []
+}

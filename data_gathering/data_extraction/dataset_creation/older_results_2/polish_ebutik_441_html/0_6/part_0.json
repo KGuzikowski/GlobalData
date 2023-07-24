@@ -1,0 +1,63 @@
+{
+  "title": "Jasnopomarańczowa dopasowana sukienka San Diego RUE PARIS",
+  "brand": "RUE PARIS",
+  "current_price": {
+    "price": 54.99,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "90% bawełna, 10% elastan"
+    },
+    {
+      "name": "dimensions",
+      "value": "szerokość pod pachami - 33 cm, długość całkowita - 112 cm, biodra - 35 cm"
+    },
+    {
+      "name": "other_features",
+      "value": [
+        {
+          "name": "wzór dominujący",
+          "value": "bez wzoru"
+        },
+        {
+          "name": "styl",
+          "value": "casual, w stylu miejskim"
+        },
+        {
+          "name": "okazja",
+          "value": "na co dzień, na miasto"
+        },
+        {
+          "name": "Modelka ma na sobie rozmiar S. Wymiary modelki",
+          "value": "wzrost 168 cm, biust 82 cm, talia 62 cm, biodra 93 cm"
+        }
+      ]
+    }
+  ],
+  "description": "Zobacz teraz Jasnopomarańczowa dopasowana sukienka San Diego RUE PARIS eButik.pl",
+  "sizes": ["S", "M", "L"],
+  "colors": ["jasny pomarańczowy"],
+  "variants": [
+    {
+      "name": "Kolory",
+      "value": "jasny pomarańczowy"
+    }
+  ],
+  "categories": ["Nowości", "Nowości Sukienki", "Sukienki dopasowane BASIC", "SUKIENKI AKCJA PROMOCYJNA"],
+  "general_category": "ciuchy",
+  "specific_category": "sukienki",
+  "breadcrumbs": ["ciuchy", "bluzki damskie", "ubrania kobiece", "markowe", "młodzieżowe", "spodnie", "fitness", "sklep internetowy", "Butikstyle", "koszulki", "bluzy", "spodnie", "wyprzedaż", "moda damska", "mody", "modne", "modny", "modna", "styl", "markowe", "ciuch", "odziez", "modna odzież", "modnie", "wysyłkowa", "odzieżowy", "ubranie", "trendy", "super", "superokazja", "butikstyle", "okazje", "wyprzedaże", "koszule", "bluzeczki", "wieczorowe", "swetry", "kobiece", "sweterki", "koszulka", "butik", "z ubraniami", "odzierz", "sprzedaż"],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "S": null,
+    "M": null,
+    "L": null
+  },
+  "similar_products": null,
+  "products_i_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

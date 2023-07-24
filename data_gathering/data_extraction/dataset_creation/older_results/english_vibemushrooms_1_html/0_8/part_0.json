@@ -1,0 +1,40 @@
+{
+   "product_title": "Lion’s Mane Mushroom Extract",
+   "brand": "Vibe Mushrooms",
+   "current_price": 54.99,
+   "old_price": null,
+   "specifications": {
+      "material": null,
+      "dimensions": null
+   },
+   "description": "Lion’s Mane is often referred to as the “cognitive mushroom,” thanks in large part to its rich supply of bioactive compounds that promote healthy brain function. Erinacine terpenoids provide antioxidant protection for cognitive health by inhibiting oxidative stress-induced cell death mechanisms.",
+   "sizes": null,
+   "colors": null,
+   "variants": [
+      "Powder",
+      "Capsules"
+   ],
+   "categories": [
+      "Health",
+      "Supplements"
+   ],
+   "breadcrumbs": null,
+   "ratings": {
+      "5": null,
+      "4": null,
+      "3": null,
+      "2": null,
+      "1": null
+   },
+   "opinions": null,
+   "number_available_items": {
+      "Powder": null,
+      "Capsules": null
+   },
+   "similar_products": null,
+   "products_may_also_like": null,
+   "related_products": null,
+   "recommended_for_me": null,
+   "general_category": "Health",
+   "specific_category": "Supplements"
+}

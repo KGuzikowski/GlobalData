@@ -1,0 +1,35 @@
+{
+  "product_title": "Pure Cotton Luxury Spa Towel",
+  "brand": "M&S",
+  "current_price": "£12.50",
+  "old_price": "£32.50",
+  "specifications": {
+    "material": "Pure Cotton"
+    "dimensions": null
+  },
+  "description": "Add an extra note of luxury to bath time with this soft spa towel",
+  "all_sizes": ["Hand Towel", "Bath Towel", "Bath Sheet"],
+  "all_colors": ["duck egg", "7 other colors"],
+  "all_variants": null,
+  "categories": ["Bath & Shower", "Towels"],
+  "breadcrumbs": ["Home", "Home Accessories", "Bath & Shower", "Towels", "Pure Cotton Luxury Spa Towel"],
+  "ratings": {
+    "5": 287,
+    "4": 97,
+    "3": 28,
+    "2": 14,
+    "1": 9
+  },
+  "opinions": ["Great quality and very soft", "Perfect size and thickness", "Color is slightly different than expected"],
+  "number_of_available_items": {
+    "Hand Towel": "Low stock",
+    "Bath Towel": "Low stock",
+    "Bath Sheet": "Low stock"
+  },
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null,
+  "general_category": "Bath & Shower",
+  "specific_category": "Towels"
+}

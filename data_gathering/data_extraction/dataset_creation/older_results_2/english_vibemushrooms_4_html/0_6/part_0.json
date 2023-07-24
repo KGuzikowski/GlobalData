@@ -1,0 +1,66 @@
+{
+  "title": "Red Reishi Mushroom Extract",
+  "brand": "Vibe Mushrooms",
+  "current_price": {
+    "price": 59.99,
+    "currency": "CAD"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "name": "material",
+      "value": "Red Reishi mushroom extracts"
+    },
+    {
+      "name": "dimensions",
+      "value": "N/A"
+    },
+    {
+      "name": "other_features",
+      "value": [
+        {
+          "feature": "strengthens immune system"
+        },
+        {
+          "feature": "relieves insomnia"
+        },
+        {
+          "feature": "manages pain"
+        }
+      ]
+    }
+  ],
+  "description": "Red Reishi mushroom extracts are one of the most potent remedies in traditional medicine. But it can do more than just heal you - this powerful medicinal mushroom also strengthens your immune system, relieves insomnia and manages pain!",
+  "sizes": [
+    "Powder",
+    "Capsules"
+  ],
+  "colors": [],
+  "variants": [
+    {
+      "name": "format",
+      "value": [
+        "Powder",
+        "Capsules"
+      ]
+    },
+    {
+      "name": "quantity",
+      "value": [
+        "1 pouch (60",
+        "2 pouches (120",
+        "3 pouches (180"
+      ]
+    }
+  ],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": null,
+  "number_of_available_items": null,
+  "similar_products": null,
+  "products_I_may_also_like": null,
+  "related_products": null,
+  "recommended_for_me": null
+}

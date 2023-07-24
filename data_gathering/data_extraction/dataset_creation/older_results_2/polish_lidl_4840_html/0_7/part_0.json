@@ -1,0 +1,57 @@
+{
+  "title": "PARKSIDE Nagrzewnica ceramiczna PKH 2000 B1, 2000 W",
+  "brand": "PARKSIDE",
+  "current_price": {
+    "price": 119.00,
+    "currency": "zł"
+  },
+  "old_price": null,
+  "specifications": [
+    {
+      "specification_name": "Material",
+      "specification_value": "metal"
+    },
+    {
+      "specification_name": "Dimensions",
+      "specification_value": "ok. 205 x 165 x 225 mm"
+    },
+    {
+      "specification_name": "Other Features",
+      "specification_value": [
+        {
+          "feature_name": "napięcie",
+          "feature_value": "220–240 V~"
+        },
+        {
+          "feature_name": "moc",
+          "feature_value": "2000 W"
+        },
+        {
+          "feature_name": "regulacja temperatury",
+          "feature_value": "termostat"
+        },
+        {
+          "feature_name": "2 stopnie nagrzewania",
+          "feature_value": "(1100 W/ 2000 W)"
+        }
+      ]
+    }
+  ],
+  "description": "PARKSIDE Nagrzewnica ceramiczna PKH 2000 B1, 2000 W w sklepie internetowym LIDL. Dostawa do paczkomatu ✅ 30 dni na zwrot ✅ Bezpieczne płatności",
+  "sizes": [],
+  "colors": [],
+  "variants": [],
+  "categories": [],
+  "general_category": null,
+  "specific_category": null,
+  "breadcrumbs": [],
+  "customer_ratings": {
+    "average_rating": null,
+    "number_of_ratings": null
+  },
+  "number_of_available_items": {},
+  "similar_products": [],
+  "products_i_may_also_like": [],
+  "related_products": [],
+  "recommended_for_me": []
+}

@@ -1,0 +1,89 @@
+{
+  "title": "White Towelling Oversized Dressing Gown",
+  "brand": "PrettyLittleThing",
+  "current_price": {
+    "price": 55.0,
+    "currency": "USD"
+  },
+  "old_price": 19.5,
+  "specifications": [
+    {
+      "name": "Material",
+      "value": "100% Polyester"
+    },
+    {
+      "name": "Dimensions",
+      "value": "Length approx 122cm/48\" (Based on a sample size S)"
+    },
+    {
+      "name": "Other Features",
+      "value": [
+        {
+          "feature": "Range",
+          "value": "Lingerie & Nightwear"
+        },
+        {
+          "feature": "Style",
+          "value": "Gown"
+        },
+        {
+          "feature": "Color",
+          "value": "White"
+        },
+        {
+          "feature": "Design",
+          "value": "Oversized"
+        },
+        {
+          "feature": "Occasion",
+          "value": "Day"
+        }
+      ]
+    }
+  ],
+  "description": "This dressing gown is sure to be an essential in your nightwear wardrobe doll. Featuring a white towel material with an oversized fit, we're obsessed. Team with comfy PJs and your fave slippers for the ultimate relaxed look.",
+  "sizes": [
+    "S",
+    "M",
+    "L"
+  ],
+  "colors": [
+    "White"
+  ],
+  "variants": [],
+  "categories": [
+    "Home",
+    "Womens Clothing",
+    "Sleepwear",
+    "Robes",
+    "White T..."
+  ],
+  "general_category": "Sleepwear",
+  "specific_category": "Robes",
+  "breadcrumbs": [
+    "Home",
+    "Womens Clothing",
+    "Sleepwear",
+    "Robes",
+    "White T..."
+  ],
+  "customer_ratings": null,
+  "number_of_available_items": {
+    "S": null,
+    "M": null,
+    "L": null
+  },
+  "similar_products": [],
+  "products_i_may_also_like": [
+    "Cream Fluffy Cross Strap Slippers",
+    "PRETTYLITTLETHING White Satin Pocket...",
+    "PRETTYLITTLETHING White Seamless...",
+    "White Piping Detail Long Satin PJ Set",
+    "PRETTYLITTLETHING Pink Fluffy...",
+    "PRETTYLITTLETHING Black Fluffy...",
+    "PRETTYLITTLETHING Charcoal Fluffy...",
+    "PRETTYLITTLETHING Light Grey Textured..."
+  ],
+  "related_products": [],
+  "recommended_for_me": []
+}

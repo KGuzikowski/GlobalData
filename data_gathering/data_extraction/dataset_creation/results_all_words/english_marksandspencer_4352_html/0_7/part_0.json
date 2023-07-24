@@ -1,0 +1,54 @@
+{
+  "title": "Pure Cotton Striped Oversized Girlfriend Style Shirt",
+  "brand": "M&S Collection",
+  "current_price": {
+    "price": 9.99,
+    "currency": "GBP"
+  },
+  "old_price": 25.00,
+  "product_features": [
+    {
+      "specification_name": "Fit and style",
+      "value": "Regular fit"
+    },
+    {
+      "specification_name": "Composition",
+      "value": "100% cotton (exclusive of trimmings)"
+    },
+    {
+      "specification_name": "Care",
+      "value": "Wash at 40°C delicate, Do not bleach, Tumble dry medium temperature, Iron at medium temperature, Do not dry clean"
+    },
+    {
+      "specification_name": "Better Cotton Initiative",
+      "value": "M&S is proud to invest in making cotton production more sustainable. Better Cotton is sourced through a system of Mass Balance. Find out more"
+    }
+  ],
+  "short_description": "A subtle striped print gives this pure cotton shirt a smart look. It's cut in a regular fit with a flattering longline curved hem. Button cuffs and a collared neck offer a neat finish.",
+  "colors_variants": [
+    "blue mix"
+  ],
+  "size_variants": [],
+  "product_categories": [
+    "Shirts",
+    "Blouses"
+  ],
+  "customer_ratings": {
+    "average_rating": 4.1,
+    "number_of_ratings": 34
+  },
+  "customer_reviews": [
+    "Lovely shirt fits perfectly, well made and good value.",
+    "Large oversized shirt ordered a ten was still too big and colours darker than advertised sent back",
+    "Lovely shirt; well made and washes beautifully. It is definitely an oversized fit which is what I wanted but I would have sized down for something a bit more professional looking. I don’t like the buttons, I think they’re too large but they’re sewn on well with thread that matches the shirt fabric. That’s me being particular though because I always prefer buttons (and zips) to be as small, neat and inconspicuous as possible; matching the fabric rather than being in contrast. Per Una clothes are my worst nightmare!",
+    "Its VERY big! I would recommend sizing down x 2 - material light but not cotton but cool in warmer weather - can crease a lot",
+    "Perfect fit; comfortable to wear. Looks good. Easy to wash. Love it so much I ordered it on two colours",
+    "Feels like a work shirt, a few sizes up. Was expecting thicker material and the cuffs are a bit narrow for rolling up. But nice colour and collar is crisp"
+  ],
+  "similar_or_related_products": [
+    "Blue striped shirt",
+    "Plain shirts",
+    "Yellow shirt"
+  ],
+  "products_recommended_for_me": []
+}
