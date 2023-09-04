@@ -1,0 +1,65 @@
+{
+"title": "Figi Obsessive Miamor",
+"brand": "Obsessive",
+"current_price": {
+"price": 39.60,
+"currency": "zł"
+},
+"old_price": null,
+"product_features": [
+{
+"feature": "Material",
+"value": "85% poliamid, 15% elastan"
+},
+{
+"feature": "Kolor",
+"value": "Bordowy"
+},
+{
+"feature": "Rozmiar",
+"value": "L/XL"
+},
+{
+"feature": "Marka",
+"value": "Obsessive"
+},
+{
+"feature": "figi doskonale podkreślają krągłość pośladków",
+"value": null
+},
+{
+"feature": "elastyczne materiały gwarantują komfort noszenia",
+"value": null
+},
+{
+"feature": "połączenie aksamitnego materiału i koronki pięknie zdobi ciało",
+"value": null
+},
+{
+"feature": "otrzymasz produkt zgodny z opisem i zdjęciami",
+"value": null
+},
+{
+"feature": "otrzymasz produkt z pełną, 24 miesięczną gwarancją",
+"value": null
+},
+{
+"feature": "dostarczona paczka będzie w oryginalnym i dyskretnym opakowaniu",
+"value": null
+}
+],
+"short_description": "Kuszące figi podkreślające krągłość pośladków. Figi od Obsessive do kolejna odsłona kolekcji Miamor.",
+"all_colors_variants": ["Bordowy"],
+"size_variants": ["L/XL"],
+"product_categories": ["Underwear", "Women's Clothing"],
+"customer_ratings": {
+"average_rating": 4.76,
+"number_of_ratings": 2844
+},
+"customer_reviews": [
+"Bardzo praktyczny i satysfakcjonujący produkt",
+"super cena"
+],
+"similar_or_related_products": null,
+"products_recommended_for_me": null
+}

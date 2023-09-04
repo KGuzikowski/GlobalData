@@ -1,0 +1,36 @@
+{
+  "title": "adidas Satin Women Track Tops",
+  "brand": "adidas",
+  "current_price": 309.00,
+  "old_price": null,
+  "currency": "zł",
+  "product_features": [
+    {
+      "feature_name": "Color",
+      "value": "Black"
+    },
+    {
+      "feature_name": "Material",
+      "value": "Satin"
+    },
+    {
+      "feature_name": "ID",
+      "value": "H37825"
+    }
+  ],
+  "short_description": "Black adidas Satin Women Track Tops",
+  "available_colors": ["Black"],
+  "available_size_variants": ["34", "36", "38", "40"],
+  "product_categories": ["Women's Clothing", "Track Tops"],
+  "customer_ratings": {
+    "average_rating": "★★★★★",
+    "rating_1": 0,
+    "rating_2": 0,
+    "rating_3": 0,
+    "rating_4": 0,
+    "rating_5": 0
+  },
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

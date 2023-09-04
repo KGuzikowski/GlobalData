@@ -1,0 +1,36 @@
+{
+  "title": "Golf Gifts 1X2 Hanging Mat",
+  "brand": "Dunham's Sports",
+  "current_price": 49.99,
+  "old_price": null,
+  "currency": "$",
+  "product_features": [
+    {
+      "feature_name": "Non Slip rubber back and molded in handle",
+      "feature_value": null
+    },
+    {
+      "feature_name": "Professional quality turf",
+      "feature_value": null
+    },
+    {
+      "feature_name": "Heavy duty rubber mat",
+      "feature_value": null
+    },
+    {
+      "feature_name": "Golf tee holder included",
+      "feature_value": null
+    }
+  ],
+  "short_description": "Golf Gifts 1X2 Hanging Mat",
+  "available_colors": null,
+  "available_size_variants": null,
+  "product_categories": ["Sports", "Golf Accessories"],
+  "customer_ratings": {
+    "average_rating": 4.2,
+    "ratings": null
+  },
+  "customer_reviews": null,
+  "similar_or_related_products": null,
+  "products_recommended_for_me": null
+}

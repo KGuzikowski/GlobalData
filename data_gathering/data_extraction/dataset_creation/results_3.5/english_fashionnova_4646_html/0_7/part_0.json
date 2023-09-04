@@ -1,0 +1,37 @@
+{
+  "title": "Sporty Spice Bra - Black",
+  "brand": "Fashion Nova",
+  "current_price": 2.98,
+  "old_price": null,
+  "currency": "USD",
+  "product_features_and_specifications": [
+    {
+      "feature_name": "Available colors",
+      "value": ["Black", "Heather Grey", "Pink"]
+    },
+    {
+      "feature_name": "Product type",
+      "value": "Lingerie"
+    },
+    {
+      "feature_name": "Material",
+      "value": "92% Micromodal, 8% Elastane"
+    },
+    {
+      "feature_name": "Adjustable straps",
+      "value": true
+    },
+    {
+      "feature_name": "Removable straps",
+      "value": true
+    }
+  ],
+  "short_description": "Sporty Triangle Bralette with Removable Straps at Front",
+  "available_colors": ["Black", "Heather Grey", "Pink"],
+  "available_size_variants": ["XS", "S", "M", "L"],
+  "product_categories": ["Lingerie", "Bras & Bralettes", "Women's Clothing"],
+  "customer_ratings": null,
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

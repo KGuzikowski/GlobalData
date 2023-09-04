@@ -1,0 +1,40 @@
+{
+  "title": "Torebka AJTNER - 011 Brązowy",
+  "brand": "Ajtner",
+  "current_price": null,
+  "old_price": null,
+  "currency": null,
+  "product_features": [
+    {
+      "feature": "Material",
+      "value": "Skóra naturalna"
+    },
+    {
+      "feature": "Compartments",
+      "value": "2"
+    },
+    {
+      "feature": "Zipper pockets",
+      "value": "2"
+    },
+    {
+      "feature": "Phone pocket",
+      "value": "Yes"
+    }
+  ],
+  "short_description": "Torebka firmy Ajtner wykonana ze skóry naturalnej. Wewnątrz 2 komory oddzielone kieszenią zapinaną na suwak, dodatkowa kieszeń zapinana na suwak oraz miejsce na telefon komórkowy.",
+  "available_colors": [
+    "Brązowy"
+  ],
+  "available_size_variants": [
+    "Default"
+  ],
+  "product_categories": [
+    "Accessories",
+    "Bags"
+  ],
+  "customer_ratings": null,
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Mothers Day Sumptuous Treats Hamper",
+  "brand": "Ferns N Petals",
+  "current_price": 6149,
+  "old_price": null,
+  "currency": "₹",
+  "product_features": [
+    {"feature": "Product Details", "value": "Roasted Multiseeds Jar- 100 Gms"},
+    {"feature": "Product Details", "value": "Handmade Chocolate Dipped Cookies- 200 Gms"},
+    {"feature": "Product Details", "value": "Handmade Chocolate Brownie- 100 Gms"},
+    {"feature": "Product Details", "value": "Atta & Gur Cookie Bites- 150 Gms"},
+    {"feature": "Product Details", "value": "Handmade Chocolate Almond Rocks- 100 Gms"},
+    {"feature": "Product Details", "value": "Multigrain Lavash- 100 Gms"},
+    {"feature": "Product Details", "value": "Revitalising Jasmine Tea Tube"},
+    {"feature": "Product Details", "value": "Comes in a Designer Crafted Box"}
+  ],
+  "short_description": "A hamper filled with delicious treats for Mother's Day",
+  "available_colors": null,
+  "available_size_variants": null,
+  "product_categories": ["Gift"],
+  "customer_ratings": null,
+  "customer_reviews": null,
+  "similar_or_related_products": null,
+  "products_recommended_for_me": null
+}

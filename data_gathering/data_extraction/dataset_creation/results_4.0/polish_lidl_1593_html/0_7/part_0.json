@@ -1,0 +1,21 @@
+{
+"title": "esmara Bluzka damska z wiskozy, 1 sztuka",
+"brand": "esmara",
+"current_price": {"price": 34.99, "currency": "zł"},
+"old_price": null,
+"product_features": [
+    {"feature": "Kolory", "value": "biały, miętowy & kwiaty"},
+    {"feature": "Cechy", "value": "z kołnierzykiem typu kent"},
+    {"feature": "Miękka i przyjemna w dotyku", "value": "yes"},
+    {"feature": "Mankiety na guziki", "value": "yes"},
+    {"feature": "Skład materiału", "value": "100% wiskoza"}
+],
+"short_description": "bluzka damska z wiskozy jest miękka i przyjemna w dotyku. Z oszczędzającej zasoby wiskozy. Mankiety na guziki. Niewielki kołnierzyk typu kent i listwa guzikowa na całej długości. Biały i kwiaty: taliowany krój, z falbanką. Miętowy: prosty krój, z kieszonką na piersi.",
+"all_colors_variants": ["biały", "miętowy", "kwiaty"],
+"size_variants": ["34", "36", "38", "40", "42", "44", "46"],
+"product_categories": ["women's fashion", "clothing", "tops"],
+"customer_ratings": {"average_rating": null, "number_of_ratings": 58},
+"customer_reviews": null,
+"similar_or_related_products": null,
+"products_recommended_for_me": null
+}

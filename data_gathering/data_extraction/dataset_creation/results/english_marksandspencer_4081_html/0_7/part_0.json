@@ -1,0 +1,45 @@
+{
+  "title": "Pure Cotton Luxury Spa Towel",
+  "brand": "M&S",
+  "current_price": 12.50,
+  "old_price": 32.50,
+  "currency": "£",
+  "product_features": [
+    {
+      "feature": "Colour",
+      "value": "duck egg"
+    },
+    {
+      "feature": "Size",
+      "value": "Hand Towel - Low stock, Bath Towel - Low stock, Bath Sheet - Low stock"
+    },
+    {
+      "feature": "Composition",
+      "value": "100% cotton"
+    },
+    {
+      "feature": "Care",
+      "value": "Wash at 40°C, Do not bleach, Tumble dry medium temperature, Do not iron, Do not dry clean"
+    }
+  ],
+  "short_description": "Add an extra note of luxury to bath time with this soft spa towel",
+  "available_colors": ["duck egg"],
+  "available_size_variants": ["Hand Towel - Low stock", "Bath Towel - Low stock", "Bath Sheet - Low stock"],
+  "product_categories": ["Home & Kitchen", "Bath & Towels"],
+  "customer_ratings": {
+    "average_rating": 4.5,
+    "ratings_count": 435
+  },
+  "customer_reviews": [
+    "Lovely thick towel, didnt realise how bad mine had got till i bought new ones!",
+    "LOVELY FLUFFY SOFT TOWELS. GREAT QUALITY AND BARGIN SALE HALF PRICE",
+    "Really happy with the product, will recommend it to friends and family",
+    "Beautiful quality towels. They have washed well.i was unsure about the colour, but realised they are a light duck egg. Now I have started to use the set, I really like the subtle colour.",
+    "Washed before use but the fluff still came off and went everywhere. White bedding now covered in navy fluff! Bought online in sale and when received there were several large catches in one of the towels. They seem a reasonable thickness so hopefully the ‘fluff problem’ will disappear and I’ll have lovely, soft towels.",
+    "I wasn’t sure when seen photo but I was surprised at quality and fit, with an excellent price",
+    "Bought these at half price lovely blue shade and very soft",
+    "I bought these as they were reduced by 50% not having bought M&S towels previously but I would not have paid full price for them. Not all that soft and fluff everywhere shall stick to JL in future."
+  ],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

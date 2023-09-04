@@ -1,0 +1,37 @@
+{
+  "title": "18K Gold Enamel Bubble Initial Necklace",
+  "brand": "BaubleBar",
+  "current_price": 98,
+  "old_price": null,
+  "currency": "$",
+  "product_features": [
+    {
+      "feature_name": "Materials",
+      "feature_value": ["Enamel", "18K gold plated sterling silver"]
+    },
+    {
+      "feature_name": "Closure",
+      "feature_value": "Lobster clasp"
+    },
+    {
+      "feature_name": "Care Instructions",
+      "feature_value": null
+    },
+    {
+      "feature_name": "Allergy Information",
+      "feature_value": "Hypoallergenic"
+    },
+    {
+      "feature_name": "Measurements",
+      "feature_value": "Length: 18\"; .20\" pendant; 2\" extender."
+    }
+  ],
+  "short_description": "Our 18K Gold Enamel Bubble Initial Necklace gives the classic initial necklace an updated spin. A tiny gold letter of your choice sits on a bright enamel background, providing a pop of color in every stack.",
+  "available_colors": ["Turquoise", "Black", "White", "Cobalt", "Red", "Light Pink", "Green", "Yellow", "Orange"],
+  "available_size_variants": ["default"],
+  "product_categories": ["Jewelry", "Necklaces"],
+  "customer_ratings": null,
+  "customer_reviews": null,
+  "similar_or_related_products": null,
+  "products_recommended_for_me": null
+}

@@ -1,0 +1,35 @@
+{"title": "Pure Cotton Luxury Spa Towel",
+"brand": "Marks & Spencer",
+"current_price": {"price": 12.50, "currency": "£"},
+"old_price": null,
+"product_features": [
+    {"feature": "GSM rating", "value": "650 GSM"},
+    {"feature": "Material", "value": "100% cotton"},
+    {"feature": "Washing instructions", "value": "Wash at 40°C"},
+    {"feature": "Bleach instructions", "value": "Do not bleach"},
+    {"feature": "Drying instructions", "value": "Tumble dry medium temperature"},
+    {"feature": "Ironing instructions", "value": "Do not iron"},
+    {"feature": "Dry cleaning instructions", "value": "Do not dry clean"}
+],
+"short_description": "Add an extra note of luxury to bath time with this soft spa towel. It's made from pure cotton, with the 650 gsm weight making it thick and absorbent. Pamper yourself or give someone an indulgent gift.",
+"all_colors_variants": ["duck egg"],
+"size_variants": ["Hand Towel", "Bath Towel", "Bath Sheet"],
+"product_categories": ["Home & Furniture", "Bathroom", "Towels"],
+"customer_ratings": {
+    "average_rating": 4.5,
+    "number_of_ratings": {"5 stars": 316, "4 stars": 62, "3 stars": 21, "2 stars": 15, "1 star": 21}
+},
+"customer_reviews": [
+    "Lovely thick towel, didnt realise how bad mine had got till i bought new ones!",
+    "LOVELY FLUFFY SOFT TOWELS. GREAT QUALITY AND BARGIN SALE HALF PRICE",
+    "Really happy with the product, will recommend it to friends and family",
+    "Beautiful quality towels. They have washed well.i was unsure about the colour, but realised they are a light duck egg. Now I have started to use the set, I really like the subtle colour.",
+    "Lovely colour,lovely quality. Wish I’d seen them before",
+    "I had already purchased 2 of the bath sheets. They are excellent quality so decided to buy two more and also some hand towels. Bought them when on offer. Well worth the money.",
+    "Washed before use but the fluff still came off and went everywhere. White bedding now covered in navy fluff! Bought online in sale and when received there were several large catches in one of the towels. They seem a reasonable thickness so hopefully the ‘fluff problem’ will disappear and I’ll have lovely, soft towels.",
+    "I wasn’t sure when seen photo but I was surprised at quality and fit, with an excellent price",
+    "Bought these at half price lovely blue shade and very soft",
+    "I bought these as they were reduced by 50% not having bought M&S towels previously but I would not have paid full price for them. Not all that soft and fluff everywhere shall stick to JL in future."
+],
+"similar_or_related_products": null,
+"products_recommended_for_me": null}

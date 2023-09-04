@@ -1,0 +1,38 @@
+{
+  "title": "Serendipity Top - Ivory",
+  "brand": "Fashion Nova",
+  "current_price": 10.00,
+  "old_price": 19.99,
+  "currency": "USD",
+  "product_features": [
+    {
+      "feature": "Available in Black and White"
+    },
+    {
+      "feature": "Lace Romper"
+    },
+    {
+      "feature": "Super Deep V"
+    },
+    {
+      "feature": "Knot Front"
+    },
+    {
+      "feature": "Lined"
+    },
+    {
+      "feature": "92% Polyester 8% Spandex"
+    }
+  ],
+  "short_description": "Super Deep V Knot Front Lined Lace Romper",
+  "available_colors": ["Black", "White"],
+  "available_size_variants": ["S", "M", "L"],
+  "product_categories": ["Knit Tops", "All Women's Products", "Badge", "EXTRA PROMO COLLECTION", "White"],
+  "customer_ratings": {
+    "average_rating": null,
+    "number_of_ratings": null
+  },
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

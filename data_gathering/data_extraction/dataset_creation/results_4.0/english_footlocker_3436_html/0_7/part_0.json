@@ -1,0 +1,19 @@
+{
+"title": "adidas Satin Women Track Tops",
+"brand": "adidas",
+"current_price": {"price": 309.00, "currency": "zł"},
+"old_price": null,
+"product_features": [
+  {"feature": "Color", "value": "Black"},
+  {"feature": "Material", "value": "Satin"},
+  {"feature": "ID", "value": "H37825"}
+],
+"short_description": null,
+"all_colors_variants": ["Black"],
+"size_variants": ["34", "36", "38", "40"],
+"product_categories": ["Women", "Track Tops"],
+"customer_ratings": {"average_rating": 0, "number_of_ratings": 0},
+"customer_reviews": null,
+"similar_or_related_products": null,
+"products_recommended_for_me": null
+}

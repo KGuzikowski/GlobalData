@@ -1,0 +1,17 @@
+The product information from the text is as follows:
+
+- title: "Torebka AJTNER - 011 Brązowy"
+- brand: "Ajtner"
+- current price: null
+- old price: null
+- product features: [{"feature": "Material", "value": "Natural leather"}, {"feature": "Inside compartments", "value": "2"}, {"feature": "Additional zip pocket", "value": "Yes"}, {"feature": "Cell phone compartment", "value": "Yes"}]
+- short description: "Torebka firmy Ajtner wykonana ze skóry naturalnej. Wewnątrz 2 komory oddzielone kieszenią zapinaną na suwak, dodatkowa kieszeń zapinana na suwak oraz miejsce na telefon komórkowy."
+- all colors variants: ["Brązowy"]
+- size variants: null
+- product categories: ["Accessories", "Bags"]
+- customer ratings: null
+- customer reviews: null
+- similar or related products: null
+- products recommended for me: null
+
+Please note that some information is not provided in the text and hence, returned as null.

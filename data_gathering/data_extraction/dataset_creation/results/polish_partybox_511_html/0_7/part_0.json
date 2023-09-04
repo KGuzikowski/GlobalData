@@ -1,0 +1,94 @@
+{
+  "title": "Tomahawk INDIANINA dodatek do stroju",
+  "brand": "Tomahawk",
+  "current_price": 19.89,
+  "old_price": null,
+  "currency": "zł",
+  "product_features": [
+    {
+      "feature": "Kod produktu",
+      "value": "DG1763"
+    },
+    {
+      "feature": "Additional name",
+      "value": "Naszyjnik indiański do stroju INDIANINA"
+    },
+    {
+      "feature": "Total additional",
+      "value": "19.89 zł Produkt dostępny w magazynie"
+    },
+    {
+      "feature": "Additional name",
+      "value": "Pióropusz indiański kolorowy"
+    },
+    {
+      "feature": "Total additional",
+      "value": "9.89 zł Produkt dostępny w magazynie"
+    },
+    {
+      "feature": "Additional name",
+      "value": "Strzała w głowie"
+    },
+    {
+      "feature": "Total additional",
+      "value": "12.89 zł Produkt dostępny w magazynie"
+    },
+    {
+      "feature": "Additional name",
+      "value": "Zestaw ŁUK I STRZAŁA"
+    },
+    {
+      "feature": "Total additional",
+      "value": "49 zł Produkt dostępny w magazynie"
+    },
+    {
+      "feature": "Additional name",
+      "value": "Peruka POCAHONTAS"
+    },
+    {
+      "feature": "Total additional",
+      "value": "44.99 zł Produkt dostępny w magazynie"
+    },
+    {
+      "feature": "Additional name",
+      "value": "Opaska Indianki"
+    },
+    {
+      "feature": "Total additional",
+      "value": "12.89 zł Produkt dostępny w magazynie"
+    },
+    {
+      "feature": "Additional name",
+      "value": "Opaska indiańska biała"
+    },
+    {
+      "feature": "Total additional",
+      "value": "9.89 zł Produkt dostępny w magazynie"
+    },
+    {
+      "feature": "Additional name",
+      "value": "Naszyjnik indiański"
+    },
+    {
+      "feature": "Total additional",
+      "value": "17.89 zł Produkt dostępny w magazynie"
+    }
+  ],
+  "short_description": "Indiański tomahawk to świetny dodatek do stroju, z pewnością urozmaici kostium indianina.",
+  "available_colors": [],
+  "available_size_variants": "default",
+  "product_categories": ["dodatek do stroju", "tomahawk", "party accessories"],
+  "customer_ratings": {
+    "average_rating": 4.2,
+    "ratings_count": 5
+  },
+  "customer_reviews": [
+    "Fajny. Na pierwszy rzut oka wygląda jak prawdziwy.A ta Tomahawk prezentował się z Peruka :)",
+    "bardzo fajny produkt",
+    "Zgodny ze zdjęciem, aczkolwiek zbyt solidny nie jest. Szybka dostawa.",
+    "Super",
+    "Jestem zadowolony"
+  ],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

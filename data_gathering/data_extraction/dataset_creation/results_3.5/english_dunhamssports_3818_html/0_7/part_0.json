@@ -1,0 +1,43 @@
+{
+  "title": "Champion Youth Mega Slides",
+  "brand": "Champion",
+  "current_price": 25.0,
+  "old_price": null,
+  "currency": "$",
+  "product_features_and_specifications": [
+    {
+      "feature_name": "size",
+      "value": ["Select Size", "1.0", "2.0", "3.0", "11.0", "12.0", "13.0"]
+    },
+    {
+      "feature_name": "store_only_product",
+      "value": "This Item Available for In-Store Purchase Only"
+    },
+    {
+      "feature_name": "description",
+      "value": "Ease your way into comfortable style with the kids Champion Mega Slide Slide Sandal."
+    },
+    {
+      "feature_name": "specifications",
+      "value": [
+        "Lightweight synthetic upper in a slide sandal style with an open toe",
+        "Slip on entry cushioned footbed logo detail on upper strap"
+      ]
+    }
+  ],
+  "short_description": "Champion Youth Mega Slides - Lightweight slide sandals for kids",
+  "available_colors": null,
+  "available_size_variants": ["default"],
+  "product_categories": ["Footwear", "Slides", "Kids", "Sandals"],
+  "customer_ratings": {
+    "average_rating": 3.9,
+    "5_star_ratings": null,
+    "4_star_ratings": null,
+    "3_star_ratings": null,
+    "2_star_ratings": null,
+    "1_star_ratings": null
+  },
+  "customer_reviews": null,
+  "similar_or_related_products": null,
+  "products_recommended_for_me": null
+}

@@ -1,0 +1,68 @@
+{
+  "title": "Żółta długa bluzka plus size z dekoltem w serek",
+  "brand": "RELEVANCE",
+  "current_price": 89.99,
+  "old_price": 119.99,
+  "currency": "zł",
+  "product_features_and_specifications": [
+    {
+      "feature_name": "Kolory",
+      "value": "żółty"
+    },
+    {
+      "feature_name": "Model",
+      "value": "Agata RV-BZ-7862.10P"
+    },
+    {
+      "feature_name": "Typ produktu",
+      "value": "bluzka codzienna"
+    },
+    {
+      "feature_name": "Styl",
+      "value": "casual"
+    },
+    {
+      "feature_name": "Okazja",
+      "value": ["codzienne", "do pracy"]
+    },
+    {
+      "feature_name": "Wzór dominujący",
+      "value": "gładki"
+    },
+    {
+      "feature_name": "Materiał dominujący",
+      "value": "bawełna"
+    },
+    {
+      "feature_name": "Długość",
+      "value": "długa"
+    },
+    {
+      "feature_name": "Rękaw",
+      "value": "krótki rękaw"
+    },
+    {
+      "feature_name": "Dekolt",
+      "value": ["serek", "dekolt V"]
+    },
+    {
+      "feature_name": "Zapięcie",
+      "value": "brak"
+    },
+    {
+      "feature_name": "Cechy dodatkowe",
+      "value": ["print (nadruk)", "kieszenie"]
+    }
+  ],
+  "short_description": "Żółta długa bluzka plus size z dekoltem w serek",
+  "available_colors": ["żółty"],
+  "available_size_variants": ["default"],
+  "product_categories": ["bluzki", "ubrania kobiece", "moda damska"],
+  "customer_ratings": {
+    "average_rating": null,
+    "ratings": null
+  },
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

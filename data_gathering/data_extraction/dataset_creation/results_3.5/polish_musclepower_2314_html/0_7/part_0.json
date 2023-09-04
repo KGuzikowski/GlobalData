@@ -1,0 +1,41 @@
+{
+  "title": "KEVIN LEVRONE Shaaboom Pump Shot - 120ml",
+  "brand": "KEVIN LEVRONE",
+  "current_price": 4.89,
+  "old_price": null,
+  "currency": "zł",
+  "product_features": [
+    {
+      "feature_name": "Wariant",
+      "value": "Exotic"
+    },
+    {
+      "feature_name": "Producent",
+      "value": "KEVIN LEVRONE"
+    },
+    {
+      "feature_name": "Gwarancja",
+      "value": "Gwarancja"
+    }
+  ],
+  "short_description": "Shaaboom Pump Shot od Kevina Levrone'a to suplement przedtreningowy dla osób, które potrzebują zwiększonej energii i siły na treningu.",
+  "available_colors": [],
+  "available_size_variants": [
+    "default"
+  ],
+  "product_categories": [
+    "Supplement",
+    "Pre-Workout"
+  ],
+  "customer_ratings": {
+    "average_rating": 5.0,
+    "ratings": {
+      "5": 1
+    }
+  },
+  "customer_reviews": [
+    "Dobry produkt, działa ."
+  ],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

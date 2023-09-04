@@ -1,0 +1,39 @@
+{
+"title": "Mozaic",
+"brand": "Barnes & Noble",
+"current_price": {
+"price": 31.99,
+"currency": "USD"
+},
+"old_price": null,
+"product_features": [
+{
+"feature": "Release Date",
+"value": "06/23/2015"
+},
+{
+"feature": "Label",
+"value": "Prophecy"
+},
+{
+"feature": "UPC",
+"value": "0884388716315"
+},
+{
+"feature": "catalogNumber",
+"value": "163"
+},
+{
+"feature": "Rank",
+"value": "76940"
+}
+],
+"short_description": "Barnes & Nobleï¿½ has the best selection of Vinyl LPs. Buy Sunset In the 12th House's album titled Mozaic.",
+"all_colors_variants": null,
+"size_variants": null,
+"product_categories": ["Music", "Albums", "Vinyl LPs"],
+"customer_ratings": null,
+"customer_reviews": null,
+"similar_or_related_products": ["N.O.R.E.", "Uncivil War", "Only Theatre of Pain", "Crawfish Fiesta", "Living in a Burning House", "Best of Tanya Tucker [Gusto]"],
+"products_recommended_for_me": ["Clockwork Angels", "Midnight Marauders", "Christmas 1984", "Second Helping", "Tommy Castro Presents: A Bluesman Came to Town", "Evilive", "Chapel Of Love (Sun Records 70th Anniversary) [LP]", "Suicidal Tendencies", "All Hail the Queen", "Naughty by Nature", "White People", "Devil May Care", "100 Years of Blues", "Enfant Sauvage", "Adolescents/Welcome to Reality/All by Myself"]
+}

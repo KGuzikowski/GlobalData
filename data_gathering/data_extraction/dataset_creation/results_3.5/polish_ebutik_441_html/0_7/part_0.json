@@ -1,0 +1,60 @@
+{
+  "title": "Jasnopomarańczowa dopasowana sukienka San Diego RUE PARIS",
+  "brand": "RUE PARIS",
+  "current_price": 54.99,
+  "old_price": 79.99,
+  "currency": "zł",
+  "product_features_and_specifications": [
+    {
+      "feature": "Marka",
+      "value": "RUE PARIS"
+    },
+    {
+      "feature": "Wzór dominujący",
+      "value": "gładki"
+    },
+    {
+      "feature": "Dekolt",
+      "value": "okrągły"
+    },
+    {
+      "feature": "Rękaw",
+      "value": "na ramiączkach"
+    },
+    {
+      "feature": "Długość",
+      "value": "midi"
+    },
+    {
+      "feature": "Styl",
+      "value": "casual"
+    },
+    {
+      "feature": "Okazja",
+      "value": "codzienne"
+    },
+    {
+      "feature": "Materiał dominujący",
+      "value": "bawełna"
+    },
+    {
+      "feature": "Zapięcie",
+      "value": "brak"
+    },
+    {
+      "feature": "Fason",
+      "value": "sukienka ołówkowa"
+    }
+  ],
+  "short_description": "Jasnopomarańczowa dopasowana sukienka San Diego RUE PARIS",
+  "available_colors": ["jasny pomarańczowy"],
+  "available_size_variants": ["S", "M", "L"],
+  "product_categories": ["sukienki", "dopasowane", "casual"],
+  "customer_ratings": {
+    "average_rating": null,
+    "ratings": null
+  },
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

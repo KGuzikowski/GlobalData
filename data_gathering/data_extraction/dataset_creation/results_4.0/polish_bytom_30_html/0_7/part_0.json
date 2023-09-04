@@ -1,0 +1,20 @@
+{
+"title": "KOSZULA",
+"brand": null,
+"current_price": {"price": 79.90, "currency": "zł"},
+"old_price": 249.90,
+"product_features": [
+{"feature": "color", "value": "ciemnogranatowy"},
+{"feature": "material", "value": "100% bawełna egipska"},
+{"feature": "collar type", "value": "BUTTON DOWN"},
+{"feature": "cuff", "value": "regulowane zapięcie na dwa guziki"}
+],
+"short_description": "Koszula w kolorze ciemnogranatowym o delikatnej strukturze. Wykonana ze 100% bawełny egipskiej. Kołnierz typu BUTTON DOWN. Mankiety posiadają regulowane zapięcie na dwa guziki.",
+"all_colors_variants": null,
+"size_variants": null,
+"product_categories": ["men's clothing", "shirts"],
+"customer_ratings": null,
+"customer_reviews": null,
+"similar_or_related_products": null,
+"products_recommended_for_me": null
+}

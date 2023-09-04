@@ -1,0 +1,51 @@
+{
+"title": "Tully Bracelet (Vermeil)",
+"brand": "Olive + Piper",
+"current_price": {
+"price": 72.00,
+"currency": "USD"
+},
+"old_price": null,
+"product_features": [
+{
+"feature": "Vermeil",
+"value": "A thick layer of 18K solid gold on sterling silver"
+},
+{
+"feature": "Gold hue",
+"value": "18K gold has a warmer, golden-yellow hue compared to 14K gold"
+},
+{
+"feature": "Moissanite",
+"value": "These lab-grown gems are remarkably similar to diamonds. They’re almost as durable, have more brilliance and perhaps a little more sparkle too"
+},
+{
+"feature": "Length",
+"value": "6\" length + 1\" extension"
+},
+{
+"feature": "Weight",
+"value": "0.03 oz"
+},
+{
+"feature": "Closure",
+"value": "Lobster clasp closure"
+},
+{
+"feature": "Stones",
+"value": "Moissanite stones"
+},
+{
+"feature": "Hypoallergenic",
+"value": "Hypoallergenic, nickel free"
+}
+],
+"short_description": "A delicate gold bracelet adorned with a trio of gems. This simple style is just what you need to add a touch of luxe to your everyday look. Shown here with the Meja Pendant and Demi Studs",
+"all_colors_variants": ["18K Vermeil"],
+"size_variants": null,
+"product_categories": ["Jewelry", "Bracelets"],
+"customer_ratings": null,
+"customer_reviews": null,
+"similar_or_related_products": null,
+"products_recommended_for_me": null
+}

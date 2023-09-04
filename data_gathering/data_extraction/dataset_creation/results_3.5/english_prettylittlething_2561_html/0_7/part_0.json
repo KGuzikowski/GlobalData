@@ -1,0 +1,36 @@
+{
+  "title": "White Towelling Oversized Dressing Gown",
+  "brand": "PRETTYLITTLETHING",
+  "current_price": 55.0,
+  "old_price": 19.5,
+  "currency": "$",
+  "product_features": [
+    {
+      "feature_name": "Color",
+      "value": "White"
+    },
+    {
+      "feature_name": "Design",
+      "value": "Oversized"
+    },
+    {
+      "feature_name": "Occasion",
+      "value": "Day"
+    },
+    {
+      "feature_name": "Material",
+      "value": "100% Polyester"
+    }
+  ],
+  "short_description": "This dressing gown is sure to be an essential in your nightwear wardrobe doll. Featuring a white towel material with an oversized fit, we're obsessed. Team with comfy PJs and your fave slippers for the ultimate relaxed look.",
+  "available_colors": ["White"],
+  "available_size_variants": ["S", "M", "L"],
+  "product_categories": ["Clothing", "Nightwear", "Robes"],
+  "customer_ratings": {
+    "average_rating": null,
+    "ratings": null
+  },
+  "customer_reviews": [],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

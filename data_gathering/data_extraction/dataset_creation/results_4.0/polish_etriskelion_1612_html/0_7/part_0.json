@@ -1,0 +1,41 @@
+{
+"title": "Figi Obsessive Miamor",
+"brand": "Obsessive",
+"current_price": {
+    "price": 39.60,
+    "currency": "zł"
+},
+"old_price": null,
+"product_features": [
+    {
+        "feature": "material",
+        "value": "85% poliamid, 15% elastan"
+    },
+    {
+        "feature": "color",
+        "value": "Bordowy"
+    },
+    {
+        "feature": "size",
+        "value": "L/XL"
+    },
+    {
+        "feature": "occasion",
+        "value": "Dzień Kobiet"
+    }
+],
+"short_description": "Kuszące figi podkreślające krągłość pośladków. Figi od Obsessive do kolejna odsłona kolekcji Miamor. To propozycja dla pań, które dobrze czują się w cieplejszych tonach i chcą odejść od klasycznej czerni. Głęboki, bordowy kolor pięknie prezentuje się na kobiecym ciele.",
+"all_colors_variants": ["Bordowy"],
+"size_variants": ["uniwersalny", "L/XL"],
+"product_categories": ["underwear", "lingerie"],
+"customer_ratings": {
+    "average_rating": 4.76,
+    "number_of_ratings": 2844
+},
+"customer_reviews": [
+    "Bardzo praktyczny i satysfakcjonujący produkt",
+    "super cena"
+],
+"similar_or_related_products": null,
+"products_recommended_for_me": null
+}

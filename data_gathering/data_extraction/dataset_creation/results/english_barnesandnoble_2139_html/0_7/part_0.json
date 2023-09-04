@@ -1,0 +1,41 @@
+{
+  "title": "Saint Nicholas",
+  "brand": "Barnes & Noble",
+  "current_price": 19.99,
+  "old_price": null,
+  "currency": "$",
+  "product_features": [
+    {
+      "feature": "Release Date",
+      "value": "03/13/2018"
+    },
+    {
+      "feature": "UPC",
+      "value": "0760137101291"
+    },
+    {
+      "feature": "Original Release",
+      "value": "2017"
+    },
+    {
+      "feature": "Source",
+      "value": "Fox Hollow Features"
+    },
+    {
+      "feature": "Time",
+      "value": "1:10:00"
+    },
+    {
+      "feature": "Sales rank",
+      "value": "74,638"
+    }
+  ],
+  "short_description": "Saint Nicholas available in DVD",
+  "available_colors": null,
+  "available_size_variants": null,
+  "product_categories": ["Movies"],
+  "customer_ratings": null,
+  "customer_reviews": null,
+  "similar_or_related_products": ["Greatest Showman", "Last of the Mohicans", "Black Stallion", "Rocky V", "What We Do in the Shadows: the Complete Second Season", "Walking Dead -- The Complete Second Season"],
+  "products_recommended_for_me": ["Element: Beginner Level Yoga", "My Name is Khan", "Mandela: Long Walk to Freedom", "Viva Las Vegas", "Devil Wears Prada", "Slaughterhouse Five", "Cheyenne: the Complete First Season", "Burn After Reading", "Alex Cross", "Fifty Shades Darker", "Dune", "Psycho", "What We Do In The Shadows: Complete Second Season", "Fifty Shades Freed", "Man from Snowy River"]
+}

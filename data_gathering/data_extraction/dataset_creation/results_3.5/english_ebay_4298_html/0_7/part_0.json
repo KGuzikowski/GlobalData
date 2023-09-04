@@ -1,0 +1,68 @@
+{
+  "title": "Alien Resurrection (Sony PlayStation 1, 2000)",
+  "brand": "Sony",
+  "current_price": 85.00,
+  "old_price": null,
+  "currency": "$",
+  "product_features": [
+    {
+      "feature_name": "Platform",
+      "value": "Sony PlayStation 1"
+    },
+    {
+      "feature_name": "Release Year",
+      "value": "2000"
+    },
+    {
+      "feature_name": "Game Name",
+      "value": "Alien Resurrection"
+    },
+    {
+      "feature_name": "Genre",
+      "value": "Shooter"
+    },
+    {
+      "feature_name": "ESRB Descriptor",
+      "value": "Animated Blood & Gore, Animated Violence"
+    },
+    {
+      "feature_name": "ESRB Rating",
+      "value": "M - Mature"
+    },
+    {
+      "feature_name": "Control Elements",
+      "value": "Gamepad/Joystick"
+    },
+    {
+      "feature_name": "Number of Players",
+      "value": "1"
+    },
+    {
+      "feature_name": "Location",
+      "value": "USA"
+    }
+  ],
+  "short_description": "Throughout the Alien movies Ellen Ripley has battled soldiers, queens, mutant varieties, and even experienced her own death, and now she's been brought back by a team of scientists that want to gain access to the alien queen hosted in her body at the time of her demise. Take on the role of Ripley's clone and three other characters in Alien Resurrection, a first-person shooter based on the 1997 film.",
+  "available_colors": null,
+  "available_size_variants": null,
+  "product_categories": ["Video Games", "PlayStation Games", "Shooter Games"],
+  "customer_ratings": {
+    "average_rating": 4.7,
+    "ratings": {
+      "5 stars": 11,
+      "4 stars": 4,
+      "3 stars": 0,
+      "2 stars": 0,
+      "1 star": 0
+    }
+  },
+  "customer_reviews": [
+    "Scary game. do not play at night seriously",
+    "Alien Resurrection (Playstation 1)",
+    "Replacement cases were exactly what I needed!",
+    "Still one of the best 1st. per. shtrs. in PlayStation..",
+    "Retro games"
+  ],
+  "similar_or_related_products": ["Alien Trilogy (Sony PlayStation 1)", "Alien: Isolation (Sony PlayStation 4)", "Aliens: Colonial Marines (Sony PlayStation 3)"],
+  "products_recommended_for_me": ["Alien: Isolation (Sony PlayStation 4)", "Aliens: Colonial Marines (Sony PlayStation 3)", "Dead Space (Sony PlayStation 3)"]
+}

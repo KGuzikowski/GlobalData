@@ -1,0 +1,51 @@
+{
+  "title": "BUTY PUMA ESCAPER SL (364422-05)",
+  "brand": "PUMA",
+  "current_price": 159.00,
+  "old_price": 229.00,
+  "currency": "zł",
+  "product_features": [
+    {
+      "feature": "Producent",
+      "value": "Puma"
+    },
+    {
+      "feature": "Model",
+      "value": "364422-05"
+    },
+    {
+      "feature": "Kolor",
+      "value": "BIAŁY/ CZERWONY"
+    },
+    {
+      "feature": "Materiał",
+      "value": "INNY MATERIAŁ"
+    },
+    {
+      "feature": "Styl",
+      "value": "LIFESTYLE"
+    },
+    {
+      "feature": "Sezon",
+      "value": "CAŁOROCZNE"
+    },
+    {
+      "feature": "Przeznaczenie",
+      "value": "UNIWERSALNE"
+    }
+  ],
+  "short_description": "Oryginalne BUTY PUMA ESCAPER SL (364422-05) najtaniej w Internecie! Wysyłka w 24h! 30 dni na zwrot lub wymianę!",
+  "available_colors": ["BIAŁY/ CZERWONY"],
+  "available_size_variants": ["uniwersalny"],
+  "product_categories": ["Buty sportowe", "Obuwie męskie"],
+  "customer_ratings": {
+    "average_rating": 4.89,
+    "ratings_count": 482
+  },
+  "customer_reviews": [
+    "Szybko i sprawnie, czapka extra",
+    "Ok"
+  ],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Nike Wmns Lunar Force 1 Flyknit Workboot (860558-001)",
+  "brand": "Nike",
+  "current_price": 429.00,
+  "old_price": 749.00,
+  "currency": "zł",
+  "product_features": [
+    {"feature": "Producent", "value": "Nike"},
+    {"feature": "Model", "value": "860558-001"},
+    {"feature": "Kolor", "value": "czarny, biały"},
+    {"feature": "Cholewka", "value": "skóra naturalna w połączeniu z materiałem tekstylnym; od wewnątrz miękka, tekstylna wyściółka zapewniająca wysoki komfort noszenia"}
+  ],
+  "short_description": "Oryginalne Nike Wmns Lunar Force 1 Flyknit Workboot (860558-001) najtaniej w Internecie!",
+  "available_colors": ["czarny", "biały"],
+  "available_size_variants": ["uniwersalny"],
+  "product_categories": ["Buty", "Obuwie sportowe"],
+  "customer_ratings": {
+    "average_rating": 4.89,
+    "total_ratings": 482
+  },
+  "customer_reviews": [
+    "Szybko i bezproblemowo",
+    "Produkt zgodny z opisem, jestem zadowolona."
+  ],
+  "similar_or_related_products": [],
+  "products_recommended_for_me": []
+}
