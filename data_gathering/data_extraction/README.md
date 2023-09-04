@@ -1,10 +1,14 @@
+- doscrapowac amzaon i allegro 
+
 ## Translation
-- **pl** to **eng** translation is best done by the `sparknlp` and `pyspark` with `opus_mt_pl_en` model.
+- **pl** to **eng** translation is best done by the transformers `Helsinki-NLP/opus-mt-pl-en` model.
 - **eng** to **pl** translation is best done by 
 
 ## Plan
-I need to create a product extraction details dataset that will be used to fine tune the T5 model.
-T5 will be used to extract product details from the product pages and it will be using english language only.
+I need to create a product extraction details dataset that will be used to fine tune the LongT5 model. Use pszemraj/long-t5-tglobal-base-16384-book-summary.
+LongT5 will be used to extract product details from the product pages and it will be using english language only.
+
+Also test if training LongT5 with some small EffNet that analyses the image and returns a feature vector will help.
 
 ### Data
 Pages in polish will be translated to english (results will be later translated back to polish) and then the product details will be extracted.

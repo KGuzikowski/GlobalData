@@ -151,28 +151,30 @@ def get_max_input_size(
 
 # flake8: noqa: C901
 prompt = """
-The text given below was extracted from a product website page.Extract the following product information from the text:
-- title - string
-- brand - string
-- current price - dictionary with the price as number and the currency as string
-- old price - number
-- product features - list of dictionaries, each dictionary should contain the feature and its  value, do not include things provided in other points
-- short description - string
-- colors variants - list of strings
-- size variants - list of strings excluding dimensions
-- product categories - as list of strings, if not provided then always suggest your own, try to be as general as possible - must always be provided
-- customer ratings - dictionary with average_rating and number of ratings of each rating only if such information is strictly provided
-- customer reviews - list of strings
-- similar or related products - list of strings
-- products recommended for me - list of strings
-Don't return any size table information.
-Never guess, if there's no information return: null.
+The text given below was extracted from a product website page. Extract the following product information from the text:
+- title - a string
+- brand - a string
+- current price - a number
+- old price - a number
+- currency - a string
+- product features and specifications - returns all product features and specifications included in text and relevant to the product itself (describing it). Return a list of dictionaries containing present product features and specifications. Each dictionary should contain the feature name as "feature" and its value as "value". The important thing is that you must provide all the features and specifications you can find. Split features into separate points. Remember to never provide a description. Name this field "product_features".
+- short description - a string as a meaningful short description of the product
+- available colors - a  list of strings
+- available size variants - a list of strings. Don't ever include any product dimensions, quantity, and size table information information. If products come in only one universal size return a word (string) default.
+- product categories - a list of strings. Use categories from the text to come up with your own categories. If no information is provided in the text create your own categories. Try to be as general and precise as possible. Remember, this field must always be provided.
+- customer ratings - a dictionary with the average rating and each separate rating with their number (if that information is strictly provided otherwise if each rating with a number is not provided return only the mean rating and overall number of ratings)
+- customer reviews - return all customer reviews (opinions) as a list of strings
+- similar or related products - a list of strings consisting of similar products
+- products recommended for me - a list of strings consisting of products recommended for me
+Don't return any size table information or delivery information. Return each number as a number, not a string.
+Never guess unless you're asked to, if there's no information return: null.
 Return only a proper JSON format using snake case for properties. The text:
 """
 
 input = tokenizer(prompt)
 prompt_desc_size = len(input.input_ids)
-model_max_input_size = 16000
+print(f"Prompt description size: {prompt_desc_size}")
+model_max_input_size = 16384
 
 DIR_PATH = "../web_pages/all_domains/pages"
 
@@ -228,7 +230,7 @@ for i, file_name in enumerate(files):
 
         chat_gpt_prompt = f"{prompt}\n{full_page_text_curr}"
 
-        temps = [0.6, 0.7]
+        temps = [0.7]
         for temp in temps:
             subdir_name = str(temp).replace(".", "_")
             if not os.path.exists(f"results/{dir_name}/{subdir_name}"):

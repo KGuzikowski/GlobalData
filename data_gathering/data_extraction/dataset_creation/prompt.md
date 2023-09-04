@@ -41,17 +41,54 @@ new remarks:
 - specifications - return only specifications relevant to the product itself
 - specifications shouldn't include description
 - maybe instead of specifications call it product features
-- make specifications just a dictionary or dict of dicts
+- make specifications just a dicti 
+- onary or dict of dicts
 - bytom and eobuwie lack categories for 0.7 - done
 - tigerdirect lacks similar products - done
 
+
+- call is product features and specifiactions?
+- work on similar products (ebay 2, fashionnova) - gpt 4 is better
 - categories are not always filled
 - for categories add "try to be as general as possible"
-- work on similar products (ebay 2, fashionnova)
-- size variants shouldn't include dimensions
+- size variants shouldn't include dimensions or qty
 - in sizes or specs it sometimes provide size tables - this is bad
 - lidl similar products are wrong
 - rename color variants to available colors??? Same for sizes
+- make customer reviews shorter? summarize them?
+- prettylittlethinhs has no similar products
+- features should consist of feature name and feature value
+- short description isn't always meaningful
+
+- barns and noble prawie nic nie dostało zwrotki
+- features: add np. icon label, Made by, care instructions, Style, Design!! etc.
+- features shouldn't include colors, sizes, etc. ???
+- rename size variants to available size variants
+- opinions should be descriptive, not too short, not too long
+- add rating for each number of stars in ratings?
+- size variants - don't provide dimensions
+- make a currency a separate field
+- modells doesn't have categories
+- work on them features
+- sometimes customer reviews could be longer
+- !!! oliveandpaper barely any info extracted
+- pinkcherry took review as similar product
+- GPT 4 is better at features - way better
+- westmorebeauty lacks categories and others
+- bytom size variants problems (text added) i brak kategorii
+- debrande - złe kategorie, opinie
+- size variants if only one size is available, return np. `["Default"]`
+
+- provide numbers as numbers so not "eight" but 8
+- product categories still is empty sometimes (np. fnp)
+- if each rating with number is not provided return only mean rating and overall number of ratings
+- footlocker doesn't get ratings correctly
+- modells, pinkcherry got dimensions as size variants
+
+- jeśli podajesz tekst zawierający listę rzeczy to zamień to w listę stringów
+- provide either each rating number with number of ratings or avg rating and number of all ratings
+- never provide an description as a feature
+- dalej daje dimensions jako size variants
 
 Skupić się jedynie na fashion and beauty i suplach oraz rzeczach typu target, allegro, lidl?
 
