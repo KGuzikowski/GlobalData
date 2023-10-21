@@ -1,0 +1,12 @@
+- Helsinki-NLP-opus-mt-pl-en:
+  - beams 1: 18.498903274536133 
+  - beams 2: 37.304567098617554
+  - beams 3: 40.028207778930664
+  - beams 4: 44.218677282333374
+  - beams 5: 60+
+- Helsinki-NLP-opus-mt-pl-en second way:
+  - beams 1: 9.788745164871216
+  - beams 2: 15.052236795425415
+  - beams 3: 19.84797501564026
+  - beams 4: 23.890424489974976
+  - beams 5: 124.13356232643127
