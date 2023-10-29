@@ -103,3 +103,5 @@ To remove from the dataset:
 
 Simplification alg remarks:
 - on the head and thw body find all meta tags and put on top of the text (as it's now for the head meta tags)
+- add attrs with "," and without it and test.
+- join attrs for id, class, eg. separately and separate by comma.

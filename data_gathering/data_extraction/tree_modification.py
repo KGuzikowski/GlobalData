@@ -1,8 +1,7 @@
 import copy
-from typing import Callable, List, Optional, Union
+from typing import List, Optional, Union
 
 from bs4 import NavigableString, Tag
-from transformers import Pipeline
 
 from data_gathering.data_extraction.const import url_regex_exp
 
@@ -14,7 +13,7 @@ def handle_text(text: str) -> Optional[str]:
     text = text.strip().replace("\n", " ")
 
     if len(text):
-        return f" {text} "
+        return f" {text}. "
 
 
 def handle_tag(
@@ -112,11 +111,11 @@ def simplify_body(
                     class_id_to_exclude=class_id_to_exclude,
                 )
 
-                if type(res) == list:
+                if isinstance(res, list):
                     children += res
                 else:
                     child = res
-            elif isinstance(node, NavigableString) and type(node) == NavigableString:
+            elif isinstance(node, NavigableString):
                 child = handle_text(node)
 
             if child:
@@ -143,51 +142,3 @@ def simplify_body(
             soup.smooth()
 
             return soup
-
-
-def includes_values(text: str, values: List[str]) -> bool:
-    for value in values:
-        if text.startswith(value):
-            return True
-
-    return False
-
-
-def create_meta_tags_texifier(
-    meta_acceptable_values: List[str],
-    translator: Pipeline,
-    extract_translation: Callable,
-):
-    def textify_meta_tags(soup: Tag, should_translate_to_english: bool = False):
-        text = ""
-
-        for node in soup.findAll("meta"):
-            if isinstance(node, Tag) and node.name == "meta":
-                name = node.attrs.get("name", None)
-                content = node.attrs.get("content", None)
-                property = node.attrs.get("property", None)
-
-                # TODO: Check if correct withe regex
-                if (content is None or url_regex_exp.search(content)) or (
-                    (name is None or not includes_values(name, meta_acceptable_values))
-                    and (
-                        property is None
-                        or not includes_values(property, meta_acceptable_values)
-                    )
-                ):
-                    continue
-
-                start = (
-                    " ".join(name.split(":"))
-                    if name
-                    else (" ".join(property.split(":")) if property else "")
-                ).strip()
-
-                if should_translate_to_english and content:
-                    content = extract_translation(translator(content))
-
-                text += f"{start}: {content.strip()}\n"
-
-        return text
-
-    return textify_meta_tags
