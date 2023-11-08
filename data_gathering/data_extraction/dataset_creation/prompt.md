@@ -89,6 +89,12 @@ new remarks:
 - provide either each rating number with number of ratings or avg rating and number of all ratings
 - never provide an description as a feature
 - dalej daje dimensions jako size variants
+- never provide colors in features
+- don't provide other products info (polis_answear)
+- don't provide breadcrumbs info (polis_answear)
+- don't provide usage instructions (polish biocord)
+- don't provide categories in features
+- features should be one dict, not a list of dicts
 
 Skupić się jedynie na fashion and beauty i suplach oraz rzeczach typu target, allegro, lidl?
 
@@ -105,3 +111,5 @@ Simplification alg remarks:
 - on the head and thw body find all meta tags and put on top of the text (as it's now for the head meta tags)
 - add attrs with "," and without it and test.
 - join attrs for id, class, eg. separately and separate by comma.
+
+set of all attrs values separated by comma seems the best

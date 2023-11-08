@@ -12,6 +12,10 @@ def flatten_list(main_list: List):
     return [item for sublist in main_list for item in sublist]
 
 
+def unique_elems_in_order(elems: List):
+    return list(dict.fromkeys(elems))
+
+
 class HTMLAttributesExtractor:
     def __init__(self, abbreviations: Dict[str, str]):
         self.abbreviations = abbreviations
@@ -101,4 +105,46 @@ class HTMLAttributesExtractor:
             )
         )
 
-        return list(dict.fromkeys(words))
+        return unique_elems_in_order(words)
+
+    def get_attributes_values_per_kind(self, v: Tag) -> List[str]:
+        attrs_text_arr = []
+
+        values = v.attrs.get("itemprop", [])
+        words = self.get_allowed_attribute_values(
+            values=values if isinstance(values, list) else [values]
+        )
+
+        if words:
+            attrs_text_arr.append(
+                f"item prop: {' '.join(unique_elems_in_order(words))}"
+            )
+
+        values = v.attrs.get("itemtype", [])
+        words = self.get_allowed_attribute_values(
+            values=values if isinstance(values, list) else [values],
+            is_itemtype=True,
+        )
+
+        if words:
+            attrs_text_arr.append(
+                f"item type: {' '.join(unique_elems_in_order(words))}"
+            )
+
+        values = v.attrs.get("class", [])
+        words = self.get_allowed_attribute_values(
+            values=values if isinstance(values, list) else [values],
+        )
+
+        if words:
+            attrs_text_arr.append(f"class: {' '.join(unique_elems_in_order(words))}")
+
+        values = v.attrs.get("id", [])
+        words = self.get_allowed_attribute_values(
+            values=values if isinstance(values, list) else [values],
+        )
+
+        if words:
+            attrs_text_arr.append(f"id: {' '.join(unique_elems_in_order(words))}")
+
+        return attrs_text_arr

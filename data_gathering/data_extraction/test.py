@@ -86,7 +86,7 @@ markdown_converter = HtmlAttrsAndTranslationMarkdownConverter(
     newline_style=BACKSLASH,
 )
 
-file_name = "polish_trendhim_1602.html"
+file_name = "polish_answear_160.html"
 
 with open(f"web_pages/all_domains/pages/{file_name}", "r") as file:
     html = file.read()
@@ -105,8 +105,10 @@ should_translate_to_english = file_name.startswith("polish")
 simplified_body_text = markdown_converter.textify_body(
     simplified_soup_body, should_translate_to_english
 )
-meta_tags_string = markdown_converter.textify_meta_tags(
-    soup=soup, should_translate_to_english=should_translate_to_english
-)
+# meta_tags_string = markdown_converter.textify_meta_tags(
+#     soup=soup, should_translate_to_english=should_translate_to_english
+# )
 
 print(simplified_body_text)
+with open("res.txt", "w") as file:
+    file.write(simplified_body_text)

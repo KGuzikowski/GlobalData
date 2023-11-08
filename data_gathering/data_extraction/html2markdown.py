@@ -105,8 +105,9 @@ class HtmlAttrsAndTranslationMarkdownConverter(MarkdownConverter):
     def process_tag(
         self, node: Tag, convert_as_inline: bool, children_only: bool = False
     ) -> str:
-        attrs_words = self.attrs_extractor.get_attributes_values(node)
-        start = " ".join(attrs_words)
+        attrs = self.attrs_extractor.get_attributes_values(node)
+        # attrs = self.attrs_extractor.get_attributes_values_per_kind(node)
+        start = ", ".join(attrs)
 
         text = super().process_tag(node, convert_as_inline, children_only)
 
@@ -170,13 +171,15 @@ class HtmlAttrsAndTranslationMarkdownConverter(MarkdownConverter):
             else:
                 text += f"{start}: {content}\n"
 
-        if chosen_any_tags and not lines_to_translate:
-            raise NoTextToTranslateException("No meta text to translate")
+        if should_translate_to_english:
+            if chosen_any_tags and not lines_to_translate:
+                raise NoTextToTranslateException("No meta text to translate")
 
-        translated_text = self.translation_pipeline(
-            lines_to_translate, max_length=512, num_beams=1
-        )
-        translated_text = [elem["translation_text"] for elem in translated_text]
+            translated_text = self.translation_pipeline(
+                lines_to_translate, max_length=512, num_beams=1
+            )
+            translated_text = [elem["translation_text"] for elem in translated_text]
 
-        text = text.format(*translated_text)
+            text = text.format(*translated_text)
+
         return text

@@ -1,4 +1,7 @@
 data_gathering/data_extraction/web_pages/**
+data_gathering/data_extraction/dataset_creation/separated_attrs_kinds/**
+data_gathering/data_extraction/dataset_creation/with_comma/**
+data_gathering/data_extraction/dataset_creation/without_comma/**
 data_gathering/data_extraction/dataset_creation/**/*.txt
 
 ##########################

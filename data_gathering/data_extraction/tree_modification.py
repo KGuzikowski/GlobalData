@@ -2,6 +2,7 @@ import copy
 from typing import List, Optional, Union
 
 from bs4 import NavigableString, Tag
+from transformers import T5TokenizerFast
 
 from data_gathering.data_extraction.const import url_regex_exp
 
@@ -142,3 +143,77 @@ def simplify_body(
             soup.smooth()
 
             return soup
+
+
+def join_tags(elems, tag_name):
+    html = ""
+
+    for partial_html, _ in elems:
+        html += partial_html
+
+    html = f"<{tag_name}>{html}</{tag_name}>"
+
+    return html
+
+
+def join_as_many_tags_as_possible(parts, max_size: int, tag_name="body"):
+    final = []
+    temp = []
+    curr_len = 0
+
+    for part, size in parts:
+        if temp:
+            if curr_len + size <= max_size:
+                temp.append((part, size))
+                curr_len += size
+            else:
+                final.append((join_tags(temp, tag_name), curr_len))
+                temp = [(part, size)]
+                curr_len = size
+        else:
+            temp = [(part, size)]
+            curr_len = size
+
+    if temp:
+        final.append((join_tags(temp, tag_name), curr_len))
+
+    return final
+
+
+def divide_html_version(soup, transform_html_func, max_size, tokenizer):
+    text = tokenizer(transform_html_func(soup)).input_ids
+    size = len(text)
+
+    if size <= max_size:
+        return str(soup), size
+
+    parts = []
+
+    for elem in soup.contents:
+        res = (
+            divide_html_version(
+                soup=elem, transform_html_func=transform_html_func, max_size=max_size
+            )
+            if isinstance(elem, Tag)
+            else (str(elem), len(tokenizer(str(elem)).input_ids))
+        )
+
+        if res is None:
+            return None
+        elif isinstance(res, list):
+            parts += res
+        else:
+            parts.append(res)
+
+    return join_as_many_tags_as_possible(
+        parts=parts, max_size=max_size, tag_name=soup.name
+    )
+
+
+def get_max_input_size(
+    model_max_input_size: int,
+    prompt_desc_size: int,
+    header_md: str,
+    tokenizer: T5TokenizerFast,
+) -> int:
+    return model_max_input_size - prompt_desc_size - len(tokenizer(header_md).input_ids)
